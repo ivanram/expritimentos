@@ -1,5 +1,7 @@
 # Cuatro tapas como recursos independientes
 
+**Alcance corregido tras la revisión:** estos recursos son ilustraciones generadas y reducidas, no una demostración de pixel art nativo terminado. Validan la separación y recomposición. Ivan R ha aclarado que el objetivo es automatizar pixel art real sin redibujarlo entero a mano; consultar la [revisión del método](../../../docs/automatizar-pixelart.md).
+
 23 de octubre de 2026. A petición de Ivan R para demostrar la continuidad del proceso añadiendo croquetas, patatas bravas, calamares y aceitunas sobre la mesa. Esta entrega no presupone aprobación del resultado ni de la revisión de mesa previa.
 
 ![Montaje real de los cuatro platos sobre la escena original](montaje-2x.png)

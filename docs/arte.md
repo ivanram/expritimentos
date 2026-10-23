@@ -57,6 +57,8 @@ Usarlo para estudiar composición, jerarquía visual, contraste, proporciones, s
 
 ## Método propuesto para trabajar con IA
 
+**Objetivo aclarado por Ivan R:** automatizar pixel art real, sin hacer depender el proceso de redibujar cada recurso a mano. Las tapas v01 validan composición de ilustraciones, no producción nativa de pixel art. La [revisión del método](automatizar-pixelart.md) propone comparar un generador especializado y dibujo nativo automatizado por MCP, midiendo intervención y resultado. Los servicios investigados aún no se han probado.
+
 Tras la valoración positiva de Ivan R del concepto de mesa redonda, el [recorrido propuesto del boceto a una escena jugable](del-concepto-a-jugable.md) concreta la siguiente prueba: conservar composición, gestos y siluetas, reducir detalle y validar una pantalla estática y un personaje antes de producir el elenco. La apreciación positiva del concepto no aprueba su traducción a pixel art ni cierra los puntos 08–10.
 
 La [investigación aplicada a la captura actual de Pagar la cuenta](investigacion-graficos.md) desarrolla la separación de fondo, personajes, mesa, objetos e interfaz; compara alternativas documentadas y mide la ejecución de operaciones repetidas en el MCP local. Sus recomendaciones siguen pendientes de aprobación. Los puntos 08, 10 y 16–22 están en conversación y no cuentan aún como cerrados.

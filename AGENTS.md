@@ -6,6 +6,8 @@ Este repositorio reúne la planificación de Spanish Simulator y la investigaci�
 
 Se priorizan estética, consistencia, facilidad de animación, rendimiento y facilidad de corrección. El tamaño mínimo de los archivos no es el objetivo principal.
 
+El objetivo explícito de Ivan R es automatizar la producción de pixel art real con IA. Redibujar los recursos enteros a mano como solución principal no cumple ese objetivo. Distingue generación nativa o dibujo automatizado mediante MCP de ilustración grande reducida; las tapas v01 solo demuestran composición, no validan producción de pixel art. Consulta `docs/automatizar-pixelart.md` y mide intervención, revisiones y coste antes de recomendar un flujo como eficaz.
+
 El equipo son **Ivan R (kapichu)**, usuario de este chat, e **Ivan S (Alcachofo)**. Usa esos nombres y alias para evitar referencias ambiguas como «el otro Ivan». No atribuyas a uno las propuestas o confirmaciones del otro.
 
 ## Consultar según la tarea

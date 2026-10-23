@@ -53,6 +53,8 @@ Ivan R ha valorado positivamente el fondo v02 y ha pedido aplicar su lenguaje vi
 
 Como siguiente demostración, ya se han añadido [croquetas, patatas bravas, calamares y aceitunas en cuatro recursos independientes](arte/objetos/tapas-v01/README.md). El montaje usa la mesa original por capas; incluye PNG transparentes, originales Aseprite y una prueba retirando solo las aceitunas. Resultado pendiente de valoración.
 
+**Limitación del método probado:** estas tapas son ilustraciones generadas y reducidas; no demuestran producción de pixel art nativo. Ivan R ha insistido en que la meta es automatizar gráficos pixel art con IA, sin redibujarlos enteros a mano. La [revisión del proceso y candidatos especializados](docs/automatizar-pixelart.md) concreta el siguiente ensayo. PixelLab y Retro Diffusion se han documentado, pero aún no se han conectado ni probado.
+
 ![Fondo de taberna v02, pendiente de valoración](arte/escenarios/taberna-v02/fondo.png)
 
 ## Decisiones que necesitamos tomar
