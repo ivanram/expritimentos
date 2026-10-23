@@ -40,14 +40,14 @@ Los identificadores **01–22 son estables**: podemos decir «vamos con el 08» 
 | Nº | Área | Qué debemos concretar | Estado | Cierre |
 | --- | --- | --- | --- | --- |
 | 01 | Experiencia y público | A quién va dirigido, tono del humor y tratamiento de los tópicos; duración de una sesión, dificultad y motivos para volver a jugar. | Pendiente | 0 % |
-| 02 | Minijuegos y conexión | Catálogo inicial, reglas y objetivos; cómo se pasa de uno a otro y qué comparten: personajes, puntuación, historia, economía o progresión. Definir alcance de la primera versión. | Pendiente | 0 % |
+| 02 | Minijuegos y conexión | Catálogo inicial, reglas y objetivos; cómo se pasa de uno a otro y qué comparten: personajes, puntuación, historia, economía o progresión. Definir alcance de la primera versión. | En conversación | 0 % |
 | 03 | Modos de juego | Qué minijuegos son cooperativos, competitivos o mixtos; mínimo y máximo de jugadores, posibilidad de jugar solo, sustitución de ausentes y participación de espectadores. | Pendiente | 0 % |
 | 04 | Plataformas y distribución | Dónde funciona la pantalla principal: navegador, ordenador, televisión, consola u otra opción; si requiere instalación y cómo se distribuye. Elegir una primera plataforma antes de ampliar. | Pendiente | 0 % |
 | 05 | Dispositivos y controles | Móviles, sistemas y navegadores compatibles; orientación, tamaño de botones, gestos y respuesta táctil. Decidir alternativas con teclado o mando, y qué ocurre si alguien no tiene móvil. | Pendiente | 0 % |
 | 06 | Tecnología y arquitectura | Motor o tecnología del juego y de los mandos; comunicación en tiempo real, autoridad sobre el estado de partida, reutilización entre minijuegos y herramientas de desarrollo. Comprobar qué conviene conservar del prototipo. | Pendiente | 0 % |
 | 07 | Salas y conexión | Creación de sala, acceso por QR y código manual, quién inicia y pausa; misma Wi-Fi o acceso por Internet, incorporación tardía, desconexión/reconexión, latencia, sincronización y caducidad de salas. | Pendiente | 0 % |
 | 08 | Dirección artística | Perspectiva, resolución base, escalado, paleta, iluminación, contornos, proporciones y nivel de detalle. Definir cómo se relacionan fondos, personajes, objetos e interfaz. | En conversación | 0 % |
-| 09 | Personajes | Elenco, personalidad, función en los minijuegos, siluetas, vestuario, expresiones y personalización. Decidir qué vistas, poses y animaciones necesita cada uno. | Pendiente | 0 % |
+| 09 | Personajes | Elenco, personalidad, función en los minijuegos, siluetas, vestuario, expresiones y personalización. Decidir qué vistas, poses y animaciones necesita cada uno. | En conversación | 0 % |
 | 10 | Animación y audio | Tipo y ritmo de animación, prioridades y reutilización; música, efectos, posibles voces, identidad sonora, controles de volumen y procedencia de los recursos. | En conversación | 0 % |
 | 11 | Textos e idiomas | Voz del juego, humor, nombres y terminología; idiomas iniciales, traducción de referencias culturales, fuentes y espacio para textos de distinta longitud. | Pendiente | 0 % |
 | 12 | Usabilidad y accesibilidad | Legibilidad a distancia en la pantalla y en el móvil, contraste, señales que no dependan solo del color, subtítulos, aprendizaje de controles y opciones para distintos ritmos o capacidades. | Pendiente | 0 % |
@@ -79,7 +79,15 @@ La [investigación de producción gráfica de Pagar la cuenta](docs/investigacio
 
 Se compararon 20 operaciones simples con el MCP local: mediana de **5,476 s** en llamadas individuales frente a **0,263 s** en un lote Lua, con píxeles idénticos. Es una prueba de ejecución repetitiva; no mide calidad artística ni ahorro de tokens. El documento recoge las fuentes, alternativas y límites de la medición.
 
-Los puntos **08, 10 y 16–22** están **En conversación**. El progreso continúa en **0/22 (0 %)** porque todavía no se ha aprobado una elección de detalle. La muestra propuesta para validar el método es un fondo, una mesa y un personaje con unas pocas acciones antes de producir toda la escena.
+Los puntos **02, 08, 09, 10 y 16–22** están **En conversación**. El progreso continúa en **0/22 (0 %)** porque todavía no se ha cerrado ninguna decisión principal. Hay requisitos parciales de la muestra confirmados por Ivan R, registrados por separado para no perderlos.
+
+### Plan de la escena de taberna
+
+El [plan de producción con Aseprite MCP](docs/plan-escena-taberna.md) propone una taberna con un acabado de cómic, personajes expresivos y fondo menos dominante. El acabado y las dimensiones son propuestas pendientes de validar.
+
+Ivan R ha pedido que los personajes se animen de forma independiente, puedan charlar y levanten la mano para pagar con cartera, tarjeta o billetes. Comer es una posibilidad posterior. **El camarero se incorporará más adelante y queda fuera de la muestra inicial.**
+
+La producción propuesta empieza con una composición de cinco plazas y un personaje piloto; comprueba reposo, charla y pago antes de extenderlo al resto del elenco. Cada actor tendrá sus clips y su reloj; mesa, brazo, objeto y dedos se compondrán en el orden necesario para que el agarre se vea bien. El plan detalla las herramientas MCP, transiciones, exportaciones y criterios de comprobación. Todavía no se ha ejecutado.
 
 ## Referencia de estudio: recursos SCUMM
 
@@ -109,6 +117,7 @@ Para cada decisión importante anotaremos su número estable, pregunta, alternat
 - [Contexto y decisiones](docs/decisiones.md): acuerdos confirmados y cuestiones pendientes.
 - [Dirección artística](docs/arte.md): recomendaciones de pixel art, animación y producción con IA.
 - [Investigación de gráficos de Pagar la cuenta](docs/investigacion-graficos.md): separación de la escena, métodos de creación y medición local de operaciones por lotes.
+- [Plan de la escena de taberna](docs/plan-escena-taberna.md): producción con MCP, personajes independientes, charla y pago con distintos objetos; camarero aplazado.
 - [Colaboración](docs/colaboracion.md): organización del trabajo entre dos personas y sus asistentes.
 - [Laboratorio local](docs/laboratorio.md): Aseprite, MCP, visor y experimentos gráficos recuperados.
 

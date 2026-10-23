@@ -18,6 +18,20 @@ Actualizado: 23 de octubre de 2026.
 - Ivan S (Alcachofo) ha creado una [herramienta de exploración de recursos SCUMM](https://scumm.rea.salmeinmotion.com/dott/#room=7). Se usará como inspiración y para aprender principios de diseño; el usuario ha indicado que no se busca copiar esos recursos.
 - Ivan R ha pedido numerar las decisiones y mostrar el progreso de acuerdos, partiendo de un 0 % en las decisiones de detalle.
 
+## Requisitos parciales de la muestra de taberna
+
+Confirmados por **Ivan R (kapichu)** el 23 de octubre de 2026 al solicitar el plan. No se atribuyen a Ivan S ni cierran el alcance completo de sus decisiones principales.
+
+| Referencia | Requisito |
+| --- | --- |
+| 02.1 | El camarero se incorporará después; queda fuera de esta primera entrega. |
+| 10.1 | Cada personaje podrá levantar la mano para pagar sujetando cartera, tarjeta o billetes. |
+| 10.2 | Prever charla ambiental; comer queda como posibilidad. |
+| 18.1 | Los personajes se animarán de forma independiente entre sí. |
+| 20.1 | Usar aseprite-mcp en la creación y revisión de esta escena. |
+
+El [plan de producción](plan-escena-taberna.md) desarrolla cómo podría hacerse. Sus propuestas de estética, dimensiones, capas, tiempos y herramientas siguen pendientes de validar. Los subpuntos no añaden peso al contador; este continúa en 0/22.
+
 ## Realizado en el laboratorio local
 
 - Las carpetas de Aseprite, aseprite-live, aseprite-mcp y sus dependencias se han reunido bajo una carpeta de trabajo común.
@@ -58,9 +72,9 @@ Todavía no se ha registrado un cierre de los puntos 01–22.
 
 ## Investigación gráfica en conversación
 
-Los puntos **08, 10 y 16–22** pasan a **En conversación** a raíz de la investigación sobre la escena actual. El porcentaje de cierre de cada uno sigue en 0 % y el global continúa en 0/22. La división en capas y las herramientas candidatas son propuestas del asistente, no acuerdos atribuidos a kapichu o Alcachofo.
+Los puntos **02, 08, 09, 10 y 16–22** están **En conversación** a raíz de la investigación y el plan sobre la escena actual. El porcentaje de cierre de cada uno sigue en 0 % y el global continúa en 0/22. La organización concreta de capas, el estilo y las herramientas adicionales candidatas son propuestas del asistente. Los requisitos parciales expresados por Ivan R se recogen arriba.
 
-La prueba artística propuesta es un fondo limpio, una mesa independiente y un personaje con reposo, ofrecer el pago y esquivar. Falta producirla, evaluar el resultado visual y acordar el método; no confundir la medición de rectángulos con esa validación.
+La prueba artística actual propuesta es una composición, un fondo limpio, una mesa independiente y un personaje con reposo, charla y pago con tarjeta, cartera y billetes. Comer es opcional y se pospone; camarero y esquivar quedan fuera de esta primera muestra. Falta producirla, evaluar el resultado visual y acordar el método; no confundir la medición de rectángulos con esa validación.
 
 ## Propuestas pendientes de validar
 

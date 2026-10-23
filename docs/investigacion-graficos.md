@@ -4,6 +4,8 @@ Fecha: 23 de octubre de 2026. Solicitado por Ivan R (kapichu), a partir de una c
 
 Relacionado con los puntos **08, 10 y 16–22** del README. Investigar estos puntos no los cierra: el progreso de acuerdos continúa en 0/22.
 
+**Alcance posterior:** el [plan de escena solicitado después](plan-escena-taberna.md) añade animación independiente, charla y pago con cartera, tarjeta o billetes. Comer queda como posibilidad y el camarero se aplaza. La mención de esquivar en esta investigación inicial no lo convierte en parte de la primera muestra del plan.
+
 ## Conclusión práctica
 
 Sí: crear el fondo aparte es una buena base. La propuesta es producir **escenario reutilizable + personajes independientes + objetos y elementos que tapan otros elementos + interfaz**, y reunirlos en una escena de composición. Así se puede corregir una mano, sustituir un personaje o cambiar un texto sin generar de nuevo toda la imagen.
