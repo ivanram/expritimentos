@@ -13,6 +13,8 @@
 
 ## Alcance y siguiente paso
 
+Ivan R ha valorado positivamente esta imagen como arte conceptual y ha pedido conservar el ambiente con gráficos mucho más simplificados. El [recorrido propuesto hasta una escena jugable](../../../docs/del-concepto-a-jugable.md) detalla la traducción y sus comprobaciones; el diseño definitivo sigue abierto.
+
 Es una ilustración de concepto coloreada, con más textura y detalle de los que se conservarían en sprites. No es pixel art final, una hoja de animación ni un diseño aprobado. Los cinco personajes son propuestas de esta imagen, sin fijar el elenco.
 
 Antes de producir animaciones, valorar composición y personajes, simplificar la escena a la resolución de juego y dibujar las poses clave. La mesa redonda requiere resolver la superposición de brazos, platos y personajes de las plazas delanteras y traseras. Comprobar que cada mano pueda ofrecer el pago de forma legible y que la mesa no oculte la acción.

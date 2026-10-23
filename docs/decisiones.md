@@ -74,6 +74,8 @@ Todavía no se ha registrado un cierre de los puntos 01–22.
 
 ## Investigación gráfica en conversación
 
+Ivan R valora positivamente el boceto de mesa redonda como arte conceptual y pide transmitir el mismo ambiente con gráficos simplificados. El asistente propone [validar primero una pantalla estática y después un personaje animado](del-concepto-a-jugable.md). No se ha ejecutado aún esa nueva prueba ni se han elegido sus parámetros definitivos. La valoración no se atribuye a Ivan S y el contador continúa en 0/22.
+
 El 23 de octubre de 2026, Ivan R revisó la demo y señaló pelo que parece flotar, piernas repetidas, diseños rígidos y contornos en piezas articuladas. Pidió un boceto previo con una mesa redonda, personajes más variados y un acabado más «cute» y expresivo. Se ha creado [una ilustración de concepto](../arte/conceptos/mesa-redonda-v01/README.md) con generación de imágenes. Está pendiente de valoración; no sustituye los sprites ni cierra dirección artística, elenco o animación.
 
 Los puntos **02, 08, 09, 10 y 16–22** están **En conversación** a raíz de la investigación y el plan sobre la escena actual. El porcentaje de cierre de cada uno sigue en 0 % y el global continúa en 0/22. La organización concreta de capas, el estilo y las herramientas adicionales candidatas son propuestas del asistente. Los requisitos parciales expresados por Ivan R se recogen arriba.

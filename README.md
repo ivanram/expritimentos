@@ -41,6 +41,8 @@ Tras revisar la demo, kapichu señaló pelo que parece flotar, piernas repetidas
 
 Este [boceto de concepto y su encargo](arte/conceptos/mesa-redonda-v01/README.md) explora esa dirección. Está generado como ilustración, todavía sin convertir a pixel art ni animar, y pendiente de valoración. La demo anterior sigue disponible como prueba técnica.
 
+kapichu ha valorado positivamente el boceto como arte conceptual y pide conservar su ambiente en gráficos simplificados. El [recorrido propuesto hasta una escena jugable](docs/del-concepto-a-jugable.md) empieza por dos versiones estáticas al tamaño de juego, comprueba las poses de pago alrededor de la mesa y valida un personaje animado antes de producir los cinco. El acabado definitivo sigue pendiente de acordar.
+
 ![Boceto: amigos compartiendo tapas en una mesa redonda](arte/conceptos/mesa-redonda-v01/boceto.png)
 
 ## Decisiones que necesitamos tomar

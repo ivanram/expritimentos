@@ -53,6 +53,8 @@ Usarlo para estudiar composición, jerarquía visual, contraste, proporciones, s
 
 ## Método propuesto para trabajar con IA
 
+Tras la valoración positiva de Ivan R del concepto de mesa redonda, el [recorrido propuesto del boceto a una escena jugable](del-concepto-a-jugable.md) concreta la siguiente prueba: conservar composición, gestos y siluetas, reducir detalle y validar una pantalla estática y un personaje antes de producir el elenco. La apreciación positiva del concepto no aprueba su traducción a pixel art ni cierra los puntos 08–10.
+
 La [investigación aplicada a la captura actual de Pagar la cuenta](investigacion-graficos.md) desarrolla la separación de fondo, personajes, mesa, objetos e interfaz; compara alternativas documentadas y mide la ejecución de operaciones repetidas en el MCP local. Sus recomendaciones siguen pendientes de aprobación. Los puntos 08, 10 y 16–22 están en conversación y no cuentan aún como cerrados.
 
 El [plan posterior de la escena de taberna](plan-escena-taberna.md) concreta el alcance solicitado: personajes con animaciones independientes, charla y gesto de pago con cartera, tarjeta o billetes. Camarero aplazado y comida opcional. Su [primera muestra funcional](../prototipos/taberna/README.md) ya permite probar esas acciones, incluido un bocado sencillo. El dibujo se ha programado con Pillow y la producción de originales y exportaciones se ha ejecutado mediante MCP. Es una prueba de este método; la calidad visual sigue pendiente de valoración y no se ha elegido una dirección artística definitiva.
