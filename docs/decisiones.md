@@ -25,6 +25,8 @@ Actualizado: 23 de octubre de 2026.
 - La documentación del proyecto está publicada y se mantiene en este repositorio. Las herramientas y los gráficos locales no se han incorporado.
 - El 23 de octubre de 2026 se abrió el prototipo web: se observó la sala con QR y código, la lista de jugadores y las instrucciones para tocar y deslizar desde el móvil. No se ha validado una partida multijugador completa ni su arquitectura interna.
 - En la herramienta SCUMM se observó la sala 7 de Day of the Tentacle y las secciones de escenarios, personajes/animaciones y música/sonidos. Esta consulta no supone elegir ese estilo para Spanish Simulator.
+- Ivan R aportó una captura de la escena actual de Pagar la cuenta y pidió investigar un proceso más eficaz, planteando separar el fondo. La petición no supone aprobar el estilo de esa captura ni una separación de recursos concreta.
+- Se realizó una prueba sintética del MCP local: 20 rectángulos mediante llamadas individuales frente a una llamada con un lote Lua. Las medianas fueron 5,476 s y 0,263 s, con píxeles idénticos en tres rondas. La [investigación](investigacion-graficos.md) documenta condiciones y límites; no se midió calidad artística ni ahorro de tokens.
 
 ## Pendiente de decidir con el equipo
 
@@ -53,6 +55,12 @@ Para desarrollar un punto, registrar:
 | Fecha y evidencia | Cuándo se acordó y qué prueba o referencia lo sustenta, si corresponde. |
 
 Todavía no se ha registrado un cierre de los puntos 01–22.
+
+## Investigación gráfica en conversación
+
+Los puntos **08, 10 y 16–22** pasan a **En conversación** a raíz de la investigación sobre la escena actual. El porcentaje de cierre de cada uno sigue en 0 % y el global continúa en 0/22. La división en capas y las herramientas candidatas son propuestas del asistente, no acuerdos atribuidos a kapichu o Alcachofo.
+
+La prueba artística propuesta es un fondo limpio, una mesa independiente y un personaje con reposo, ofrecer el pago y esquivar. Falta producirla, evaluar el resultado visual y acordar el método; no confundir la medición de rectángulos con esa validación.
 
 ## Propuestas pendientes de validar
 

@@ -46,9 +46,9 @@ Los identificadores **01–22 son estables**: podemos decir «vamos con el 08» 
 | 05 | Dispositivos y controles | Móviles, sistemas y navegadores compatibles; orientación, tamaño de botones, gestos y respuesta táctil. Decidir alternativas con teclado o mando, y qué ocurre si alguien no tiene móvil. | Pendiente | 0 % |
 | 06 | Tecnología y arquitectura | Motor o tecnología del juego y de los mandos; comunicación en tiempo real, autoridad sobre el estado de partida, reutilización entre minijuegos y herramientas de desarrollo. Comprobar qué conviene conservar del prototipo. | Pendiente | 0 % |
 | 07 | Salas y conexión | Creación de sala, acceso por QR y código manual, quién inicia y pausa; misma Wi-Fi o acceso por Internet, incorporación tardía, desconexión/reconexión, latencia, sincronización y caducidad de salas. | Pendiente | 0 % |
-| 08 | Dirección artística | Perspectiva, resolución base, escalado, paleta, iluminación, contornos, proporciones y nivel de detalle. Definir cómo se relacionan fondos, personajes, objetos e interfaz. | Pendiente | 0 % |
+| 08 | Dirección artística | Perspectiva, resolución base, escalado, paleta, iluminación, contornos, proporciones y nivel de detalle. Definir cómo se relacionan fondos, personajes, objetos e interfaz. | En conversación | 0 % |
 | 09 | Personajes | Elenco, personalidad, función en los minijuegos, siluetas, vestuario, expresiones y personalización. Decidir qué vistas, poses y animaciones necesita cada uno. | Pendiente | 0 % |
-| 10 | Animación y audio | Tipo y ritmo de animación, prioridades y reutilización; música, efectos, posibles voces, identidad sonora, controles de volumen y procedencia de los recursos. | Pendiente | 0 % |
+| 10 | Animación y audio | Tipo y ritmo de animación, prioridades y reutilización; música, efectos, posibles voces, identidad sonora, controles de volumen y procedencia de los recursos. | En conversación | 0 % |
 | 11 | Textos e idiomas | Voz del juego, humor, nombres y terminología; idiomas iniciales, traducción de referencias culturales, fuentes y espacio para textos de distinta longitud. | Pendiente | 0 % |
 | 12 | Usabilidad y accesibilidad | Legibilidad a distancia en la pantalla y en el móvil, contraste, señales que no dependan solo del color, subtítulos, aprendizaje de controles y opciones para distintos ritmos o capacidades. | Pendiente | 0 % |
 | 13 | Rendimiento y calidad | Dispositivos mínimos, fluidez y tiempos de carga; respuesta de los mandos, presupuesto de gráficos/efectos y pruebas con varios móviles y conexiones reales. | Pendiente | 0 % |
@@ -63,15 +63,23 @@ Estas decisiones continúan la numeración anterior y también cuentan para el p
 
 | Nº | Decisión | Qué debemos concretar | Estado | Cierre |
 | --- | --- | --- | --- | --- |
-| 16 | Guía visual común | Si la usamos, su formato y contenido: referencias aprobadas, paleta, proporciones, luz, contornos, perspectiva, tipografía, interfaz y ejemplos de lo que encaja y lo que queremos evitar. | Pendiente | 0 % |
-| 17 | Fichas de personaje | Formato y detalle útil para personas e IA: diseño base, silueta, colores, vestuario, vistas, expresiones, poses y rasgos que deben mantenerse al animar. | Pendiente | 0 % |
-| 18 | Recursos maestros y piezas reutilizables | Qué biblioteca aprobada de personajes, objetos y componentes de interfaz necesitamos y cómo derivar variantes. | Pendiente | 0 % |
-| 19 | Proceso por etapas | Cómo pasamos por referencia y silueta, colores, sombras, detalles y animación; en qué momentos revisamos al tamaño real y dentro del juego. | Pendiente | 0 % |
-| 20 | Métodos y aprendizaje | Qué tareas compararemos con MCP, Lua, Pillow y generación de imágenes; cómo investigar buenas prácticas y elegir métodos a partir de pruebas. | Pendiente | 0 % |
-| 21 | Medición y presupuesto de eficiencia | Límites y criterios de tiempo, tokens/coste, llamadas, revisiones y retoque manual; cómo evaluar calidad, coherencia y facilidad de corrección. | Pendiente | 0 % |
-| 22 | Entrega reproducible | Originales editables, capas, etiquetas, puntos de apoyo, nombres, exportación para el motor y validación de cada entrega. | Pendiente | 0 % |
+| 16 | Guía visual común | Si la usamos, su formato y contenido: referencias aprobadas, paleta, proporciones, luz, contornos, perspectiva, tipografía, interfaz y ejemplos de lo que encaja y lo que queremos evitar. | En conversación | 0 % |
+| 17 | Fichas de personaje | Formato y detalle útil para personas e IA: diseño base, silueta, colores, vestuario, vistas, expresiones, poses y rasgos que deben mantenerse al animar. | En conversación | 0 % |
+| 18 | Recursos maestros y piezas reutilizables | Qué biblioteca aprobada de personajes, objetos y componentes de interfaz necesitamos y cómo derivar variantes. | En conversación | 0 % |
+| 19 | Proceso por etapas | Cómo pasamos por referencia y silueta, colores, sombras, detalles y animación; en qué momentos revisamos al tamaño real y dentro del juego. | En conversación | 0 % |
+| 20 | Métodos y aprendizaje | Qué tareas compararemos con MCP, Lua, Pillow y generación de imágenes; cómo investigar buenas prácticas y elegir métodos a partir de pruebas. | En conversación | 0 % |
+| 21 | Medición y presupuesto de eficiencia | Límites y criterios de tiempo, tokens/coste, llamadas, revisiones y retoque manual; cómo evaluar calidad, coherencia y facilidad de corrección. | En conversación | 0 % |
+| 22 | Entrega reproducible | Originales editables, capas, etiquetas, puntos de apoyo, nombres, exportación para el motor y validación de cada entrega. | En conversación | 0 % |
 
 No están decididos el tamaño de los sprites, el número de colores ni los fotogramas. Las cifras mencionadas en conversaciones anteriores son ejemplos para pruebas.
+
+### Investigación sobre la escena actual
+
+La [investigación de producción gráfica de Pagar la cuenta](docs/investigacion-graficos.md) propone separar el fondo limpio, los personajes, la mesa y otros elementos que ocultan, los objetos móviles y la interfaz. Cada recurso se diseña dentro de una composición común; la recomendación todavía no es un acuerdo del equipo.
+
+Se compararon 20 operaciones simples con el MCP local: mediana de **5,476 s** en llamadas individuales frente a **0,263 s** en un lote Lua, con píxeles idénticos. Es una prueba de ejecución repetitiva; no mide calidad artística ni ahorro de tokens. El documento recoge las fuentes, alternativas y límites de la medición.
+
+Los puntos **08, 10 y 16–22** están **En conversación**. El progreso continúa en **0/22 (0 %)** porque todavía no se ha aprobado una elección de detalle. La muestra propuesta para validar el método es un fondo, una mesa y un personaje con unas pocas acciones antes de producir toda la escena.
 
 ## Referencia de estudio: recursos SCUMM
 
@@ -100,6 +108,7 @@ Para cada decisión importante anotaremos su número estable, pregunta, alternat
 - [AGENTS.md](AGENTS.md): instrucciones para las IA, incluida la pauta de mantener el contexto publicado.
 - [Contexto y decisiones](docs/decisiones.md): acuerdos confirmados y cuestiones pendientes.
 - [Dirección artística](docs/arte.md): recomendaciones de pixel art, animación y producción con IA.
+- [Investigación de gráficos de Pagar la cuenta](docs/investigacion-graficos.md): separación de la escena, métodos de creación y medición local de operaciones por lotes.
 - [Colaboración](docs/colaboracion.md): organización del trabajo entre dos personas y sus asistentes.
 - [Laboratorio local](docs/laboratorio.md): Aseprite, MCP, visor y experimentos gráficos recuperados.
 

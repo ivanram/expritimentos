@@ -43,6 +43,8 @@ Usarlo para estudiar composición, jerarquía visual, contraste, proporciones, s
 
 ## Método propuesto para trabajar con IA
 
+La [investigación aplicada a la captura actual de Pagar la cuenta](investigacion-graficos.md) desarrolla la separación de fondo, personajes, mesa, objetos e interfaz; compara alternativas documentadas y mide la ejecución de operaciones repetidas en el MCP local. Sus recomendaciones siguen pendientes de aprobación. Los puntos 08, 10 y 16–22 están en conversación y no cuentan aún como cerrados.
+
 1. Partir de una referencia aprobada y del recurso maestro más cercano.
 2. Revisar primero la silueta y las proporciones.
 3. Aplicar colores planos, sombras y finalmente detalles.
