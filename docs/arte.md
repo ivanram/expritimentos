@@ -4,6 +4,8 @@ Estado: recomendaciones iniciales pendientes de concretar y validar por el equip
 
 ## Principio de trabajo
 
+Spanish Simulator tendrá estética pixel art. Las recomendaciones de este documento siguen pendientes de concretar: todavía no están aprobados la paleta, la resolución, los personajes ni el acabado visual final.
+
 Definir un estilo que las dos personas y sus IA puedan repetir, corregir y animar. Las restricciones voluntarias sirven para mantener coherencia y reducir decisiones; no es necesario imitar límites históricos de memoria.
 
 El acceso a herramientas de dibujo no garantiza calidad artística. Una exportación correcta comprueba el funcionamiento técnico, no la legibilidad, la expresividad ni la consistencia del diseño.
@@ -20,6 +22,14 @@ Antes de producir muchos recursos, acordar:
 - Ejemplos de lo aprobado y de lo que se quiere evitar.
 
 Todavía no hay una paleta ni una imagen de referencia aprobadas. Los gráficos recuperados del laboratorio no fijan el estilo del juego.
+
+Se propone una ficha por personaje con silueta y proporciones, paleta, vestuario, vistas necesarias, expresiones, poses principales, animaciones y rasgos que deben conservarse. Su nivel de detalle se decidirá con una prueba de producción.
+
+## Referencia SCUMM para aprender
+
+El compañero del proyecto ha creado un [visor de recursos SCUMM, enlazado a la sala 7 de Day of the Tentacle](https://scumm.rea.salmeinmotion.com/dott/#room=7). La consulta inicial permite ver escenarios con objetos separados y acceder a personajes, animaciones y audio.
+
+Usarlo para estudiar composición, jerarquía visual, contraste, proporciones, separación de fondos y objetos, reutilización de piezas y ritmo de animación. Registrar qué principio nos sirve y probarlo con diseños propios. El objetivo expresado por el usuario es aprender e inspirarse; no copiar ni incorporar los recursos extraídos al juego.
 
 ## Resolución e interfaz
 
@@ -61,6 +71,8 @@ Crear una pantalla representativa con un personaje animado, unos objetos y una i
 Comparar MCP y Lua con el mismo sprite y una animación de reposo. Un tamaño de 32×32 fue sugerido como ejemplo; ajustarlo a la propuesta visual antes de comenzar.
 
 Registrar tiempo total, número de llamadas, facilidad de corregir una parte, coherencia entre fotogramas y exportación. Medir rendimiento en la plataforma objetivo: la baja resolución no garantiza por sí sola un juego rápido.
+
+Medir también tokens o coste de API cuando estén disponibles, tiempo hasta un resultado aceptable, número de revisiones y retoque manual. Comparar los métodos con la misma tarea y referencias: no afirmar eficiencia sin medir. El equipo debe fijar un presupuesto y criterios de aceptación antes de producir grandes cantidades de recursos.
 
 ## Referencias consultadas
 

@@ -6,7 +6,7 @@ Estado: propuesta inicial de organización; los roles y el flujo definitivo est�
 
 Mantener objetivos, decisiones y reglas artísticas en documentos versionados. Cada participante trabaja con una copia actualizada del repositorio y proporciona a su IA acceso a esa copia o a los documentos relevantes.
 
-Los chats privados no se comparten automáticamente. Para transmitir un acuerdo, resumirlo en el documento correspondiente, subir el cambio y actualizar la copia del otro participante. Distinguir siempre acuerdos y propuestas.
+Los chats privados no se comparten automáticamente. Para transmitir un acuerdo, resumirlo en el documento correspondiente, subir el cambio y actualizar la copia del otro participante. Distinguir siempre acuerdos y propuestas. El usuario ha pedido que se vayan publicando en GitHub el contexto relevante y los acuerdos de estas conversaciones.
 
 `AGENTS.md` es el punto de entrada para asistentes compatibles. Si una herramienta necesita otro archivo de instrucciones, dirigirlo a la misma documentación para evitar reglas duplicadas que terminen divergiendo. Se desconoce qué IA usará el otro participante.
 
@@ -20,7 +20,7 @@ En Codex, el reconocimiento de `AGENTS.md` está documentado en la [guía oficia
 4. Presentar los cambios para revisión antes de incorporarlos a la rama principal.
 5. Actualizar la documentación cuando se confirme una decisión que afecte a trabajos posteriores.
 
-Para esta publicación inicial, el usuario ha autorizado subir directamente la documentación al repositorio vacío. El flujo anterior es una propuesta para el trabajo conjunto posterior.
+El usuario ha autorizado publicar directamente la documentación y mantenerla actualizada en el repositorio. El uso de ramas y revisión para el desarrollo del juego sigue siendo una propuesta pendiente de acordar entre los dos participantes.
 
 ## Recursos gráficos
 
