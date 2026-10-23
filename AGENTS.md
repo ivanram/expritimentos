@@ -6,6 +6,8 @@ Este repositorio reúne la planificación de Spanish Simulator y la investigaci�
 
 Se priorizan estética, consistencia, facilidad de animación, rendimiento y facilidad de corrección. El tamaño mínimo de los archivos no es el objetivo principal.
 
+El equipo son **Ivan R (kapichu)**, usuario de este chat, e **Ivan S (Alcachofo)**. Usa esos nombres y alias para evitar referencias ambiguas como «el otro Ivan». No atribuyas a uno las propuestas o confirmaciones del otro.
+
 ## Consultar según la tarea
 
 - Para decisiones de producto y alcance, consulta `docs/decisiones.md`.
@@ -16,6 +18,7 @@ Se priorizan estética, consistencia, facilidad de animación, rendimiento y fac
 ## Acuerdos de trabajo
 
 - Distingue decisiones confirmadas, propuestas y cuestiones pendientes. No conviertas una sugerencia de una IA en una decisión del equipo.
+- Conserva los números estables 01–22 de las decisiones del README. Añade nuevos números al final, sin renumerar los existentes. Los subpuntos, como 08.1, no cuentan de nuevo en el total. Mantén los estados, el contador y la barra sincronizados: solo «Acordada» cuenta como cerrada. El contador inicial es 0/22; mide acuerdos de detalle, no desarrollo ni el concepto ya confirmado.
 - Cuando los responsables confirmen una decisión relevante, actualiza la documentación correspondiente. Conserva su motivo cuando ayude a evitar trabajo repetido.
 - El usuario ha pedido mantener en GitHub el contexto que se concrete durante las conversaciones. Al terminar una tarea con información relevante, actualiza el README y los documentos afectados, comprueba los cambios y súbelos al repositorio, salvo que el usuario indique otra cosa. Resume acuerdos y propuestas; no publiques transcripciones completas ni información privada incidental.
 - Mantén la documentación en español y usa explicaciones concretas.

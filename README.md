@@ -2,6 +2,15 @@
 
 Juego con estética **pixel art** compuesto por **minijuegos conectados entre sí sobre tópicos españoles**. Se desarrollará entre dos personas con ayuda de IA.
 
+## Equipo
+
+| Persona | Alias | Referencia en estas conversaciones |
+| --- | --- | --- |
+| **Ivan R** | **kapichu** | El usuario de este chat. |
+| **Ivan S** | **Alcachofo** | El otro integrante del proyecto. |
+
+Usaremos estos nombres y alias para identificar quién propone, confirma o asume una tarea. Los roles y el reparto de trabajo todavía no están acordados.
+
 Algunos o todos los minijuegos podrán jugarse colaborativamente: una pantalla compartida muestra la partida y los jugadores conectan sus móviles mediante un código QR para utilizarlos como mandos. El reparto exacto entre modos cooperativos, competitivos o mixtos está pendiente de decidir.
 
 Este repositorio reúne el concepto, las decisiones y la investigación para producir el juego. Se priorizan una estética atractiva y coherente, buenas animaciones, rendimiento y un proceso eficaz de creación con IA. El ahorro de espacio al estilo de las máquinas antiguas no es la prioridad.
@@ -14,45 +23,59 @@ En una revisión inicial realizada el 23 de octubre de 2026 se observó una sala
 
 ## Decisiones que necesitamos tomar
 
-El concepto y la estética pixel art están confirmados. Las cuestiones de esta tabla son **decisiones pendientes**, no requisitos técnicos ya aprobados.
+**Progreso de acuerdos: 0 de 22 decisiones cerradas · 0 %**
 
-| Área | Qué debemos concretar |
-| --- | --- |
-| Experiencia y público | A quién va dirigido, tono del humor y tratamiento de los tópicos; duración de una sesión, dificultad y motivos para volver a jugar. |
-| Minijuegos y conexión | Catálogo inicial, reglas y objetivos; cómo se pasa de uno a otro y qué comparten: personajes, puntuación, historia, economía o progresión. Definir alcance de la primera versión. |
-| Modos de juego | Qué minijuegos son cooperativos, competitivos o mixtos; mínimo y máximo de jugadores, posibilidad de jugar solo, sustitución de ausentes y participación de espectadores. |
-| Plataformas y distribución | Dónde funciona la pantalla principal: navegador, ordenador, televisión, consola u otra opción; si requiere instalación y cómo se distribuye. Elegir una primera plataforma antes de ampliar. |
-| Dispositivos y controles | Móviles, sistemas y navegadores compatibles; orientación, tamaño de botones, gestos y respuesta táctil. Decidir alternativas con teclado o mando, y qué ocurre si alguien no tiene móvil. |
-| Tecnología y arquitectura | Motor o tecnología del juego y de los mandos; comunicación en tiempo real, autoridad sobre el estado de partida, reutilización entre minijuegos y herramientas de desarrollo. Comprobar qué conviene conservar del prototipo. |
-| Salas y conexión | Creación de sala, acceso por QR y código manual, quién inicia y pausa; misma Wi-Fi o acceso por Internet, incorporación tardía, desconexión/reconexión, latencia, sincronización y caducidad de salas. |
-| Dirección artística | Perspectiva, resolución base, escalado, paleta, iluminación, contornos, proporciones y nivel de detalle. Definir cómo se relacionan fondos, personajes, objetos e interfaz. |
-| Personajes | Elenco, personalidad, función en los minijuegos, siluetas, vestuario, expresiones y personalización. Decidir qué vistas, poses y animaciones necesita cada uno. |
-| Animación y audio | Tipo y ritmo de animación, prioridades y reutilización; música, efectos, posibles voces, identidad sonora, controles de volumen y procedencia de los recursos. |
-| Textos e idiomas | Voz del juego, humor, nombres y terminología; idiomas iniciales, traducción de referencias culturales, fuentes y espacio para textos de distinta longitud. |
-| Usabilidad y accesibilidad | Legibilidad a distancia en la pantalla y en el móvil, contraste, señales que no dependan solo del color, subtítulos, aprendizaje de controles y opciones para distintos ritmos o capacidades. |
-| Rendimiento y calidad | Dispositivos mínimos, fluidez y tiempos de carga; respuesta de los mandos, presupuesto de gráficos/efectos y pruebas con varios móviles y conexiones reales. |
-| Operación y datos | Alojamiento y coste recurrente; si hacen falta cuentas o bastan invitados, qué progreso se guarda, duración de las sesiones y mantenimiento tras publicar. |
-| Trabajo conjunto y alcance | Reparto de tareas y decisiones, revisión de cambios, organización de archivos, criterios para dar algo por terminado y tamaño de la primera versión jugable. |
+`[░░░░░░░░░░░░░░░░░░░░] 0 %`
+
+El contador mide las decisiones de las dos tablas siguientes, no el desarrollo del juego. El nombre, el concepto, la estética pixel art y la existencia del prototipo ya están confirmados y quedan fuera de este contador. Todas las decisiones de detalle empiezan pendientes, al 0 %.
+
+- **Pendiente:** todavía sin elección; 0 %.
+- **En conversación:** hay alternativas o acuerdos parciales, pero el punto sigue abierto; 0 % de cierre.
+- **Acordada:** elección explícita registrada, con su motivo y quién la confirma; 100 %.
+
+El progreso global es `decisiones acordadas / decisiones totales × 100`. Cada punto pesa lo mismo. Abrir una conversación o investigar una alternativa no aumenta el porcentaje de acuerdos.
+
+Los identificadores **01–22 son estables**: podemos decir «vamos con el 08» o «revisemos el 17». Si añadimos decisiones, usaremos números nuevos sin renumerar las existentes. Si dividimos un punto, sus subpuntos usarán referencias como `08.1`; el punto principal contará una sola vez y se cerrará cuando su alcance esté resuelto. Los nuevos puntos principales cambiarán el denominador y se dejará constancia.
+
+| Nº | Área | Qué debemos concretar | Estado | Cierre |
+| --- | --- | --- | --- | --- |
+| 01 | Experiencia y público | A quién va dirigido, tono del humor y tratamiento de los tópicos; duración de una sesión, dificultad y motivos para volver a jugar. | Pendiente | 0 % |
+| 02 | Minijuegos y conexión | Catálogo inicial, reglas y objetivos; cómo se pasa de uno a otro y qué comparten: personajes, puntuación, historia, economía o progresión. Definir alcance de la primera versión. | Pendiente | 0 % |
+| 03 | Modos de juego | Qué minijuegos son cooperativos, competitivos o mixtos; mínimo y máximo de jugadores, posibilidad de jugar solo, sustitución de ausentes y participación de espectadores. | Pendiente | 0 % |
+| 04 | Plataformas y distribución | Dónde funciona la pantalla principal: navegador, ordenador, televisión, consola u otra opción; si requiere instalación y cómo se distribuye. Elegir una primera plataforma antes de ampliar. | Pendiente | 0 % |
+| 05 | Dispositivos y controles | Móviles, sistemas y navegadores compatibles; orientación, tamaño de botones, gestos y respuesta táctil. Decidir alternativas con teclado o mando, y qué ocurre si alguien no tiene móvil. | Pendiente | 0 % |
+| 06 | Tecnología y arquitectura | Motor o tecnología del juego y de los mandos; comunicación en tiempo real, autoridad sobre el estado de partida, reutilización entre minijuegos y herramientas de desarrollo. Comprobar qué conviene conservar del prototipo. | Pendiente | 0 % |
+| 07 | Salas y conexión | Creación de sala, acceso por QR y código manual, quién inicia y pausa; misma Wi-Fi o acceso por Internet, incorporación tardía, desconexión/reconexión, latencia, sincronización y caducidad de salas. | Pendiente | 0 % |
+| 08 | Dirección artística | Perspectiva, resolución base, escalado, paleta, iluminación, contornos, proporciones y nivel de detalle. Definir cómo se relacionan fondos, personajes, objetos e interfaz. | Pendiente | 0 % |
+| 09 | Personajes | Elenco, personalidad, función en los minijuegos, siluetas, vestuario, expresiones y personalización. Decidir qué vistas, poses y animaciones necesita cada uno. | Pendiente | 0 % |
+| 10 | Animación y audio | Tipo y ritmo de animación, prioridades y reutilización; música, efectos, posibles voces, identidad sonora, controles de volumen y procedencia de los recursos. | Pendiente | 0 % |
+| 11 | Textos e idiomas | Voz del juego, humor, nombres y terminología; idiomas iniciales, traducción de referencias culturales, fuentes y espacio para textos de distinta longitud. | Pendiente | 0 % |
+| 12 | Usabilidad y accesibilidad | Legibilidad a distancia en la pantalla y en el móvil, contraste, señales que no dependan solo del color, subtítulos, aprendizaje de controles y opciones para distintos ritmos o capacidades. | Pendiente | 0 % |
+| 13 | Rendimiento y calidad | Dispositivos mínimos, fluidez y tiempos de carga; respuesta de los mandos, presupuesto de gráficos/efectos y pruebas con varios móviles y conexiones reales. | Pendiente | 0 % |
+| 14 | Operación y datos | Alojamiento y coste recurrente; si hacen falta cuentas o bastan invitados, qué progreso se guarda, duración de las sesiones y mantenimiento tras publicar. | Pendiente | 0 % |
+| 15 | Trabajo conjunto y alcance | Reparto de tareas y decisiones, revisión de cambios, organización de archivos, criterios para dar algo por terminado y tamaño de la primera versión jugable. | Pendiente | 0 % |
 
 ## Cómo crear los gráficos con IA
 
 Necesitamos encontrar un método que produzca recursos **bonitos, coherentes, editables y fáciles de animar**, con un coste razonable de tiempo, tokens y revisiones. Las herramientas disponibles no garantizan por sí solas esa calidad.
 
-Propuestas que debemos investigar y validar:
+Estas decisiones continúan la numeración anterior y también cuentan para el progreso global. La elección artística del 08 y el elenco del 09 se distinguen de cómo documentaremos y produciremos sus recursos en los puntos 16–22.
 
-- **Guía visual común:** referencias aprobadas, paleta, proporciones, luz, contornos, perspectiva, tipografía, interfaz y ejemplos de lo que encaja y lo que queremos evitar.
-- **Fichas de personaje:** diseño base, silueta, colores, vestuario, vistas, expresiones, poses y rasgos que deben mantenerse al animar. Decidir cuánto detalle necesita cada ficha para ser útil a personas e IA.
-- **Recursos maestros y piezas reutilizables:** una pequeña biblioteca aprobada de personajes, objetos y componentes de interfaz de la que derivar variantes.
-- **Proceso por etapas:** referencia y silueta, colores, sombras, detalles y animación; revisión al tamaño real de uso y dentro de una pantalla del juego.
-- **Comparación de métodos:** probar MCP, Lua, Pillow y generación de imágenes en tareas equivalentes. Investigar buenas prácticas, hacer pruebas pequeñas y documentar lo que funcione en este proyecto.
-- **Medición de eficiencia:** tiempo hasta un resultado aceptable, tokens o coste de API cuando se puedan obtener, número de llamadas y revisiones, retoque manual, coherencia y facilidad para modificar una parte. No confundir que un script funcione con que el resultado sea bueno.
-- **Entrega reproducible:** definir originales editables, capas, etiquetas, puntos de apoyo, nombres y exportación para el motor. Fijar criterios de aceptación y un presupuesto de producción antes de crear muchos recursos.
+| Nº | Decisión | Qué debemos concretar | Estado | Cierre |
+| --- | --- | --- | --- | --- |
+| 16 | Guía visual común | Si la usamos, su formato y contenido: referencias aprobadas, paleta, proporciones, luz, contornos, perspectiva, tipografía, interfaz y ejemplos de lo que encaja y lo que queremos evitar. | Pendiente | 0 % |
+| 17 | Fichas de personaje | Formato y detalle útil para personas e IA: diseño base, silueta, colores, vestuario, vistas, expresiones, poses y rasgos que deben mantenerse al animar. | Pendiente | 0 % |
+| 18 | Recursos maestros y piezas reutilizables | Qué biblioteca aprobada de personajes, objetos y componentes de interfaz necesitamos y cómo derivar variantes. | Pendiente | 0 % |
+| 19 | Proceso por etapas | Cómo pasamos por referencia y silueta, colores, sombras, detalles y animación; en qué momentos revisamos al tamaño real y dentro del juego. | Pendiente | 0 % |
+| 20 | Métodos y aprendizaje | Qué tareas compararemos con MCP, Lua, Pillow y generación de imágenes; cómo investigar buenas prácticas y elegir métodos a partir de pruebas. | Pendiente | 0 % |
+| 21 | Medición y presupuesto de eficiencia | Límites y criterios de tiempo, tokens/coste, llamadas, revisiones y retoque manual; cómo evaluar calidad, coherencia y facilidad de corrección. | Pendiente | 0 % |
+| 22 | Entrega reproducible | Originales editables, capas, etiquetas, puntos de apoyo, nombres, exportación para el motor y validación de cada entrega. | Pendiente | 0 % |
 
 No están decididos el tamaño de los sprites, el número de colores ni los fotogramas. Las cifras mencionadas en conversaciones anteriores son ejemplos para pruebas.
 
 ## Referencia de estudio: recursos SCUMM
 
-El compañero del proyecto ha creado una [herramienta de exploración de recursos SCUMM, enlazada a Day of the Tentacle, sala 7](https://scumm.rea.salmeinmotion.com/dott/#room=7). El visor permite consultar escenarios y objetos en contexto y dispone de secciones de personajes, animaciones, música y sonidos.
+Ivan S (Alcachofo) ha creado una [herramienta de exploración de recursos SCUMM, enlazada a Day of the Tentacle, sala 7](https://scumm.rea.salmeinmotion.com/dott/#room=7). El visor permite consultar escenarios y objetos en contexto y dispone de secciones de personajes, animaciones, música y sonidos.
 
 La idea es **aprender e inspirarnos, creando recursos originales para Spanish Simulator**. Podemos estudiar composición, jerarquía visual, paletas, proporciones, separación de fondos y objetos, reutilización de piezas y ritmo de animación. No se busca copiar ni incorporar los recursos extraídos al juego. Su uso como referencia no implica haber elegido el estilo de Day of the Tentacle.
 
@@ -70,7 +93,7 @@ Este orden es una propuesta, pendiente de acordar entre los dos responsables.
 
 Por indicación del usuario, iremos resumiendo y subiendo a GitHub el contexto relevante y los acuerdos de las conversaciones. Las propuestas se identificarán como tales. Las conversaciones privadas no se sincronizan automáticamente ni hace falta publicar transcripciones completas.
 
-Para cada decisión importante conviene anotar: pregunta, alternativas, estado, elección y motivo cuando se resuelva, responsable y una prueba o referencia si la necesita. Actualizaremos el resumen de este README y el [registro de decisiones](docs/decisiones.md).
+Para cada decisión importante anotaremos su número estable, pregunta, alternativas, estado, elección y motivo cuando se resuelva, quién la propone o confirma, responsable y una prueba o referencia si la necesita. Actualizaremos las tablas y la barra de este README y el [registro de decisiones](docs/decisiones.md). Una decisión reabierta vuelve a contar como abierta; conservaremos el motivo del cambio.
 
 ## Documentación y estado del repositorio
 

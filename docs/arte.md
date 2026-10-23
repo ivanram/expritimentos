@@ -27,7 +27,7 @@ Se propone una ficha por personaje con silueta y proporciones, paleta, vestuario
 
 ## Referencia SCUMM para aprender
 
-El compañero del proyecto ha creado un [visor de recursos SCUMM, enlazado a la sala 7 de Day of the Tentacle](https://scumm.rea.salmeinmotion.com/dott/#room=7). La consulta inicial permite ver escenarios con objetos separados y acceder a personajes, animaciones y audio.
+Ivan S (Alcachofo) ha creado un [visor de recursos SCUMM, enlazado a la sala 7 de Day of the Tentacle](https://scumm.rea.salmeinmotion.com/dott/#room=7). La consulta inicial permite ver escenarios con objetos separados y acceder a personajes, animaciones y audio.
 
 Usarlo para estudiar composición, jerarquía visual, contraste, proporciones, separación de fondos y objetos, reutilización de piezas y ritmo de animación. Registrar qué principio nos sirve y probarlo con diseños propios. El objetivo expresado por el usuario es aprender e inspirarse; no copiar ni incorporar los recursos extraídos al juego.
 
