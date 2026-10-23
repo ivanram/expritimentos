@@ -10,9 +10,11 @@ Definir un estilo que las dos personas y sus IA puedan repetir, corregir y anima
 
 El acceso a herramientas de dibujo no garantiza calidad artística. Una exportación correcta comprueba el funcionamiento técnico, no la legibilidad, la expresividad ni la consistencia del diseño.
 
-**Corrección expresada por Ivan R:** pixel art no significa paredes y suelos planos. El fondo v01 queda descartado por su falta de carácter y su lámpara. Simplificar debe conservar formas, luz, sombras, profundidad y materiales; el número de colores no es un indicador de calidad. La [revisión v02](../arte/escenarios/taberna-v02/README.md) parte del concepto original, reduce microtextura mediante una revisión de imagen y conserva el color en RGB al preparar las exportaciones. Sigue pendiente de valoración.
+**Corrección expresada por Ivan R:** pixel art no significa paredes y suelos planos. El fondo v01 queda descartado por su falta de carácter y su lámpara. Simplificar debe conservar formas, luz, sombras, profundidad y materiales; el número de colores no es un indicador de calidad. La [revisión v02](../arte/escenarios/taberna-v02/README.md) parte del concepto original, reduce microtextura mediante una revisión de imagen y conserva el color en RGB al preparar las exportaciones. Ivan R la ha valorado positivamente; el alcance global de la dirección artística sigue pendiente de acordar.
 
 ## Guía visual propuesta
+
+Ivan R ha valorado positivamente el fondo v02 y pidió comprobar la continuidad visual con una mesa. Se ha creado una [mesa independiente con alfa y composición por capas](../arte/objetos/mesa-redonda-v01/README.md), tomando el fondo y el concepto original como referencias. Esto permite revisar material, iluminación, escala y perspectiva en contexto. La mesa y el resto de recursos siguen pendientes de valoración; no se ha cerrado el estilo global.
 
 ### Revisión de la primera demo por Ivan R · 23 de octubre de 2026
 

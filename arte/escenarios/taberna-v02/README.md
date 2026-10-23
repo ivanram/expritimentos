@@ -2,6 +2,8 @@
 
 23 de octubre de 2026. Revisión solicitada por Ivan R tras rechazar el fondo v01 por su simplificación excesiva y la lámpara. Esta versión sustituye a v01 como propuesta actual; su aprobación artística sigue pendiente del equipo.
 
+Ivan R ha valorado positivamente esta revisión y ha pedido trasladar el mismo lenguaje visual a otros recursos. La [primera mesa independiente y su montaje](../../objetos/mesa-redonda-v01/README.md) permiten comprobarlo. No se atribuye esa valoración a Ivan S ni se considera cerrada la dirección artística global.
+
 ![Fondo v02 ampliado exactamente a 2×](vista-2x.png)
 
 ## Archivos para revisar y usar

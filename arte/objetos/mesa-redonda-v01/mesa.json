@@ -1,0 +1,36 @@
+{
+  "asset": "mesa-redonda-v01",
+  "size": [
+    384,
+    235
+  ],
+  "position": [
+    128,
+    100
+  ],
+  "scene": [
+    640,
+    360
+  ],
+  "alpha": true,
+  "bounds": [
+    2,
+    2,
+    384,
+    234
+  ],
+  "layers": [
+    "pedestal",
+    "tablero"
+  ],
+  "split_row": 113,
+  "source_crop": [
+    40,
+    55,
+    1460,
+    895
+  ],
+  "alpha_cleanup_below": 16,
+  "background": "../../escenarios/taberna-v02/fondo.png",
+  "notes": "Placement and layer split are provisional; food, chairs and actors are separate future assets."
+}

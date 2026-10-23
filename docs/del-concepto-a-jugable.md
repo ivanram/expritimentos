@@ -31,7 +31,7 @@ Ivan R plantea producir primero el fondo en pixel art y animar después cada per
 
 Mantener la mesa y los objetos que necesiten superposición como recursos separados del fondo. Cada personaje tendrá un original editable y sus propias poses, clips y reloj de reproducción. La independencia entre personajes no obliga a construir sus cuerpos como piezas rígidas articuladas: dibujar las poses necesarias con silueta continua, especialmente hombro y brazo. Probar primero un personaje dentro de la escena antes de producir los demás.
 
-Posteriormente, a petición de Ivan R, se produjo un primer fondo, que rechazó por su simplificación excesiva y la lámpara. La [revisión actual v02](../arte/escenarios/taberna-v02/README.md) conserva luz y volumen, con PNG y original Aseprite RGB a 640×360; está pendiente de valoración. La mesa separada y los nuevos originales animados siguen pendientes. No se ha aprobado A, B, una resolución definitiva o el elenco.
+Posteriormente, a petición de Ivan R, se produjo un primer fondo, que rechazó por su simplificación excesiva y la lámpara. La [revisión actual v02](../arte/escenarios/taberna-v02/README.md) conserva luz y volumen, con PNG y original Aseprite RGB a 640×360; Ivan R la ha valorado positivamente. Ya se ha creado una [mesa independiente con transparencia y montaje por capas](../arte/objetos/mesa-redonda-v01/README.md), pendiente de valoración. Los nuevos originales animados siguen pendientes. No se ha aprobado A, B, una resolución definitiva o el elenco.
 
 El concepto generado es una imagen plana. Recortar sus figuras no revela lo que hay detrás: habrá que reconstruir fondo, cuerpos, sillas y objetos ocultos por otras piezas. Los originales deben contener margen y zonas ocultas suficientes para las acciones previstas.
 
