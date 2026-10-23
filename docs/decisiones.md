@@ -34,7 +34,7 @@ El [plan de producción](plan-escena-taberna.md) desarrolla cómo podría hacers
 
 ## Realizado en el laboratorio local
 
-- A petición de Ivan R se ha creado el [primer fondo independiente de la taberna](../arte/escenarios/taberna-v01/README.md): sin personajes ni mesa, preparado a 640×360, 30 colores visibles, PNG y original Aseprite. Se usó generación de imágenes y preparación/limpieza programada por MCP. La valoración artística y la composición con los futuros personajes siguen pendientes; estos parámetros de prueba no cierran decisiones.
+- A petición de Ivan R se creó un primer fondo independiente, que rechazó por su simplificación excesiva y la lámpara. Se ha preparado la [revisión v02](../arte/escenarios/taberna-v02/README.md), sin personajes ni mesa, a 640×360 en RGB, con PNG, ampliación y original Aseprite. Conserva luz y volumen mediante una nueva generación y revisión de textura, seguida de preparación/exportación por MCP sin cuantización. Su valoración y la composición con los futuros personajes siguen pendientes; estos parámetros de prueba no cierran decisiones.
 
 - Las carpetas de Aseprite, aseprite-live, aseprite-mcp y sus dependencias se han reunido bajo una carpeta de trabajo común.
 - Se han reparado las rutas locales y se han comprobado el editor, el servidor MCP, el visor y las exportaciones de los proyectos existentes.

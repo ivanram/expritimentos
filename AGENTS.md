@@ -27,6 +27,7 @@ El equipo son **Ivan R (kapichu)**, usuario de este chat, e **Ivan S (Alcachofo)
 - El visor SCUMM enlazado en el README se utiliza para estudiar principios de diseño. El usuario ha indicado expresamente que no se busca copiar sus recursos: producir recursos originales para el juego.
 - Para gráficos, trabaja en cambios pequeños y comprobables visualmente; revisa la legibilidad al tamaño de uso y la consistencia con los recursos aprobados.
 - No afirmes que una imagen es bonita, una animación es fluida o un flujo es eficiente solo porque un script se ejecuta sin errores. Distingue comprobación técnica y revisión visual.
+- Ivan R rechazó el fondo `arte/escenarios/taberna-v01`: pixel art no exige paredes/suelos planos ni una paleta de 32 colores. Conservar volumen, iluminación, materiales y formas con carácter al simplificar. No repintar grandes zonas ni cuantizar colores por defecto; revisar siempre la exportación real al tamaño de uso. La propuesta posterior v02 sigue pendiente de aprobación artística.
 - Mantén los originales editables separados de las exportaciones. Cuando se incorpore producción de recursos, favorece exportaciones reproducibles.
 - Evita pisar el trabajo simultáneo de otra persona, especialmente en archivos `.aseprite`.
 - Las herramientas, compilaciones, entornos virtuales, registros locales y configuraciones con rutas de una máquina quedan fuera de esta publicación de documentación. No añadas el contenido de las carpetas ignoradas al repositorio como efecto secundario de otra tarea.

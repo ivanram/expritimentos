@@ -6,7 +6,7 @@
 
 Conservar la cercanía de los amigos, sus miradas y gestos, siluetas diferentes, formas orgánicas, mesa compacta, luz cálida y contraste con la ventana fría. Esos elementos deben sostener el ambiente cuando se elimine el detalle.
 
-Simplificar textura pictórica, reflejos, pliegues pequeños, decoración y cantidad de tonos. Mantener pocos rasgos decisivos por persona y grandes masas de color. Reducir o pixelar automáticamente la ilustración puede servir de estudio, pero no garantiza un recurso legible, editable ni animable. Hay que diseñar su traducción al tamaño de juego.
+Simplificar textura pictórica, pliegues pequeños y decoración. Mantener pocos rasgos decisivos por persona y grandes masas de color, preservando sombras, reflejos y tonos que describen volumen y materiales. No imponer una paleta pequeña ni aplanar pared/suelo por asociarlo a pixel art: Ivan R ha rechazado ese resultado en el primer fondo. Reducir o pixelar automáticamente la ilustración puede servir de estudio, pero no garantiza un recurso legible, editable ni animable. Hay que diseñar su traducción al tamaño de juego.
 
 ## Secuencia propuesta
 
@@ -31,7 +31,7 @@ Ivan R plantea producir primero el fondo en pixel art y animar después cada per
 
 Mantener la mesa y los objetos que necesiten superposición como recursos separados del fondo. Cada personaje tendrá un original editable y sus propias poses, clips y reloj de reproducción. La independencia entre personajes no obliga a construir sus cuerpos como piezas rígidas articuladas: dibujar las poses necesarias con silueta continua, especialmente hombro y brazo. Probar primero un personaje dentro de la escena antes de producir los demás.
 
-Posteriormente, a petición de Ivan R, se ha producido el [primer fondo limpio](../arte/escenarios/taberna-v01/README.md), con PNG y original Aseprite, a 640×360 y 30 colores visibles. La mesa separada y los nuevos originales animados siguen pendientes. No se ha aprobado A, B, una resolución definitiva o el elenco.
+Posteriormente, a petición de Ivan R, se produjo un primer fondo, que rechazó por su simplificación excesiva y la lámpara. La [revisión actual v02](../arte/escenarios/taberna-v02/README.md) conserva luz y volumen, con PNG y original Aseprite RGB a 640×360; está pendiente de valoración. La mesa separada y los nuevos originales animados siguen pendientes. No se ha aprobado A, B, una resolución definitiva o el elenco.
 
 El concepto generado es una imagen plana. Recortar sus figuras no revela lo que hay detrás: habrá que reconstruir fondo, cuerpos, sillas y objetos ocultos por otras piezas. Los originales deben contener margen y zonas ocultas suficientes para las acciones previstas.
 

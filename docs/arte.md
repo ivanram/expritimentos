@@ -10,6 +10,8 @@ Definir un estilo que las dos personas y sus IA puedan repetir, corregir y anima
 
 El acceso a herramientas de dibujo no garantiza calidad artística. Una exportación correcta comprueba el funcionamiento técnico, no la legibilidad, la expresividad ni la consistencia del diseño.
 
+**Corrección expresada por Ivan R:** pixel art no significa paredes y suelos planos. El fondo v01 queda descartado por su falta de carácter y su lámpara. Simplificar debe conservar formas, luz, sombras, profundidad y materiales; el número de colores no es un indicador de calidad. La [revisión v02](../arte/escenarios/taberna-v02/README.md) parte del concepto original, reduce microtextura mediante una revisión de imagen y conserva el color en RGB al preparar las exportaciones. Sigue pendiente de valoración.
+
 ## Guía visual propuesta
 
 ### Revisión de la primera demo por Ivan R · 23 de octubre de 2026
@@ -61,7 +63,7 @@ El [plan posterior de la escena de taberna](plan-escena-taberna.md) concreta el 
 
 1. Partir de una referencia aprobada y del recurso maestro más cercano.
 2. Revisar primero la silueta y las proporciones.
-3. Aplicar colores planos, sombras y finalmente detalles.
+3. Diseñar masas de color y sombras que describan el volumen; añadir detalles selectivos que sobrevivan al tamaño de uso.
 4. Revisar cada pasada al tamaño de uso y compararla con los recursos aprobados.
 5. Animar una vez que el diseño base funcione.
 
@@ -73,7 +75,7 @@ La generación de imágenes puede ayudar a explorar conceptos; comprobar cuadrí
 
 ## Animación
 
-El [primer fondo independiente de la taberna](../arte/escenarios/taberna-v01/README.md) ya está disponible como PNG y original Aseprite: 640×360, 30 colores visibles, sin personajes ni mesa. Combina generación de imagen con preparación y limpieza programada mediante MCP. Estas características técnicas no suponen aprobación artística ni elección definitiva de resolución/paleta.
+El [fondo independiente actual, v02](../arte/escenarios/taberna-v02/README.md), está disponible como PNG y original Aseprite RGB: 640×360, sin personajes ni mesa. Sustituye como propuesta al fondo v01 descartado por Ivan R. Combina generación de imagen con preparación/exportación mediante MCP, conservando color y sombras. Estas características técnicas no suponen aprobación artística ni elección definitiva de resolución/paleta.
 
 Se han creado [dos tratamientos simplificados de la mesa redonda](../arte/conceptos/mesa-redonda-v02/README.md). El visor los presenta a 640×360; los archivos generados son mayores y no cumplen todavía una cuadrícula/paleta de producción. Valorar esta comparación antes de preparar originales separados o animaciones. La variante A tiene menos detalle que B, pero aún requiere limpieza y redibujo para producción.
 

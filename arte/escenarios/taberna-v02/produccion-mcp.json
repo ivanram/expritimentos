@@ -1,0 +1,38 @@
+{
+  "method": "Two image-generation passes: redesigned lighting/materials, then targeted reduction of microtexture. Aseprite MCP RGB nearest resize and native/2x exports. No palette quantization or flat repainting.",
+  "native": [
+    640,
+    360
+  ],
+  "preview": [
+    1280,
+    720
+  ],
+  "color_mode": "RGB",
+  "visible_colors": 144381,
+  "opaque": true,
+  "preview_exact_nearest_2x": true,
+  "png_bytes": 416763,
+  "calls": [
+    {
+      "tool": "run_lua_script",
+      "seconds": 0.682,
+      "result": "OK RGB 640x360 frames=1\n"
+    },
+    {
+      "tool": "export_frame",
+      "seconds": 0.325,
+      "result": "Frame 1 exported to D:\\Apps\\Windows\\Expritimentos\\arte\\escenarios\\taberna-v02\\fondo.png at 1x"
+    },
+    {
+      "tool": "export_frame",
+      "seconds": 0.356,
+      "result": "Frame 1 exported to D:\\Apps\\Windows\\Expritimentos\\arte\\escenarios\\taberna-v02\\vista-2x.png at 2x"
+    },
+    {
+      "tool": "get_sprite_info",
+      "seconds": 0.174,
+      "result": "{\"width\":640,\"height\":360,\"color_mode\":\"rgb\",\"frames\":1,\"durations_ms\":[100],\"layers\":[{\"name\":\"fondo_compuesto\",\"visible\":true,\"opacity\":255,\"is_group\":false,\"parent\":null}],\"tags\":[]}\n"
+    }
+  ]
+}

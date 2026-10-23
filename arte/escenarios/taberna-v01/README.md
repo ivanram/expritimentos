@@ -1,10 +1,12 @@
 # Taberna: primer fondo independiente
 
+**Descartado por Ivan R.** La simplificación dejó pared/suelo demasiado planos y una lámpara sin el carácter buscado. Se conserva para documentar el fallo; la [propuesta actual es v02](../taberna-v02/README.md).
+
 23 de octubre de 2026. Producido a petición de Ivan R (kapichu) para empezar por el fondo y después incorporar mesa y personajes separados. Es una primera versión pendiente de valoración, no la aprobación definitiva de la dirección artística.
 
 ![Fondo independiente de la taberna a 640×360](fondo.png)
 
-## Recurso utilizable
+## Archivos de la prueba descartada
 
 - [fondo.png](fondo.png): 640×360 píxeles, opaco y 30 colores RGB visibles. Escalar con nearest y preferiblemente múltiplos enteros.
 - [fondo.aseprite](fondo.aseprite): original editable indexado, un fotograma y dos capas: `arquitectura` y `suelo_limpio`. La arquitectura no está desglosada en objetos individuales.

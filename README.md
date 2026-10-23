@@ -47,7 +47,9 @@ kapichu ha valorado positivamente el boceto como arte conceptual y pide conserva
 
 Ya están disponibles [dos tratamientos simplificados, A más plano y B con más volumen](arte/conceptos/mesa-redonda-v02/README.md), junto con un visor local de comparación a 640×360. Son pruebas de aspecto generadas; todavía no son sprites separados ni pixel art con cuadrícula y paleta verificadas. Su selección sigue pendiente.
 
-**Primer recurso separado:** [fondo vacío de la taberna](arte/escenarios/taberna-v01/README.md), preparado a 640×360 con 30 colores visibles, PNG y original editable `.aseprite`. No contiene mesa ni personajes. Se ha generado la base y preparado mediante Aseprite MCP; su valoración artística sigue pendiente.
+**Fondo independiente, revisión actual:** [taberna v02](arte/escenarios/taberna-v02/README.md), con PNG a 640×360, ampliación a 2× y original `.aseprite`. Recupera iluminación, volumen y materiales; mesa y personajes siguen separados. Se ha generado el arte y preparado mediante Aseprite MCP en RGB, sin forzar una paleta pequeña. Ivan R descartó el primer fondo por su simplificación excesiva; esta revisión está pendiente de valoración.
+
+![Fondo de taberna v02, pendiente de valoración](arte/escenarios/taberna-v02/fondo.png)
 
 ## Decisiones que necesitamos tomar
 
