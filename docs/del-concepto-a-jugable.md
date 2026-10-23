@@ -25,6 +25,14 @@ La resolución inicial facilita comparar dentro del visor existente; no explica 
 
 ## Preparar las piezas sin crear una marioneta
 
+### Aclaración del proceso tras comparar A y B
+
+Ivan R plantea producir primero el fondo en pixel art y animar después cada personaje por separado. La recomendación del asistente es seguir esa organización: las composiciones generadas son referencias de diseño; el siguiente recurso de producción propuesto es un fondo limpio, sin personajes, dibujado a la resolución elegida. Fijar antes la posición de mesa, sillas y figuras con siluetas provisionales para que el fondo deje sitio a la acción.
+
+Mantener la mesa y los objetos que necesiten superposición como recursos separados del fondo. Cada personaje tendrá un original editable y sus propias poses, clips y reloj de reproducción. La independencia entre personajes no obliga a construir sus cuerpos como piezas rígidas articuladas: dibujar las poses necesarias con silueta continua, especialmente hombro y brazo. Probar primero un personaje dentro de la escena antes de producir los demás.
+
+Esto aclara la propuesta de producción; no implica que el fondo limpio o los nuevos originales animados ya existan, ni que se haya aprobado A, B, una resolución o el elenco.
+
 El concepto generado es una imagen plana. Recortar sus figuras no revela lo que hay detrás: habrá que reconstruir fondo, cuerpos, sillas y objetos ocultos por otras piezas. Los originales deben contener margen y zonas ocultas suficientes para las acciones previstas.
 
 Separar personajes entre sí no obliga a separar cada hueso en un sprite. Para esta prueba se propone dibujar las poses de torso y brazo como formas continuas, reutilizando solo las zonas que no cambian. Separar objetos de pago y dedos cuando ayude al agarre; ocultar o redibujar uniones en lugar de cerrar con contorno oscuro cada segmento. El fondo puede ser una imagen estática; la mesa y sus objetos deben separarse en las pasadas que requieran las superposiciones de cada plaza.
