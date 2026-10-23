@@ -12,6 +12,16 @@ El acceso a herramientas de dibujo no garantiza calidad artística. Una exportac
 
 ## Guía visual propuesta
 
+### Revisión de la primera demo por Ivan R · 23 de octubre de 2026
+
+La primera muestra tiene problemas señalados por kapichu: pelo que se percibe separado de algunas cabezas, piernas repetidas, formas demasiado rectas y rígidas, y bordes en las uniones de las piezas articuladas. Su validación técnica no resuelve estos defectos de diseño.
+
+Para la siguiente exploración ha pedido un boceto previo con amigos comiendo tapas alrededor de una mesa redonda normal, diseños variados y un acabado más «cute» y expresivo, afín al carácter de las aventuras SCUMM. El [primer boceto coloreado](../arte/conceptos/mesa-redonda-v01/README.md) usa generación de imágenes y no constituye una dirección artística aprobada ni un recurso pixel art definitivo.
+
+Incorporar estas observaciones a las revisiones: conectar pelo, cabeza y cuello en todas las poses; variar silueta, piernas y apoyos; evitar rigidez geométrica; y mantener el contorno del personaje sin cerrar cada segmento del brazo con una línea oscura. Resolver las uniones mediante superposición o redibujo de la pose cuando proceda. Diseñar y valorar primero la composición y las poses clave antes de repetir la producción de sprites.
+
+### Elementos por acordar
+
 Antes de producir muchos recursos, acordar:
 
 - Una referencia visual principal y unas pocas referencias complementarias.

@@ -35,6 +35,14 @@ Para probarla, clonar o descargar el repositorio y abrir `prototipos/taberna/ind
 
 ![Composición original de la prueba de taberna](prototipos/taberna/preview.png)
 
+## Nueva exploración visual: mesa redonda
+
+Tras revisar la demo, kapichu señaló pelo que parece flotar, piernas repetidas, diseños rígidos y contornos visibles en las uniones de los brazos. Pidió empezar por un boceto: amigos alrededor de una mesa redonda, diseños más variados y un ambiente más cálido y expresivo.
+
+Este [boceto de concepto y su encargo](arte/conceptos/mesa-redonda-v01/README.md) explora esa dirección. Está generado como ilustración, todavía sin convertir a pixel art ni animar, y pendiente de valoración. La demo anterior sigue disponible como prueba técnica.
+
+![Boceto: amigos compartiendo tapas en una mesa redonda](arte/conceptos/mesa-redonda-v01/boceto.png)
+
 ## Decisiones que necesitamos tomar
 
 **Progreso de acuerdos: 0 de 22 decisiones cerradas · 0 %**

@@ -6,6 +6,8 @@ Este documento conserva el **plan de producción**. A petición posterior de Iva
 
 ## 1. Alcance solicitado y decisiones provisionales
 
+**Revisión posterior:** tras probar la primera muestra, Ivan R pidió explorar una mesa redonda, personajes más variados y orgánicos y comenzar por un boceto. El [concepto coloreado](../arte/conceptos/mesa-redonda-v01/README.md) recoge la nueva exploración. Las propuestas de composición frontal de este plan se conservan como contexto de la primera demo; deberán revisarse antes de producir la siguiente.
+
 ### Requisitos expresados por Ivan R
 
 - Preparar una escena similar en función a la captura de Pagar la cuenta, buscando un resultado visual mejor y sin obligación de imitar su estética.
