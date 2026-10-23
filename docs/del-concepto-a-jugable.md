@@ -43,4 +43,4 @@ El reproductor del visor actual puede servir como banco de pruebas, conservando 
 
 Revisar una pantalla y un personaje antes de fabricar los cinco. Tras cada entrega, guardar referencia, cambios y criterio visual; medir tiempo hasta aceptación, revisiones y retoque, además de llamadas y tokens cuando esos datos existan. La guía visual inicial puede limitarse a una página con ejemplos aprobados y defectos que evitar.
 
-**Siguiente entrega recomendada:** dos versiones estáticas simplificadas de la misma mesa redonda, presentadas al tamaño de uso. Compararlas antes de producir animaciones. Esta entrega está propuesta, no realizada.
+**Primera entrega realizada:** [dos tratamientos estáticos de la mesa redonda](../arte/conceptos/mesa-redonda-v02/README.md), uno relativamente más plano y otro con más volumen, con visor comparativo a 640×360. Son referencias generadas, no sprites nativos: la paleta y la cuadrícula exactas no se han obtenido. Su valoración y la selección de un tratamiento siguen pendientes antes de producir animaciones.

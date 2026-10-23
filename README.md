@@ -45,6 +45,8 @@ kapichu ha valorado positivamente el boceto como arte conceptual y pide conserva
 
 ![Boceto: amigos compartiendo tapas en una mesa redonda](arte/conceptos/mesa-redonda-v01/boceto.png)
 
+Ya están disponibles [dos tratamientos simplificados, A más plano y B con más volumen](arte/conceptos/mesa-redonda-v02/README.md), junto con un visor local de comparación a 640×360. Son pruebas de aspecto generadas; todavía no son sprites separados ni pixel art con cuadrícula y paleta verificadas. Su selección sigue pendiente.
+
 ## Decisiones que necesitamos tomar
 
 **Progreso de acuerdos: 0 de 22 decisiones cerradas · 0 %**

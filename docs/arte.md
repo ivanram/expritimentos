@@ -73,6 +73,8 @@ La generación de imágenes puede ayudar a explorar conceptos; comprobar cuadrí
 
 ## Animación
 
+Se han creado [dos tratamientos simplificados de la mesa redonda](../arte/conceptos/mesa-redonda-v02/README.md). El visor los presenta a 640×360; los archivos generados son mayores y no cumplen todavía una cuadrícula/paleta de producción. Valorar esta comparación antes de preparar originales separados o animaciones. La variante A tiene menos detalle que B, pero aún requiere limpieza y redibujo para producción.
+
 - Elegir siluetas claras y rasgos identificativos que puedan conservarse en cada pose.
 - Aprobar primero las poses principales y el ritmo, después completar el movimiento.
 - Mantener un punto de apoyo y una alineación coherentes entre fotogramas cuando la acción lo requiera.

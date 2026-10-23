@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mesa redonda · Dos tratamientos</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f1eee5;color:#273d3e;font:16px/1.6 system-ui,sans-serif}main{max-width:1360px;margin:auto;padding:32px 24px}h1{font-size:clamp(26px,4vw,42px);line-height:1.15;margin:12px 0}p{max-width:850px}.eyebrow{font-size:12px;letter-spacing:.15em;text-transform:uppercase}nav{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0}button{cursor:pointer;border:1px solid #889b8d;background:#fffdf7;color:#273d3e;font:inherit;padding:10px 16px;border-radius:7px}button[aria-pressed=true]{background:#294746;color:#fff}button:focus-visible,a:focus-visible{outline:3px solid #b66d48;outline-offset:3px}.views{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,640px),1fr));gap:24px}figure{margin:0;min-width:0}h2{margin:0 0 12px;font-size:22px}.frame{max-width:100%;overflow:auto;background:#172f31;border-radius:6px}canvas{display:block;width:640px;height:360px;image-rendering:pixelated}.small{font-size:14px;color:#526867}a{color:#294746}details{margin-top:28px;max-width:900px}summary{cursor:pointer;font-weight:600}.views.single{display:block}.views.single figure{width:640px;max-width:100%}.hidden{display:none}footer{margin-top:32px;padding-top:16px;border-top:1px solid #c8c9bc}
+</style>
+<main>
+<div class="eyebrow">Spanish Simulator · Exploración visual 02</div>
+<h1>La misma mesa, menos detalle.</h1>
+<p>Dos tratamientos de los cinco amigos. Comparar las caras, las siluetas y el ambiente a tamaño de juego antes de animar.</p>
+<nav aria-label="Vista de comparación">
+<button data-view="both" aria-pressed="true">Ambas</button>
+<button data-view="a" aria-pressed="false">A · Más plana</button>
+<button data-view="b" aria-pressed="false">B · Más volumen</button>
+</nav>
+<div class="views" id="views">
+<figure id="a"><h2>A · Más plana</h2><div class="frame"><canvas id="canvas-a" width="640" height="360" role="img" aria-label="Versión plana de cinco amigos alrededor de una mesa redonda"></canvas></div><figcaption class="small">Menos textura y decoración; masas de color más grandes.</figcaption></figure>
+<figure id="b"><h2>B · Más volumen</h2><div class="frame"><canvas id="canvas-b" width="640" height="360" role="img" aria-label="Versión con volumen de los mismos amigos y la misma mesa"></canvas></div><figcaption class="small">Más sombras, detalle de materiales y decoración.</figcaption></figure>
+</div>
+<p class="small" id="load-status" role="status">Cargando las dos imágenes…</p>
+<details><summary>Qué estamos comprobando</summary><p>¿Se reconocen las cinco personas? ¿Se mantienen sus miradas y el ambiente cálido? ¿Se lee la tarjeta? ¿Qué detalles merece la pena conservar?</p><p>Estas imágenes están generadas y siguen siendo referencias planas. El visor las ajusta con nearest a un lienzo de 640×360; esto no convierte el resultado en pixel art nativo ni separa piezas. Las dos versiones no están alineadas píxel a píxel. No hay animaciones ni minijuego en esta comparación.</p><p>Al pasar a producción habrá que dibujar una cuadrícula y una paleta coherentes, reducir los detalles que no se leen, separar recursos y preparar las poses de pago de todas las plazas.</p></details>
+<footer class="small"><a href="https://github.com/ivanram/expritimentos/tree/main/arte/conceptos/mesa-redonda-v02">Archivos y prompts en GitHub ↗</a> · <a href="../mesa-redonda-v01/boceto.png">Boceto de partida</a></footer>
+</main>
+<script>
+document.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>{const view=button.dataset.view;document.getElementById('views').classList.toggle('single',view!=='both');for(const id of ['a','b'])document.getElementById(id).classList.toggle('hidden',view!=='both'&&view!==id);document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));}));
+async function show(id,file){return new Promise((resolve,reject)=>{const img=new Image();img.onload=()=>{const ctx=document.getElementById('canvas-'+id).getContext('2d');ctx.imageSmoothingEnabled=false;ctx.fillStyle='#172f31';ctx.fillRect(0,0,640,360);const scale=Math.min(640/img.width,360/img.height),w=Math.round(img.width*scale),h=Math.round(img.height*scale);ctx.drawImage(img,Math.floor((640-w)/2),Math.floor((360-h)/2),w,h);resolve();};img.onerror=()=>reject(new Error('No se pudo cargar '+file));img.src=file;});}
+Promise.all([show('a','a-plano.png'),show('b','b-volumen.png')]).then(()=>{document.getElementById('load-status').textContent='Vista de comparación: 640×360 por imagen · 1 píxel de lienzo = 1 píxel CSS. En pantallas pequeñas, desplaza la imagen horizontalmente.';}).catch(err=>{document.getElementById('load-status').textContent=err.message;});
+</script>
+</html>
