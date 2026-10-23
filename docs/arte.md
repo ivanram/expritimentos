@@ -77,6 +77,8 @@ La generación de imágenes puede ayudar a explorar conceptos; comprobar cuadrí
 
 ## Animación
 
+La [prueba de cuatro tapas](../arte/objetos/tapas-v01/README.md) amplía el montaje con recursos independientes. Se detectó que la extracción generativa cambiaba escala/encuadre: se ajustaron contra la composición conjunta antes de montar sobre la mesa original. El proceso debe comprobar esos cambios, además de perspectiva, apoyo y luz. No asumir alineación exacta porque se pidió en el prompt. La comida de cada plato es por ahora una imagen; la animación de consumo necesitará variantes o bocados separados.
+
 El [fondo independiente actual, v02](../arte/escenarios/taberna-v02/README.md), está disponible como PNG y original Aseprite RGB: 640×360, sin personajes ni mesa. Sustituye como propuesta al fondo v01 descartado por Ivan R. Combina generación de imagen con preparación/exportación mediante MCP, conservando color y sombras. Estas características técnicas no suponen aprobación artística ni elección definitiva de resolución/paleta.
 
 Se han creado [dos tratamientos simplificados de la mesa redonda](../arte/conceptos/mesa-redonda-v02/README.md). El visor los presenta a 640×360; los archivos generados son mayores y no cumplen todavía una cuadrícula/paleta de producción. Valorar esta comparación antes de preparar originales separados o animaciones. La variante A tiene menos detalle que B, pero aún requiere limpieza y redibujo para producción.

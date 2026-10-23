@@ -1,0 +1,59 @@
+{
+  "method": "Scene-first image generation, four separate transparent extractions; Aseprite MCP alpha cleanup, measured crop/resize, separate shadow+food originals and composition on the original unmodified table scene.",
+  "validation": {
+    "rgba_assets": 4,
+    "scene_layers": 8,
+    "changed_pixels": 7177,
+    "only_food_rectangles_changed": true,
+    "olive_toggle_changed_pixels": 1135,
+    "olive_toggle_local_only": true,
+    "preview_exact_nearest_2x": true
+  },
+  "calls": [
+    {
+      "tool": "run_lua_script",
+      "seconds": 4.573,
+      "result": "OK base preserved; four independent tapas layers; olive toggle proof exported\n"
+    },
+    {
+      "tool": "export_frame",
+      "seconds": 0.213,
+      "result": "Frame 1 exported to D:\\Apps\\Windows\\Expritimentos\\arte\\objetos\\tapas-v01\\bravas.png at 1x"
+    },
+    {
+      "tool": "export_frame",
+      "seconds": 0.207,
+      "result": "Frame 1 exported to D:\\Apps\\Windows\\Expritimentos\\arte\\objetos\\tapas-v01\\croquetas.png at 1x"
+    },
+    {
+      "tool": "export_frame",
+      "seconds": 0.244,
+      "result": "Frame 1 exported to D:\\Apps\\Windows\\Expritimentos\\arte\\objetos\\tapas-v01\\calamares.png at 1x"
+    },
+    {
+      "tool": "export_frame",
+      "seconds": 0.24,
+      "result": "Frame 1 exported to D:\\Apps\\Windows\\Expritimentos\\arte\\objetos\\tapas-v01\\aceitunas.png at 1x"
+    },
+    {
+      "tool": "export_frame",
+      "seconds": 0.297,
+      "result": "Frame 1 exported to D:\\Apps\\Windows\\Expritimentos\\arte\\objetos\\tapas-v01\\referencia.png at 1x"
+    },
+    {
+      "tool": "export_frame",
+      "seconds": 0.31,
+      "result": "Frame 1 exported to D:\\Apps\\Windows\\Expritimentos\\arte\\objetos\\tapas-v01\\montaje.png at 1x"
+    },
+    {
+      "tool": "export_frame",
+      "seconds": 0.374,
+      "result": "Frame 1 exported to D:\\Apps\\Windows\\Expritimentos\\arte\\objetos\\tapas-v01\\montaje-2x.png at 2x"
+    },
+    {
+      "tool": "get_sprite_info",
+      "seconds": 0.192,
+      "result": "{\"width\":640,\"height\":360,\"color_mode\":\"rgb\",\"frames\":1,\"durations_ms\":[100],\"layers\":[{\"name\":\"fondo_camara_revisada\",\"visible\":true,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"sombra_contacto\",\"visible\":true,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"pedestal\",\"visible\":true,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"tablero\",\"visible\":true,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"bravas\",\"visible\":true,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"croquetas\",\"visible\":true,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"calamares\",\"visible\":true,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"aceitunas\",\"visible\":true,\"opacity\":255,\"is_group\":false,\"parent\":null}],\"tags\":[]}\n"
+    }
+  ]
+}

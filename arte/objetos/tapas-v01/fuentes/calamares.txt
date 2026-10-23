@@ -1,0 +1,5 @@
+Background extraction, one individual game prop.
+Edit target: supplied tavern scene with four tapas dishes.
+Extract ONLY the RIGHT white ceramic plate with a blue rim containing breaded SQUID RINGS with visible holes and the small lemon wedge. Keep the depicted food arrangement, ceramic form, EXACT VIEWPOINT, shallow plate/bowl ellipse, warm overhead lighting and cooler right shadows. Do not render a fresh top-down or catalog-camera version.
+Remove the room, table, wood, pedestal, other dishes, floor and tabletop cast shadow to genuine transparent alpha. No wood-colored rectangle, checkerboard, ground plane, hands or text. Preserve the entire complete dish and its intrinsic shading.
+Return this one isolated object with transparent margins. Its original perspective is essential: it will be fitted back to the dish's measured position and size in the full scene. Do not change the food's relative proportions or add new ingredients. Same pixel-art game style and clustered detail as the input; no new photoreal material or lighting.

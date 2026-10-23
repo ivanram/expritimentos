@@ -1,0 +1,6 @@
+Background extraction, one individual game asset.
+Edit target: supplied tavern scene with four tapas dishes.
+Extract ONLY the LEFT off-white ceramic platter with the golden breaded croquetas. Preserve that dish's EXACT existing camera, scale, silhouette, position, food arrangement, plate and intrinsic shading.
+Remove EVERYTHING ELSE to true transparent alpha: all the room, table wood, pedestal, other three dishes, floor and shadows cast on the table. No wood-colored rectangle or tabletop fragments. Retain the whole dish including food and its complete plate/bowl. Do not create a new dish or change perspective.
+CRITICAL: keep full original 16:9 canvas and exact original dish placement, with all the rest transparent. Do not crop, recenter, enlarge or rotate the subject. This output will be placed at (0,0) over the original image to reconstruct that ONE dish.
+Clean edge with real alpha, no checkerboard painted, no background, no text or logos. Preserve the scene's pixel-art rendering and warm highlights, without adding new detail or a new light source.

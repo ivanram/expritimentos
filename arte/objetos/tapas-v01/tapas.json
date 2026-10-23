@@ -1,0 +1,86 @@
+{
+  "scene": [
+    640,
+    360
+  ],
+  "base": "../mesa-redonda-v02/montaje.aseprite",
+  "alpha_cleanup": {
+    "below_16": "transparent",
+    "at_least_240": "opaque"
+  },
+  "items": [
+    {
+      "id": "bravas",
+      "crop": [
+        476,
+        294,
+        743,
+        396
+      ],
+      "width": 68,
+      "height": 36,
+      "x": 286,
+      "y": 168,
+      "png": "bravas.png",
+      "position": [
+        284,
+        166
+      ]
+    },
+    {
+      "id": "croquetas",
+      "crop": [
+        226,
+        290,
+        877,
+        353
+      ],
+      "width": 82,
+      "height": 33,
+      "x": 200,
+      "y": 186,
+      "png": "croquetas.png",
+      "position": [
+        198,
+        184
+      ]
+    },
+    {
+      "id": "calamares",
+      "crop": [
+        59,
+        167,
+        1555,
+        645
+      ],
+      "width": 84,
+      "height": 35,
+      "x": 356,
+      "y": 184,
+      "png": "calamares.png",
+      "position": [
+        354,
+        182
+      ]
+    },
+    {
+      "id": "aceitunas",
+      "crop": [
+        364,
+        229,
+        933,
+        546
+      ],
+      "width": 50,
+      "height": 29,
+      "x": 296,
+      "y": 200,
+      "png": "aceitunas.png",
+      "position": [
+        294,
+        198
+      ]
+    }
+  ],
+  "alignment_note": "Generator changed framing of extractions; objects cropped and fitted to measured sizes/positions in the scene reference. Original base scene kept pixel-for-pixel outside overlay rectangles."
+}

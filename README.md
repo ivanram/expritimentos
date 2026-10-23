@@ -51,6 +51,8 @@ Ya están disponibles [dos tratamientos simplificados, A más plano y B con más
 
 Ivan R ha valorado positivamente el fondo v02 y ha pedido aplicar su lenguaje visual a más elementos. Rechazó la primera mesa por perspectiva incorrecta. La [revisión de la mesa v02](arte/objetos/mesa-redonda-v02/README.md) resuelve primero una composición conjunta y separa después fondo, tablero, pedestal y sombra, conservando sus coordenadas. Incluye una cámara de habitación revisada y el análisis del fallo anterior. Esta propuesta y la composición con personajes siguen pendientes de valoración.
 
+Como siguiente demostración, ya se han añadido [croquetas, patatas bravas, calamares y aceitunas en cuatro recursos independientes](arte/objetos/tapas-v01/README.md). El montaje usa la mesa original por capas; incluye PNG transparentes, originales Aseprite y una prueba retirando solo las aceitunas. Resultado pendiente de valoración.
+
 ![Fondo de taberna v02, pendiente de valoración](arte/escenarios/taberna-v02/fondo.png)
 
 ## Decisiones que necesitamos tomar

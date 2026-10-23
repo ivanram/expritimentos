@@ -1,0 +1,13 @@
+Use case: precise-object-edit.
+Edit target: the supplied pixel-art tavern scene with its EMPTY round wooden table.
+Task: add exactly FOUR small shared tapas dishes ON THE EXISTING TABLE, in perspective, while preserving the room and table.
+INVARIANTS: keep the original camera, horizon, canvas framing, table diameter, elliptical tabletop shape and height, pedestal, room architecture, floor joints, pendant and lighting unchanged. Do NOT enlarge, tilt, raise or move the table to fit the food. Add food only; the wooden rim and plenty of tabletop remain visible between dishes.
+Food:
+1. Left side of tabletop: a shallow off-white ceramic platter with five or six golden, clearly elongated CROQUETAS, crunchy broad gold highlights and darker reddish undersides.
+2. Back-middle of tabletop: a small ceramic dish of PATATAS BRAVAS, chunky golden potato cubes with a few bright red/orange brava-sauce streaks and a small touch of pale alioli. Distinct from the croquetas.
+3. Right side of tabletop: a shallow white plate with a blue rim holding CALAMARES A LA ROMANA, a small pile of breaded golden SQUID RINGS with clearly visible holes and one small lemon wedge. Some rings lean against others so their ring shapes read from this low viewpoint.
+4. Front-middle of tabletop: a small glazed terracotta bowl of green and a few dark OLIVES, several simple oval shapes with selective highlights, a short toothpick resting at the edge.
+Geometry: all plate and bowl bases lie on the SAME horizontal plane as the table. Ceramic rims project to shallow ellipses matching the table's foreshortening; no overhead circular plates pasted into a low camera. Show convincing short contact shadows under each dish, lit warm from the overhead pendant with cooler shadows toward the right. Keep the entire bases inside the wooden tabletop and avoid overlap between the four dishes so they can be separated as individual assets.
+Composition: left platter, back-middle bravas, right calamari and smaller front-center olives, compact sensible tapas portions with breathing room. Plate bases must not cross the wooden rim. Food height is small and plausible for a dining table.
+Style: match the input's warm hand-crafted-looking pixel-art adventure-game rendering, broad readable color clusters and material volume. Do not render the food photorealistically or add a different pixel size. Dishes should remain recognizable when the complete scene is displayed at 640x360.
+No people, hands, chairs, drinks, bread basket, tablecloth, extra food dishes, labels, text, UI, logo or watermark. Return the full original 16:9 scene with only these four tapas dishes added.
