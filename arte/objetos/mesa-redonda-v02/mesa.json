@@ -1,0 +1,24 @@
+{
+  "size": [
+    312,
+    156
+  ],
+  "position": [
+    164,
+    186
+  ],
+  "alpha_bounds": [
+    3,
+    3,
+    307,
+    151
+  ],
+  "background": "fondo-camara.png",
+  "scene": [
+    640,
+    360
+  ],
+  "geometry_source": "fuentes/01-composicion.png",
+  "alignment": "Alpha extraction kept on original full frame; all sources resized together to 640x360 before fixed crop. No independent table scaling or translation.",
+  "split_scene_row": 244
+}

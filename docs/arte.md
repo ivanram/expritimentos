@@ -14,7 +14,7 @@ El acceso a herramientas de dibujo no garantiza calidad artística. Una exportac
 
 ## Guía visual propuesta
 
-Ivan R ha valorado positivamente el fondo v02 y pidió comprobar la continuidad visual con una mesa. Se ha creado una [mesa independiente con alfa y composición por capas](../arte/objetos/mesa-redonda-v01/README.md), tomando el fondo y el concepto original como referencias. Esto permite revisar material, iluminación, escala y perspectiva en contexto. La mesa y el resto de recursos siguen pendientes de valoración; no se ha cerrado el estilo global.
+Ivan R ha valorado positivamente el fondo v02 y pidió comprobar la continuidad visual con una mesa. Rechazó la primera mesa por perspectiva incorrecta: igualar materiales no resolvía una cámara distinta. La [revisión v02](../arte/objetos/mesa-redonda-v02/README.md) parte de habitación y mesa juntas, ajusta también las fugas del suelo y separa después los recursos sin recolocarlos. Se documentan la lectura aproximada de horizonte y la revisión del montaje real. La propuesta y el resto de recursos siguen pendientes de valoración; no se ha cerrado el estilo global.
 
 ### Revisión de la primera demo por Ivan R · 23 de octubre de 2026
 

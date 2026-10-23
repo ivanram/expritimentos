@@ -1,0 +1,4 @@
+Edit target: supplied integrated tavern and round table scene.
+Create a CLEAN BACKGROUND PLATE by removing ONLY the round table, its pedestal feet, and its floor cast shadow. Reconstruct the wall tiles and terracotta floor formerly behind those objects.
+CRITICAL INVARIANTS: keep the supplied scene's CAMERA, perspective, architecture positions, image framing, room dimensions, copper lamp, window, shelves, plants, plaster illumination, materials, art style and floor-joint geometry unchanged. Do NOT revert to an earlier camera. Continue the existing grout lines through the removed object's area to the SAME vanishing points. Do not invent new floor tiling or alter the horizon. Keep the warm pool of lamp light on the now-empty floor.
+No people, furniture, table, chairs, shadows of removed objects, text or UI. Return a full opaque 16:9 scene matching the input's framing, not a crop. This is an inpainting-style cleanup pass, not a redesign.

@@ -76,7 +76,7 @@ Todavía no se ha registrado un cierre de los puntos 01–22.
 
 ## Investigación gráfica en conversación
 
-Ivan R ha valorado positivamente el fondo v02 y ha pedido probar el mismo lenguaje visual en otros elementos, empezando por la mesa. Se ha producido una [mesa redonda con transparencia y montaje por capas](../arte/objetos/mesa-redonda-v01/README.md). La valoración de la mesa, la composición con cinco actores y los parámetros definitivos siguen pendientes. No se atribuye aprobación a Ivan S y el progreso continúa en 0/22.
+Ivan R ha valorado positivamente el fondo v02 y ha pedido probar el mismo lenguaje visual en otros elementos, empezando por la mesa. Rechazó la mesa v01 por perspectiva incorrecta y exigió que el asistente detectase esos fallos antes de presentar resultados. Se ha creado una [revisión de composición y mesa v02](../arte/objetos/mesa-redonda-v02/README.md), resolviendo habitación/mesa juntas y separando después los recursos. Incluye una cámara revisada; su valoración y la composición con cinco actores siguen pendientes. No se atribuye aprobación a Ivan S y el progreso continúa en 0/22.
 
 Ivan R valora positivamente el boceto de mesa redonda como arte conceptual y pide transmitir el mismo ambiente con gráficos simplificados. Autorizó iniciar el [recorrido propuesto](del-concepto-a-jugable.md) y ya se han preparado [dos tratamientos estáticos](../arte/conceptos/mesa-redonda-v02/README.md), comparables en un visor a 640×360. Son referencias generadas, sin cuadrícula y paleta de producción verificadas; su selección y los parámetros definitivos siguen pendientes. La valoración no se atribuye a Ivan S y el contador continúa en 0/22.
 

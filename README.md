@@ -49,7 +49,7 @@ Ya están disponibles [dos tratamientos simplificados, A más plano y B con más
 
 **Fondo independiente, revisión actual:** [taberna v02](arte/escenarios/taberna-v02/README.md), con PNG a 640×360, ampliación a 2× y original `.aseprite`. Recupera iluminación, volumen y materiales; mesa y personajes siguen separados. Se ha generado el arte y preparado mediante Aseprite MCP en RGB, sin forzar una paleta pequeña. Ivan R descartó el primer fondo por su simplificación excesiva y ha valorado positivamente esta revisión.
 
-Ivan R ha valorado positivamente v02 y ha pedido aplicar su lenguaje visual a más elementos. Ya se ha preparado una [mesa redonda independiente con transparencia y un montaje sobre el fondo](arte/objetos/mesa-redonda-v01/README.md), con tablero, pedestal y sombra separados en los originales. La mesa, las posiciones y el resto de recursos siguen pendientes de valoración.
+Ivan R ha valorado positivamente el fondo v02 y ha pedido aplicar su lenguaje visual a más elementos. Rechazó la primera mesa por perspectiva incorrecta. La [revisión de la mesa v02](arte/objetos/mesa-redonda-v02/README.md) resuelve primero una composición conjunta y separa después fondo, tablero, pedestal y sombra, conservando sus coordenadas. Incluye una cámara de habitación revisada y el análisis del fallo anterior. Esta propuesta y la composición con personajes siguen pendientes de valoración.
 
 ![Fondo de taberna v02, pendiente de valoración](arte/escenarios/taberna-v02/fondo.png)
 

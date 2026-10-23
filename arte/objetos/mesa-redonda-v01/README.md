@@ -1,5 +1,7 @@
 # Mesa redonda independiente
 
+**Descartada por Ivan R por perspectiva incorrecta.** El objeto se generó con una cámara incompatible con el fondo y el asistente no lo detectó antes de presentarlo. Se conserva como prueba fallida. La [revisión v02](../mesa-redonda-v02/README.md) parte de una composición conjunta antes de separar piezas.
+
 23 de octubre de 2026. Creada a petición de Ivan R para comprobar si el lenguaje visual del fondo v02 puede trasladarse a otros elementos. Ivan R ha valorado positivamente ese fondo; la mesa y su montaje siguen pendientes de valoración. No se atribuye esa valoración a Ivan S.
 
 ![Mesa independiente montada sobre la taberna](montaje-2x.png)

@@ -1,0 +1,6 @@
+Background extraction / game asset separation.
+Edit target: the supplied integrated tavern scene with a round wooden table.
+Extract ONLY THE EXACT TABLE already depicted. Preserve its exact tabletop ellipse, height, pedestal shape, wood highlights, scale, camera and orientation. Do not redesign it, do not inflate the tabletop, do not lengthen the pedestal, do not render it from a new camera.
+Delete every pixel of the room, floor, wall, lamp and architecture to genuine transparent alpha. Also remove the floor cast shadow; retain all intrinsic table shading and feet. No new shadow or backdrop.
+CRITICAL FRAMING: keep the FULL ORIGINAL 16:9 canvas and the SAME pixel placement of the table within it, so placing this transparent output over the input at (0,0) restores the table in exactly its original position. Keep ample transparent upper area above the table; do NOT crop or recenter it. This is asset extraction from an already perspective-correct composition, not a standalone product image.
+Only the existing complete empty table on a true transparent background, no checkerboard drawn, no other objects, no text.

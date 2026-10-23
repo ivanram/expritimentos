@@ -1,0 +1,51 @@
+{
+  "method": "Integrated scene camera study, then clean plate and aligned transparent extraction via image generation; Aseprite MCP fixed-coordinate separation, composition and RGB exports.",
+  "validation": {
+    "alpha": true,
+    "corners_transparent": true,
+    "opaque_scene": true,
+    "preview_exact_nearest_2x": true
+  },
+  "calls": [
+    {
+      "tool": "run_lua_script",
+      "seconds": 1.838,
+      "result": "OK scene=640x360 table=312x156 position=164,186; no independent scale/translation\n"
+    },
+    {
+      "tool": "export_frame",
+      "seconds": 0.295,
+      "result": "Frame 1 exported to D:\\Apps\\Windows\\Expritimentos\\arte\\objetos\\mesa-redonda-v02\\referencia.png at 1x"
+    },
+    {
+      "tool": "export_frame",
+      "seconds": 0.267,
+      "result": "Frame 1 exported to D:\\Apps\\Windows\\Expritimentos\\arte\\objetos\\mesa-redonda-v02\\fondo-camara.png at 1x"
+    },
+    {
+      "tool": "export_frame",
+      "seconds": 0.217,
+      "result": "Frame 1 exported to D:\\Apps\\Windows\\Expritimentos\\arte\\objetos\\mesa-redonda-v02\\mesa.png at 1x"
+    },
+    {
+      "tool": "export_frame",
+      "seconds": 0.359,
+      "result": "Frame 1 exported to D:\\Apps\\Windows\\Expritimentos\\arte\\objetos\\mesa-redonda-v02\\montaje.png at 1x"
+    },
+    {
+      "tool": "export_frame",
+      "seconds": 0.462,
+      "result": "Frame 1 exported to D:\\Apps\\Windows\\Expritimentos\\arte\\objetos\\mesa-redonda-v02\\montaje-2x.png at 2x"
+    },
+    {
+      "tool": "get_sprite_info",
+      "seconds": 0.341,
+      "result": "{\"width\":312,\"height\":156,\"color_mode\":\"rgb\",\"frames\":1,\"durations_ms\":[100],\"layers\":[{\"name\":\"pedestal\",\"visible\":true,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"tablero\",\"visible\":true,\"opacity\":255,\"is_group\":false,\"parent\":null}],\"tags\":[]}\n"
+    },
+    {
+      "tool": "get_sprite_info",
+      "seconds": 0.265,
+      "result": "{\"width\":640,\"height\":360,\"color_mode\":\"rgb\",\"frames\":1,\"durations_ms\":[100],\"layers\":[{\"name\":\"fondo_camara_revisada\",\"visible\":true,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"sombra_contacto\",\"visible\":true,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"pedestal\",\"visible\":true,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"tablero\",\"visible\":true,\"opacity\":255,\"is_group\":false,\"parent\":null}],\"tags\":[]}\n"
+    }
+  ]
+}

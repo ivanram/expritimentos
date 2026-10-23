@@ -1,0 +1,70 @@
+{
+  "units": "pixels in 640x360 scene",
+  "method": "Manual visual reading of two depth grout lines per scene; indicative intersections, not calibrated camera recovery.",
+  "old": {
+    "lines": [
+      [
+        [
+          168,
+          359
+        ],
+        [
+          279,
+          264
+        ]
+      ],
+      [
+        [
+          475,
+          359
+        ],
+        [
+          384,
+          264
+        ]
+      ]
+    ],
+    "indicative_vanishing_point": [
+      336.7,
+      214.6
+    ],
+    "table_upper_area_y": [
+      102,
+      211
+    ],
+    "assessment": "Table upper face drawn above indicative room horizon; incompatible pasted viewpoints."
+  },
+  "revision": {
+    "lines": [
+      [
+        [
+          65,
+          359
+        ],
+        [
+          232,
+          237
+        ]
+      ],
+      [
+        [
+          505,
+          359
+        ],
+        [
+          408,
+          236
+        ]
+      ]
+    ],
+    "indicative_vanishing_point": [
+      344.2,
+      155.1
+    ],
+    "table_upper_area_y": [
+      189,
+      244
+    ],
+    "assessment": "Upper face below indicative horizon; room camera solved with furniture before extraction. Human review still required."
+  }
+}
