@@ -1,0 +1,63 @@
+{
+  "method": "Image generation, then nearest resize, selective flat wall cleanup, clean flat floor layer, 32-color quantization without dithering, isolated-speckle cleanup, editable indexed original and PNG export through Aseprite MCP.",
+  "size": [
+    640,
+    360
+  ],
+  "opaque": true,
+  "unique_colors": 30,
+  "palette_used": [
+    "#143c5d",
+    "#16161e",
+    "#165564",
+    "#2f3c83",
+    "#31478c",
+    "#344d2f",
+    "#3d68c4",
+    "#3e807c",
+    "#40367e",
+    "#443985",
+    "#4d736e",
+    "#4e867b",
+    "#5384da",
+    "#5e77f5",
+    "#654f2b",
+    "#6951ad",
+    "#6f341d",
+    "#843b1a",
+    "#885aad",
+    "#aa6771",
+    "#b15533",
+    "#b39554",
+    "#bb8137",
+    "#c37268",
+    "#c77c33",
+    "#d08838",
+    "#e9a451",
+    "#f7e3b1",
+    "#f8c756",
+    "#fdc335"
+  ],
+  "calls": [
+    {
+      "tool": "run_lua_script",
+      "seconds": 1.612,
+      "result": "OK size=640x360 palette=31 layers=2\n"
+    },
+    {
+      "tool": "export_sprite",
+      "seconds": 0.204,
+      "result": "Sprite exported successfully to D:\\Apps\\Windows\\Expritimentos\\arte\\escenarios\\taberna-v01\\fondo.png"
+    },
+    {
+      "tool": "get_sprite_info",
+      "seconds": 0.172,
+      "result": "{\"width\":640,\"height\":360,\"color_mode\":\"indexed\",\"frames\":1,\"durations_ms\":[100],\"layers\":[{\"name\":\"arquitectura\",\"visible\":true,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"suelo_limpio\",\"visible\":true,\"opacity\":255,\"is_group\":false,\"parent\":null}],\"tags\":[]}\n"
+    },
+    {
+      "tool": "get_palette",
+      "seconds": 0.173,
+      "result": "[\"#000000\",\"#16161E\",\"#6F341D\",\"#344D2F\",\"#654F2B\",\"#143C5D\",\"#40367E\",\"#165564\",\"#4D736E\",\"#843B1A\",\"#B15533\",\"#C77C33\",\"#AA6771\",\"#C37268\",\"#3E807C\",\"#4E867B\",\"#BB8137\",\"#D08838\",\"#FDC335\",\"#B39554\",\"#E9A451\",\"#F8C756\",\"#2F3C83\",\"#443985\",\"#31478C\",\"#6951AD\",\"#3D68C4\",\"#5E77F5\",\"#885AAD\",\"#5384DA\",\"#F7E3B1\"]\n"
+    }
+  ]
+}

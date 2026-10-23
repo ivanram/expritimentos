@@ -73,6 +73,8 @@ La generación de imágenes puede ayudar a explorar conceptos; comprobar cuadrí
 
 ## Animación
 
+El [primer fondo independiente de la taberna](../arte/escenarios/taberna-v01/README.md) ya está disponible como PNG y original Aseprite: 640×360, 30 colores visibles, sin personajes ni mesa. Combina generación de imagen con preparación y limpieza programada mediante MCP. Estas características técnicas no suponen aprobación artística ni elección definitiva de resolución/paleta.
+
 Se han creado [dos tratamientos simplificados de la mesa redonda](../arte/conceptos/mesa-redonda-v02/README.md). El visor los presenta a 640×360; los archivos generados son mayores y no cumplen todavía una cuadrícula/paleta de producción. Valorar esta comparación antes de preparar originales separados o animaciones. La variante A tiene menos detalle que B, pero aún requiere limpieza y redibujo para producción.
 
 - Elegir siluetas claras y rasgos identificativos que puedan conservarse en cada pose.
