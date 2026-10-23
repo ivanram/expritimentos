@@ -1,0 +1,26 @@
+# Herramientas y dependencias instaladas localmente; conservan sus propios repos.
+/aseprite/
+/aseprite-live/
+/aseprite-mcp/
+/deps/
+
+# Inventarios, copias y resultados del mantenimiento de esta máquina.
+/mantenimiento/
+
+# Configuración y lanzadores locales del laboratorio.
+/.mcp.json
+/iniciar-*.bat
+
+# Archivos de entorno y compilación.
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.pyc
+build/
+dist/
+*.log
+.DS_Store
+Thumbs.db
