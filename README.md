@@ -1,5 +1,9 @@
 # Spanish Simulator
 
+> **🎮 [Abrir la demo pública: La última ronda](https://spanish-simulator-ultima-ronda.ivanra.chatgpt.site)**
+>
+> Prueba de la taberna con cinco personajes animados por separado. Pulsa **«Escena de prueba»** para ver charla, comida y pago con tarjeta, cartera y billetes. Se abre en el navegador sin instalar nada. Es un ensayo gráfico; el minijuego completo y el camarero están pendientes.
+
 Juego con estética **pixel art** compuesto por **minijuegos conectados entre sí sobre tópicos españoles**. Se desarrollará entre dos personas con ayuda de IA.
 
 ## Equipo
@@ -20,6 +24,16 @@ Este repositorio reúne el concepto, las decisiones y la investigación para pro
 El primer concepto ya está disponible en [este prototipo de Pagar la cuenta](https://spanish-simulator.salmeinmotion.com/).
 
 En una revisión inicial realizada el 23 de octubre de 2026 se observó una sala con QR y código de acceso, lista de jugadores e instrucciones para usar el móvil como mando: tocar para ofrecer el pago y deslizar al lado contrario del camarero para esquivar. No se ha probado una partida multijugador completa ni auditado su implementación. La tecnología del prototipo no se da por elegida para el juego definitivo y su aspecto no fija todavía la dirección artística final.
+
+## Primera prueba funcional de gráficos
+
+Se ha construido [La última ronda, una demo pública de la taberna](https://spanish-simulator-ultima-ronda.ivanra.chatgpt.site), con [código, originales e instrucciones](prototipos/taberna/README.md): cinco personajes con sus propios relojes, reposo, charla, un bocado sencillo y pago con tarjeta, cartera o billetes. Se puede pausar un actor mientras los otros siguen, sostener la oferta y cancelarla a mitad de la subida. El camarero queda fuera.
+
+El dibujo original está programado con Pillow y se ha importado, montado, etiquetado, auditado y exportado mediante llamadas reales a Aseprite MCP. Se incluyen los originales `.aseprite`, hojas PNG, metadatos, generador y visor. La revisión artística del equipo sigue pendiente; crear esta muestra no fija el estilo ni cierra las decisiones principales.
+
+Para probarla, clonar o descargar el repositorio y abrir `prototipos/taberna/index.html` o `ABRIR.bat`. Funciona sin instalar paquetes ni arrancar un servidor. Es un compositor de prueba, sin salas, mandos móviles ni reglas completas del minijuego.
+
+![Composición original de la prueba de taberna](prototipos/taberna/preview.png)
 
 ## Decisiones que necesitamos tomar
 
@@ -87,7 +101,7 @@ El [plan de producción con Aseprite MCP](docs/plan-escena-taberna.md) propone u
 
 Ivan R ha pedido que los personajes se animen de forma independiente, puedan charlar y levanten la mano para pagar con cartera, tarjeta o billetes. Comer es una posibilidad posterior. **El camarero se incorporará más adelante y queda fuera de la muestra inicial.**
 
-La producción propuesta empieza con una composición de cinco plazas y un personaje piloto; comprueba reposo, charla y pago antes de extenderlo al resto del elenco. Cada actor tendrá sus clips y su reloj; mesa, brazo, objeto y dedos se compondrán en el orden necesario para que el agarre se vea bien. El plan detalla las herramientas MCP, transiciones, exportaciones y criterios de comprobación. Todavía no se ha ejecutado.
+La producción propuesta empieza con una composición de cinco plazas y un personaje piloto; comprueba reposo, charla y pago antes de extenderlo al resto del elenco. La primera muestra ya se ha implementado con clips y relojes por actor y orden de mesa, brazo, objeto y dedos. El plan conserva la propuesta de trabajo; el resultado, sus comprobaciones y límites están en el [prototipo](prototipos/taberna/README.md).
 
 ## Referencia de estudio: recursos SCUMM
 
@@ -121,6 +135,6 @@ Para cada decisión importante anotaremos su número estable, pregunta, alternat
 - [Colaboración](docs/colaboracion.md): organización del trabajo entre dos personas y sus asistentes.
 - [Laboratorio local](docs/laboratorio.md): Aseprite, MCP, visor y experimentos gráficos recuperados.
 
-Actualmente este repositorio contiene planificación y documentación. El prototipo está en el enlace externo; su código, las herramientas instaladas y los gráficos del laboratorio no están incluidos aquí.
+Este repositorio contiene planificación, documentación y la prueba local de gráficos. El prototipo multijugador original sigue en el enlace externo; su código, las herramientas instaladas y los gráficos de los experimentos antiguos del laboratorio no se han incorporado.
 
 Para incorporarse con una IA, pedirle que lea primero AGENTS.md y los documentos que correspondan a su tarea. No todas las herramientas cargan automáticamente los mismos archivos.

@@ -1,0 +1,166 @@
+{
+  "method": "Original pixel art authored procedurally; imported, assembled, tagged, audited and exported through real stdio MCP calls. No generative image model was used.",
+  "mcp_seconds": 45.31,
+  "calls": [
+    {
+      "tool": "animation_workflow_guide",
+      "seconds": 0.012,
+      "result": "Animation Workflow Guide\nUse case: character\n- List the key poses before drawing. A jump is crouch -> stretch on takeoff -> airborne -> squash on landing; an attack is windup -> strike -> follow-through. An attack is 4-6 frames, a jump 5-7, a walk 6-8.\n- Draw each key pose on its own frame. copy_frame from the previous pose, erase_region the parts that move, then redraw them; never draw the new limb over the old one.\n- On a big move the whole body takes part: weight shifts, torso leans or turns, head follows the torso. On small moves keep at least a 1 px bob or lean. Feet stay on the same ground line unless the character is airborne.\n- Reuse the pixel boxes from the still: the head stays the same height and width in every frame. Check with render_onion_skin (scale 6), get_bounds (rise and fall frames should mirror) and compare_frames (layer_name/region to isolate a part): 0% means it did not change; a change box covering the whole sprite on a small move means it drifted.\n- Add anticipation before big moves (lean back before a strike, crouch before a jump).\n- Squash on impact, stretch on fast motion, and keep the overall volume about the same. Soft bodies (slimes, jelly) deform much"
+    },
+    {
+      "tool": "animation_workflow_guide",
+      "seconds": 0.007,
+      "result": "Animation Workflow Guide\nUse case: idle\n- An idle is a 2-6 frame breathing loop, never a pose held still: a fighter idles before and after every attack, and the attack starts from and returns to the idle pose.\n- Stance: feet about shoulder width or narrower, knees almost straight. A wide stance with bent knees reads as dancing as soon as it bobs.\n- Breath: torso, shoulders and head rise and fall 1 px together, on the same frame; the head moves with the shoulders. Only hair, cloth and capes lag one frame behind.\n- When the hips drop 1 px, the knees soften forward by 1 px. The feet never move.\n- Arms and a held weapon follow the shoulders by 1 px; the weapon tip may lag a frame, like cloth.\n- Timing: 150-300 ms per frame. Close the loop: the last frame flows into frame 1 (set_tag direction pingpong suits a 2-3 frame breath).\n- Check with compare_frames(layer_name=..., region=<feet>) that the feet do not change, and get_bounds that the top of the head moves 1 px at most."
+    },
+    {
+      "tool": "create_canvas",
+      "seconds": 0.523,
+      "result": "Canvas created successfully: D:\\Apps\\Windows\\Expritimentos\\prototipos\\taberna\\art\\taberna_fondo.aseprite"
+    },
+    {
+      "tool": "import_image_as_layer",
+      "seconds": 0.311,
+      "result": "Image D:\\Apps\\Windows\\Expritimentos\\prototipos\\taberna\\.work\\background.png imported onto 'taberna_fondo' frame 1 in D:\\Apps\\Windows\\Expritimentos\\prototipos\\taberna\\art\\taberna_fondo.aseprite"
+    },
+    {
+      "tool": "export_sprite",
+      "seconds": 0.279,
+      "result": "Sprite exported successfully to D:\\Apps\\Windows\\Expritimentos\\prototipos\\taberna\\assets\\background.png"
+    },
+    {
+      "tool": "create_canvas",
+      "seconds": 0.268,
+      "result": "Canvas created successfully: D:\\Apps\\Windows\\Expritimentos\\prototipos\\taberna\\art\\taberna_mesa.aseprite"
+    },
+    {
+      "tool": "import_image_as_layer",
+      "seconds": 0.359,
+      "result": "Image D:\\Apps\\Windows\\Expritimentos\\prototipos\\taberna\\.work\\table.png imported onto 'taberna_mesa' frame 1 in D:\\Apps\\Windows\\Expritimentos\\prototipos\\taberna\\art\\taberna_mesa.aseprite"
+    },
+    {
+      "tool": "export_sprite",
+      "seconds": 0.295,
+      "result": "Sprite exported successfully to D:\\Apps\\Windows\\Expritimentos\\prototipos\\taberna\\assets\\table.png"
+    },
+    {
+      "tool": "create_canvas",
+      "seconds": 0.276,
+      "result": "Canvas created successfully: D:\\Apps\\Windows\\Expritimentos\\prototipos\\taberna\\art\\objetos_mesa.aseprite"
+    },
+    {
+      "tool": "import_image_as_layer",
+      "seconds": 0.376,
+      "result": "Image D:\\Apps\\Windows\\Expritimentos\\prototipos\\taberna\\.work\\table_props.png imported onto 'objetos_mesa' frame 1 in D:\\Apps\\Windows\\Expritimentos\\prototipos\\taberna\\art\\objetos_mesa.aseprite"
+    },
+    {
+      "tool": "export_sprite",
+      "seconds": 0.266,
+      "result": "Sprite exported successfully to D:\\Apps\\Windows\\Expritimentos\\prototipos\\taberna\\assets\\table_props.png"
+    },
+    {
+      "tool": "create_canvas",
+      "seconds": 0.329,
+      "result": "Canvas created successfully: D:\\Apps\\Windows\\Expritimentos\\prototipos\\taberna\\art\\objetos_pago.aseprite"
+    },
+    {
+      "tool": "import_image_as_layer",
+      "seconds": 0.341,
+      "result": "Image D:\\Apps\\Windows\\Expritimentos\\prototipos\\taberna\\.work\\payment_props.png imported onto 'objetos_pago' frame 1 in D:\\Apps\\Windows\\Expritimentos\\prototipos\\taberna\\art\\objetos_pago.aseprite"
+    },
+    {
+      "tool": "export_sprite",
+      "seconds": 0.249,
+      "result": "Sprite exported successfully to D:\\Apps\\Windows\\Expritimentos\\prototipos\\taberna\\assets\\payment_props.png"
+    },
+    {
+      "tool": "run_lua_script",
+      "seconds": 3.704,
+      "result": "OK frames=27\n"
+    },
+    {
+      "tool": "get_sprite_info",
+      "seconds": 0.319,
+      "result": "{\"width\":112,\"height\":240,\"color_mode\":\"rgb\",\"frames\":27,\"durations_ms\":[1200,300,100,400,130,130,130,130,130,130,170,170,170,170,170,170,70,70,70,70,70,70,70,70,70,3800,120],\"layers\":[{\"name\":\"body\",\"visible\":true,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"arm\",\"visible\":true,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"grip_card\",\"visible\":false,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"grip_wallet\",\"visible\":false,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"grip_cash\",\"visible\":false,\"opacity\":255,\"is_group\":false,\"parent\":null}],\"tags\":[{\"name\":\"idle\",\"from\":1,\"to\":4,\"direction\":\"forward\"},{\"name\":\"talk\",\"from\":5,\"to\":10,\"direction\":\"forward\"},{\"name\":\"eat\",\"from\":11,\"to\":16,\"direction\":\"forward\"},{\"name\":\"pay_raise\",\"from\":17,\"to\":25,\"direction\":\"forward\"},{\"name\":\"pay_lower\",\"from\":17,\"to\":25,\"direction\":\"reverse\"},{\"name\":\"pay_hold\",\"from\":26,\"to\":27,\"direction\":\"forward\"}]}\n"
+    },
+    {
+      "tool": "audit_animation",
+      "seconds": 0.362,
+      "result": "{\"frames\":{\"start\":1,\"end\":27},\"summary\":{\"total_layers\":5,\"layers_checked\":5,\"total_cels\":135,\"overlaps\":0,\"overlaps_total\":0,\"overlaps_truncated\":false,\"out_of_range\":0},\"overlaps\":[],\"out_of_range\":[]}\n"
+    },
+    {
+      "tool": "run_lua_script",
+      "seconds": 6.271,
+      "result": "OK frames=27\n"
+    },
+    {
+      "tool": "get_sprite_info",
+      "seconds": 0.485,
+      "result": "{\"width\":112,\"height\":240,\"color_mode\":\"rgb\",\"frames\":27,\"durations_ms\":[1200,300,100,400,130,130,130,130,130,130,170,170,170,170,170,170,70,70,70,70,70,70,70,70,70,3800,120],\"layers\":[{\"name\":\"body\",\"visible\":true,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"arm\",\"visible\":true,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"grip_card\",\"visible\":false,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"grip_wallet\",\"visible\":false,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"grip_cash\",\"visible\":false,\"opacity\":255,\"is_group\":false,\"parent\":null}],\"tags\":[{\"name\":\"idle\",\"from\":1,\"to\":4,\"direction\":\"forward\"},{\"name\":\"talk\",\"from\":5,\"to\":10,\"direction\":\"forward\"},{\"name\":\"eat\",\"from\":11,\"to\":16,\"direction\":\"forward\"},{\"name\":\"pay_raise\",\"from\":17,\"to\":25,\"direction\":\"forward\"},{\"name\":\"pay_lower\",\"from\":17,\"to\":25,\"direction\":\"reverse\"},{\"name\":\"pay_hold\",\"from\":26,\"to\":27,\"direction\":\"forward\"}]}\n"
+    },
+    {
+      "tool": "audit_animation",
+      "seconds": 0.608,
+      "result": "{\"frames\":{\"start\":1,\"end\":27},\"summary\":{\"total_layers\":5,\"layers_checked\":5,\"total_cels\":135,\"overlaps\":0,\"overlaps_total\":0,\"overlaps_truncated\":false,\"out_of_range\":0},\"overlaps\":[],\"out_of_range\":[]}\n"
+    },
+    {
+      "tool": "run_lua_script",
+      "seconds": 6.68,
+      "result": "OK frames=27\n"
+    },
+    {
+      "tool": "get_sprite_info",
+      "seconds": 1.486,
+      "result": "{\"width\":112,\"height\":240,\"color_mode\":\"rgb\",\"frames\":27,\"durations_ms\":[1200,300,100,400,130,130,130,130,130,130,170,170,170,170,170,170,70,70,70,70,70,70,70,70,70,3800,120],\"layers\":[{\"name\":\"body\",\"visible\":true,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"arm\",\"visible\":true,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"grip_card\",\"visible\":false,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"grip_wallet\",\"visible\":false,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"grip_cash\",\"visible\":false,\"opacity\":255,\"is_group\":false,\"parent\":null}],\"tags\":[{\"name\":\"idle\",\"from\":1,\"to\":4,\"direction\":\"forward\"},{\"name\":\"talk\",\"from\":5,\"to\":10,\"direction\":\"forward\"},{\"name\":\"eat\",\"from\":11,\"to\":16,\"direction\":\"forward\"},{\"name\":\"pay_raise\",\"from\":17,\"to\":25,\"direction\":\"forward\"},{\"name\":\"pay_lower\",\"from\":17,\"to\":25,\"direction\":\"reverse\"},{\"name\":\"pay_hold\",\"from\":26,\"to\":27,\"direction\":\"forward\"}]}\n"
+    },
+    {
+      "tool": "audit_animation",
+      "seconds": 1.184,
+      "result": "{\"frames\":{\"start\":1,\"end\":27},\"summary\":{\"total_layers\":5,\"layers_checked\":5,\"total_cels\":135,\"overlaps\":0,\"overlaps_total\":0,\"overlaps_truncated\":false,\"out_of_range\":0},\"overlaps\":[],\"out_of_range\":[]}\n"
+    },
+    {
+      "tool": "run_lua_script",
+      "seconds": 5.033,
+      "result": "OK frames=27\n"
+    },
+    {
+      "tool": "get_sprite_info",
+      "seconds": 0.283,
+      "result": "{\"width\":112,\"height\":240,\"color_mode\":\"rgb\",\"frames\":27,\"durations_ms\":[1200,300,100,400,130,130,130,130,130,130,170,170,170,170,170,170,70,70,70,70,70,70,70,70,70,3800,120],\"layers\":[{\"name\":\"body\",\"visible\":true,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"arm\",\"visible\":true,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"grip_card\",\"visible\":false,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"grip_wallet\",\"visible\":false,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"grip_cash\",\"visible\":false,\"opacity\":255,\"is_group\":false,\"parent\":null}],\"tags\":[{\"name\":\"idle\",\"from\":1,\"to\":4,\"direction\":\"forward\"},{\"name\":\"talk\",\"from\":5,\"to\":10,\"direction\":\"forward\"},{\"name\":\"eat\",\"from\":11,\"to\":16,\"direction\":\"forward\"},{\"name\":\"pay_raise\",\"from\":17,\"to\":25,\"direction\":\"forward\"},{\"name\":\"pay_lower\",\"from\":17,\"to\":25,\"direction\":\"reverse\"},{\"name\":\"pay_hold\",\"from\":26,\"to\":27,\"direction\":\"forward\"}]}\n"
+    },
+    {
+      "tool": "audit_animation",
+      "seconds": 0.335,
+      "result": "{\"frames\":{\"start\":1,\"end\":27},\"summary\":{\"total_layers\":5,\"layers_checked\":5,\"total_cels\":135,\"overlaps\":0,\"overlaps_total\":0,\"overlaps_truncated\":false,\"out_of_range\":0},\"overlaps\":[],\"out_of_range\":[]}\n"
+    },
+    {
+      "tool": "run_lua_script",
+      "seconds": 5.977,
+      "result": "OK frames=27\n"
+    },
+    {
+      "tool": "get_sprite_info",
+      "seconds": 0.369,
+      "result": "{\"width\":112,\"height\":240,\"color_mode\":\"rgb\",\"frames\":27,\"durations_ms\":[1200,300,100,400,130,130,130,130,130,130,170,170,170,170,170,170,70,70,70,70,70,70,70,70,70,3800,120],\"layers\":[{\"name\":\"body\",\"visible\":true,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"arm\",\"visible\":true,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"grip_card\",\"visible\":false,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"grip_wallet\",\"visible\":false,\"opacity\":255,\"is_group\":false,\"parent\":null},{\"name\":\"grip_cash\",\"visible\":false,\"opacity\":255,\"is_group\":false,\"parent\":null}],\"tags\":[{\"name\":\"idle\",\"from\":1,\"to\":4,\"direction\":\"forward\"},{\"name\":\"talk\",\"from\":5,\"to\":10,\"direction\":\"forward\"},{\"name\":\"eat\",\"from\":11,\"to\":16,\"direction\":\"forward\"},{\"name\":\"pay_raise\",\"from\":17,\"to\":25,\"direction\":\"forward\"},{\"name\":\"pay_lower\",\"from\":17,\"to\":25,\"direction\":\"reverse\"},{\"name\":\"pay_hold\",\"from\":26,\"to\":27,\"direction\":\"forward\"}]}\n"
+    },
+    {
+      "tool": "audit_animation",
+      "seconds": 1.206,
+      "result": "{\"frames\":{\"start\":1,\"end\":27},\"summary\":{\"total_layers\":5,\"layers_checked\":5,\"total_cels\":135,\"overlaps\":0,\"overlaps_total\":0,\"overlaps_truncated\":false,\"out_of_range\":0},\"overlaps\":[],\"out_of_range\":[]}\n"
+    },
+    {
+      "tool": "draw_rows",
+      "seconds": 1.414,
+      "result": "Drew 5 pixels (3x3 rows at 15,7) on 'objetos_pago' frame 1 in D:\\Apps\\Windows\\Expritimentos\\prototipos\\taberna\\art\\objetos_pago.aseprite"
+    },
+    {
+      "tool": "export_sprite",
+      "seconds": 0.744,
+      "result": "Sprite exported successfully to D:\\Apps\\Windows\\Expritimentos\\prototipos\\taberna\\assets\\payment_props.png"
+    },
+    {
+      "tool": "get_color_stats",
+      "seconds": 1.753,
+      "result": "{\"frame\": 1, \"unique_colors\": 18, \"opaque_pixels\": 8948, \"top_colors\": [{\"color\": \"#D77C60\", \"count\": 1855}, {\"color\": \"#465469\", \"count\": 1295}, {\"color\": \"#282633\", \"count\": 1163}, {\"color\": \"#E6AC7B\", \"count\": 1098}, {\"color\": \"#F4DCAA\", \"count\": 859}, {\"color\": \"#8D4850\", \"count\": 590}, {\"color\": \"#493340\", \"count\": 585}, {\"color\": \"#B87962\", \"count\": 433}, {\"color\": \"#493A42\", \"count\": 332}, {\"color\": \"#738391\", \"count\": 262}, {\"color\": \"#77505A\", \"count\": 154}, {\"color\": \"#FFCF95\", \"count\": 109}]}"
+    }
+  ]
+}

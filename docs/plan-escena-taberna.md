@@ -2,7 +2,7 @@
 
 Fecha: 23 de octubre de 2026. Preparado a petición de Ivan R (kapichu). Equipo: Ivan R e Ivan S (Alcachofo).
 
-Este documento es un **plan**, no una escena ya dibujada ni un método artístico validado. Usa las capacidades verificadas en el código del MCP local de Aseprite y la [investigación previa](investigacion-graficos.md).
+Este documento conserva el **plan de producción**. A petición posterior de Ivan R, se ha construido una [primera muestra funcional](../prototipos/taberna/README.md) con originales y exportaciones mediante MCP. El resultado no convierte las hipótesis de estilo en decisiones artísticas aprobadas. El plan parte de las capacidades del MCP local y la [investigación previa](investigacion-graficos.md).
 
 ## 1. Alcance solicitado y decisiones provisionales
 

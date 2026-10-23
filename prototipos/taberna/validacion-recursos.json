@@ -1,0 +1,15 @@
+{
+  "originales_aseprite": 9,
+  "personajes": 5,
+  "fotogramas_por_personaje": 27,
+  "hojas_verificadas": 25,
+  "pases_por_personaje": 5,
+  "tipos_objeto": [
+    "tarjeta",
+    "cartera",
+    "billetes"
+  ],
+  "bytes_assets": 450879,
+  "resultado": "OK",
+  "alcance": "Estructura tecnica; calidad artistica pendiente de valoracion del equipo."
+}

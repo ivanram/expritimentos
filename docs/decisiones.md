@@ -41,6 +41,8 @@ El [plan de producción](plan-escena-taberna.md) desarrolla cómo podría hacers
 - En la herramienta SCUMM se observó la sala 7 de Day of the Tentacle y las secciones de escenarios, personajes/animaciones y música/sonidos. Esta consulta no supone elegir ese estilo para Spanish Simulator.
 - Ivan R aportó una captura de la escena actual de Pagar la cuenta y pidió investigar un proceso más eficaz, planteando separar el fondo. La petición no supone aprobar el estilo de esa captura ni una separación de recursos concreta.
 - Se realizó una prueba sintética del MCP local: 20 rectángulos mediante llamadas individuales frente a una llamada con un lote Lua. Las medianas fueron 5,476 s y 0,263 s, con píxeles idénticos en tres rondas. La [investigación](investigacion-graficos.md) documenta condiciones y límites; no se midió calidad artística ni ahorro de tokens.
+- Ivan R autorizó ejecutar el plan para probar su viabilidad y resultado. Se ha construido [una muestra local](../prototipos/taberna/README.md) con cinco actores independientes, charla, comida sencilla y pago con tres tipos de objeto, sin camarero. Se publican su código, nueve originales `.aseprite` y exportaciones; los experimentos antiguos y las herramientas instaladas siguen fuera del repositorio.
+- La prueba usa arte original programado con Pillow y llamadas reales a MCP para importar, montar, etiquetar, auditar y exportar. No se ha utilizado generación de imágenes ni recursos extraídos de SCUMM en esa muestra. El detalle de herramientas y tiempos está en `prototipos/taberna/produccion-mcp.json`.
 
 ## Pendiente de decidir con el equipo
 
@@ -74,7 +76,9 @@ Todavía no se ha registrado un cierre de los puntos 01–22.
 
 Los puntos **02, 08, 09, 10 y 16–22** están **En conversación** a raíz de la investigación y el plan sobre la escena actual. El porcentaje de cierre de cada uno sigue en 0 % y el global continúa en 0/22. La organización concreta de capas, el estilo y las herramientas adicionales candidatas son propuestas del asistente. Los requisitos parciales expresados por Ivan R se recogen arriba.
 
-La prueba artística actual propuesta es una composición, un fondo limpio, una mesa independiente y un personaje con reposo, charla y pago con tarjeta, cartera y billetes. Comer es opcional y se pospone; camarero y esquivar quedan fuera de esta primera muestra. Falta producirla, evaluar el resultado visual y acordar el método; no confundir la medición de rectángulos con esa validación.
+La primera muestra ya permite probar la composición, el fondo y la mesa independientes, cinco actores con reposo y charla y el pago con tarjeta, cartera y billetes. Incluye comida sencilla; camarero y esquivar quedan fuera. Falta evaluar el resultado visual y acordar si este método y acabado sirven para producción. La autorización de construir el ensayo no equivale a aprobar su estética ni a cerrar los puntos 01–22.
+
+Ivan R pidió publicar esta muestra para que Alcachofo pudiera verla y destacar su acceso al principio del README. La [demo pública](https://spanish-simulator-ultima-ronda.ivanra.chatgpt.site) se publicó el 23 de octubre de 2026. Esta publicación no fija la plataforma ni la tecnología del juego definitivo.
 
 ## Propuestas pendientes de validar
 

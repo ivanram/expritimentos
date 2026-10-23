@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>La última ronda · Spanish Simulator</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="#"><span class="brand-mark">SS<span>·</span></span><span>SPANISH<br>SIMULATOR</span></a><div class="edition">LABORATORIO DE ARTE <span>01</span></div><a class="source-link" href="https://github.com/ivanram/expritimentos" target="_blank" rel="noreferrer">Ver proyecto ↗</a></header>
+  <main>
+    <div class="intro"><div><p class="eyebrow">UNA ESCENA, CINCO RITMOS</p><h1>La última ronda<span>.</span></h1><p class="lede">Una taberna para charlar, picar algo… e insistir en pagar.</p></div><div class="intro-badge"><span class="dot"></span><div>Prototipo de animación<small>Personajes y escenario independientes</small></div></div></div>
+    <div class="workspace">
+      <section class="stage-column" aria-label="Escena y personajes">
+        <div class="stage-toolbar"><span><span class="live-dot"></span> TABERNA · ATARDECER</span><div><button id="pause-all" class="icon-button" aria-pressed="false">Ⅱ Pausar escena</button><button id="reset" class="icon-button">↺ Reiniciar</button></div></div>
+        <div class="stage-wrap"><canvas id="scene" width="640" height="360" tabindex="0" aria-label="Escena de taberna con Lola, Paco, Nora, Dani y Rosa. Selecciona un personaje con los botones de debajo."></canvas><div id="loading" role="status">Preparando la mesa…</div></div>
+        <div class="stage-caption"><span>Selecciona a alguien para dirigir su animación.</span><span class="shortcut"><kbd>1–5</kbd> personaje <kbd>Espacio</kbd> mantener el pago</span></div>
+        <div id="people" class="people" aria-label="Elegir personaje"></div>
+        <div class="experiment"><span class="experiment-icon">✳</span><div><strong>Haz que cada uno vaya a lo suyo.</strong><p>Prueba distintas acciones a la vez. El camarero llegará en una próxima versión.</p></div><button id="mixed" class="secondary">Escena de prueba ↗</button></div>
+      </section>
+      <aside class="inspector" aria-labelledby="selected-name">
+        <div class="inspector-heading"><div><p class="eyebrow">PERSONAJE SELECCIONADO</p><h2 id="selected-name">Lola</h2></div><span id="person-number" class="person-number">01</span></div>
+        <p id="actor-status" class="actor-status" role="status">En reposo</p>
+        <section class="control-group"><h3>Su momento</h3><div class="action-grid"><button class="action" data-action="idle"><span>◌</span>Reposo</button><button class="action" data-action="talk"><span>···</span>Charlar</button><button class="action" data-action="eat"><span>♧</span>Picar algo</button></div></section>
+        <section class="control-group"><h3>¿Con qué invita?</h3><div class="object-grid"><button class="object active" data-object="card"><span class="mini-card"></span>Tarjeta</button><button class="object" data-object="wallet"><span class="mini-wallet"></span>Cartera</button><button class="object" data-object="cash"><span class="mini-cash"></span>Billetes</button></div><p id="object-hint" class="hint">El objeto acompaña a su mano durante todo el gesto.</p><button id="pay" class="pay-button">Yo invito <span>↑</span></button></section>
+        <div class="actor-options"><button id="freeze" class="secondary" aria-pressed="false">Ⅱ Pausar personaje</button><label class="toggle"><input id="ambient" type="checkbox" checked>Ambiente automático</label></div>
+        <details class="inspection"><summary>Mirar entre bastidores <span>+</span></summary><div class="layer-controls"><label><input id="show-bg" type="checkbox" checked> Fondo</label><label><input id="show-table" type="checkbox" checked> Mesa</label><label><input id="show-anchors" type="checkbox"> Anclajes de mano</label></div><label class="speed-control">Velocidad <select id="speed"><option value="0.5">0,5×</option><option value="1" selected>1×</option><option value="1.5">1,5×</option></select></label><table class="telemetry"><caption>Estado independiente de cada actor</caption><thead><tr><th>Actor</th><th>Acción</th><th>Frame</th></tr></thead><tbody id="telemetry"></tbody></table><p class="hint">Originales .aseprite y hojas de sprites montados y exportados con MCP. Esta prueba es local; no incluye salas ni mandos móviles.</p></details>
+      </aside>
+    </div>
+    <footer><span>Hecho para explorar, no para dar el estilo por cerrado.</span><span>kapichu + Alcachofo <span class="footer-dot">/</span> Spanish Simulator</span></footer>
+    <p id="error" class="error" role="alert" hidden></p>
+  </main>
+  <script src="assets/manifest.js"></script><script src="animacion.js"></script><script src="visor.js"></script>
+</body>
+</html>
