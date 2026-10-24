@@ -9,7 +9,7 @@ ROOT=HERE.parents[2]
 scratch=ROOT/'mantenimiento/pxl-estilo-v02-verificacion'
 scratch.mkdir(parents=True,exist_ok=True)
 report={'sprites':{}}
-for name in ('nora_0','ines','teo'):
+for name in (*(f'nora_{i}' for i in range(8)), 'ines', 'teo'):
     im=Image.open(HERE/'out/sprites'/f'{name}.png').convert('RGBA')
     assert set(im.getchannel('A').tobytes()) <= {0,255}
     report['sprites'][name]={'canvas':list(im.size),'ink_bounds':list(im.getbbox()),
@@ -22,8 +22,9 @@ expected=Image.open(HERE/'out/anims/pago.png').convert('RGBA')
 actual=Image.open(scratch/'pago.png').convert('RGBA')
 assert actual.size == expected.size and actual.tobytes() == expected.tobytes()
 metadata=json.loads((scratch/'pago.json').read_text(encoding='utf-8'))
-assert len(metadata['frames'])==24
-report['animation']={'canvas':[36,56],'frames':24,'duration_ms':3000,
+assert len(metadata['frames'])==36
+report['animation']={'canvas':[36,56],'frames':36,
+    'duration_ms':sum(frame['duration'] for frame in metadata['frames']),
     'aseprite_roundtrip_identical':True}
 report['scope']='Comprobación técnica; no valida semejanza estilística ni aprobación artística.'
 (HERE/'verificacion.json').write_text(json.dumps(report,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')

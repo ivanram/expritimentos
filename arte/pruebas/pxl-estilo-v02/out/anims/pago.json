@@ -19,7 +19,7 @@
     "w": 36,
     "h": 56
    },
-   "duration": 125
+   "duration": 83
   },
   "pago_1": {
    "frame": {
@@ -40,7 +40,7 @@
     "w": 36,
     "h": 56
    },
-   "duration": 125
+   "duration": 83
   },
   "pago_2": {
    "frame": {
@@ -61,7 +61,7 @@
     "w": 36,
     "h": 56
    },
-   "duration": 125
+   "duration": 83
   },
   "pago_3": {
    "frame": {
@@ -82,7 +82,7 @@
     "w": 36,
     "h": 56
    },
-   "duration": 125
+   "duration": 83
   },
   "pago_4": {
    "frame": {
@@ -103,7 +103,7 @@
     "w": 36,
     "h": 56
    },
-   "duration": 125
+   "duration": 83
   },
   "pago_5": {
    "frame": {
@@ -124,7 +124,7 @@
     "w": 36,
     "h": 56
    },
-   "duration": 125
+   "duration": 83
   },
   "pago_6": {
    "frame": {
@@ -145,7 +145,7 @@
     "w": 36,
     "h": 56
    },
-   "duration": 125
+   "duration": 83
   },
   "pago_7": {
    "frame": {
@@ -166,7 +166,7 @@
     "w": 36,
     "h": 56
    },
-   "duration": 125
+   "duration": 83
   },
   "pago_8": {
    "frame": {
@@ -187,7 +187,7 @@
     "w": 36,
     "h": 56
    },
-   "duration": 125
+   "duration": 83
   },
   "pago_9": {
    "frame": {
@@ -208,7 +208,7 @@
     "w": 36,
     "h": 56
    },
-   "duration": 125
+   "duration": 83
   },
   "pago_10": {
    "frame": {
@@ -229,7 +229,7 @@
     "w": 36,
     "h": 56
    },
-   "duration": 125
+   "duration": 83
   },
   "pago_11": {
    "frame": {
@@ -250,7 +250,7 @@
     "w": 36,
     "h": 56
    },
-   "duration": 125
+   "duration": 83
   },
   "pago_12": {
    "frame": {
@@ -271,7 +271,7 @@
     "w": 36,
     "h": 56
    },
-   "duration": 125
+   "duration": 83
   },
   "pago_13": {
    "frame": {
@@ -292,7 +292,7 @@
     "w": 36,
     "h": 56
    },
-   "duration": 125
+   "duration": 83
   },
   "pago_14": {
    "frame": {
@@ -313,7 +313,7 @@
     "w": 36,
     "h": 56
    },
-   "duration": 125
+   "duration": 83
   },
   "pago_15": {
    "frame": {
@@ -334,7 +334,7 @@
     "w": 36,
     "h": 56
    },
-   "duration": 125
+   "duration": 83
   },
   "pago_16": {
    "frame": {
@@ -355,7 +355,7 @@
     "w": 36,
     "h": 56
    },
-   "duration": 125
+   "duration": 83
   },
   "pago_17": {
    "frame": {
@@ -376,7 +376,7 @@
     "w": 36,
     "h": 56
    },
-   "duration": 125
+   "duration": 83
   },
   "pago_18": {
    "frame": {
@@ -397,7 +397,7 @@
     "w": 36,
     "h": 56
    },
-   "duration": 125
+   "duration": 83
   },
   "pago_19": {
    "frame": {
@@ -418,7 +418,7 @@
     "w": 36,
     "h": 56
    },
-   "duration": 125
+   "duration": 83
   },
   "pago_20": {
    "frame": {
@@ -439,7 +439,7 @@
     "w": 36,
     "h": 56
    },
-   "duration": 125
+   "duration": 83
   },
   "pago_21": {
    "frame": {
@@ -460,7 +460,7 @@
     "w": 36,
     "h": 56
    },
-   "duration": 125
+   "duration": 83
   },
   "pago_22": {
    "frame": {
@@ -481,7 +481,7 @@
     "w": 36,
     "h": 56
    },
-   "duration": 125
+   "duration": 83
   },
   "pago_23": {
    "frame": {
@@ -502,7 +502,259 @@
     "w": 36,
     "h": 56
    },
-   "duration": 125
+   "duration": 83
+  },
+  "pago_24": {
+   "frame": {
+    "x": 864,
+    "y": 0,
+    "w": 36,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 36,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 36,
+    "h": 56
+   },
+   "duration": 83
+  },
+  "pago_25": {
+   "frame": {
+    "x": 900,
+    "y": 0,
+    "w": 36,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 36,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 36,
+    "h": 56
+   },
+   "duration": 83
+  },
+  "pago_26": {
+   "frame": {
+    "x": 936,
+    "y": 0,
+    "w": 36,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 36,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 36,
+    "h": 56
+   },
+   "duration": 83
+  },
+  "pago_27": {
+   "frame": {
+    "x": 972,
+    "y": 0,
+    "w": 36,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 36,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 36,
+    "h": 56
+   },
+   "duration": 83
+  },
+  "pago_28": {
+   "frame": {
+    "x": 1008,
+    "y": 0,
+    "w": 36,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 36,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 36,
+    "h": 56
+   },
+   "duration": 83
+  },
+  "pago_29": {
+   "frame": {
+    "x": 1044,
+    "y": 0,
+    "w": 36,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 36,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 36,
+    "h": 56
+   },
+   "duration": 83
+  },
+  "pago_30": {
+   "frame": {
+    "x": 1080,
+    "y": 0,
+    "w": 36,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 36,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 36,
+    "h": 56
+   },
+   "duration": 83
+  },
+  "pago_31": {
+   "frame": {
+    "x": 1116,
+    "y": 0,
+    "w": 36,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 36,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 36,
+    "h": 56
+   },
+   "duration": 83
+  },
+  "pago_32": {
+   "frame": {
+    "x": 1152,
+    "y": 0,
+    "w": 36,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 36,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 36,
+    "h": 56
+   },
+   "duration": 83
+  },
+  "pago_33": {
+   "frame": {
+    "x": 1188,
+    "y": 0,
+    "w": 36,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 36,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 36,
+    "h": 56
+   },
+   "duration": 83
+  },
+  "pago_34": {
+   "frame": {
+    "x": 1224,
+    "y": 0,
+    "w": 36,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 36,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 36,
+    "h": 56
+   },
+   "duration": 83
+  },
+  "pago_35": {
+   "frame": {
+    "x": 1260,
+    "y": 0,
+    "w": 36,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 36,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 36,
+    "h": 56
+   },
+   "duration": 83
   }
  },
  "meta": {
@@ -510,7 +762,7 @@
   "image": "pago.png",
   "format": "RGBA8888",
   "size": {
-   "w": 864,
+   "w": 1296,
    "h": 56
   },
   "scale": "1",
@@ -518,7 +770,7 @@
    {
     "name": "pago",
     "from": 0,
-    "to": 23,
+    "to": 35,
     "direction": "forward"
    }
   ]

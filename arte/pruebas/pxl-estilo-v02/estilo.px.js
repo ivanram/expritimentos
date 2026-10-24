@@ -67,13 +67,53 @@ const NORA_BODY=gridRows([
 '..........kk.....kkk',
 ]);
 
-// Cada brazo es una pose de píxeles nueva; mismo hombro y tamaño de mano.
+// Hombro (19,27). El codo también sube: dos segmentos de unos 6–7 px.
+// Las coordenadas de codo sirven para revisar el gesto, no para rotar recortes.
+// Manga de cuatro píxeles, antebrazo de tres, muñeca de dos y pulgar en la tarjeta.
 const ARM_POSES=[
-  {hand:[25,34],rows:{27:[[21,'Rrr']],28:[[22,'rrr']],29:[[22,'Rrr']],30:[[23,'rr']],31:[[23,'rs']],32:[[23,'sff']],33:[[24,'ff']],34:[[24,'sf']]}},
-  {hand:[27,32],rows:{27:[[21,'Rrr']],28:[[22,'rrr']],29:[[23,'rrr']],30:[[24,'rss']],31:[[25,'sff']],32:[[26,'sf']]}},
-  {hand:[29,28],rows:{27:[[21,'Rrr'],[28,'sf']],28:[[22,'Rrr'],[28,'ff']],29:[[23,'Rrr'],[27,'ff']],30:[[24,'rrsff']],31:[[25,'rss']]}},
-  {hand:[29,22],rows:{22:[[28,'sf']],23:[[28,'ff']],24:[[28,'ff']],25:[[28,'ff']],26:[[28,'ff']],27:[[21,'Rrr'],[28,'sf']],28:[[22,'Rrr'],[27,'ff']],29:[[23,'Rrrffs']],30:[[24,'rrss']]}},
-  {hand:[27,16],rows:{16:[[26,'sf']],17:[[26,'ff']],18:[[26,'ff']],19:[[26,'ff']],20:[[26,'ff']],21:[[26,'ff']],22:[[26,'ff']],23:[[26,'ff']],24:[[26,'ff']],25:[[26,'ff']],26:[[26,'ff']],27:[[21,'Rrr'],[26,'sf']],28:[[22,'Rrrfs']],29:[[23,'rss']]}},
+  {elbow:[23,32],hand:[25,38],rows:{
+    26:[[19,'rrR']],27:[[19,'rorr']],28:[[20,'rorr']],29:[[20,'Rrrr']],
+    30:[[21,'Rrrr']],31:[[21,'Rrrr']],32:[[22,'Rssf']],
+    33:[[22,'sff']],34:[[23,'sff']],35:[[23,'sff']],36:[[24,'sff']],
+    37:[[24,'sff']],38:[[24,'sff']],39:[[25,'s']],
+  }},
+  {elbow:[25,30],hand:[30,34],rows:{
+    26:[[19,'rrR']],27:[[19,'rorrr']],28:[[20,'Rrorrr']],
+    29:[[21,'Rrrrff']],30:[[22,'RRrsfff']],31:[[24,'ssfff']],
+    32:[[26,'sfff']],33:[[28,'sff']],34:[[29,'sff']],35:[[30,'s']],
+  }},
+  {elbow:[26,29],hand:[32,30],rows:{
+    26:[[19,'rrR']],27:[[19,'rorrr']],28:[[20,'Rrorrrfff']],
+    29:[[21,'Rrrrrfffffff']],30:[[23,'RRrssssfff']],31:[[30,'sf']],
+  }},
+  {elbow:[26,27],hand:[32,25],rows:{
+    24:[[31,'sff']],25:[[19,'rrR'],[29,'ffff']],
+    26:[[19,'rorrrrrfffff']],27:[[19,'Rrrrrrrffss']],
+    28:[[20,'RRRRRsss']],
+  }},
+  {elbow:[26,25],hand:[31,20],rows:{
+    20:[[30,'sff']],21:[[29,'sfff']],22:[[28,'sfff']],23:[[27,'sfff']],
+    24:[[24,'rrrfff']],25:[[21,'rrorrffs']],26:[[19,'rrorrrs']],
+    27:[[19,'RrrrrR']],28:[[20,'RRR']],
+  }},
+  {elbow:[25,23],hand:[28,17],rows:{
+    17:[[27,'sff']],18:[[27,'sff']],19:[[26,'sfff']],
+    20:[[26,'sff']],21:[[25,'sfff']],22:[[24,'rsff']],
+    23:[[23,'rrrfs']],24:[[22,'rorrr']],25:[[20,'rrorr']],
+    26:[[19,'rorrr']],27:[[19,'RrrR']],28:[[20,'RR']],
+  }},
+  {elbow:[24,22],hand:[26,15],rows:{
+    15:[[25,'sff']],16:[[25,'sff']],17:[[25,'sff']],18:[[24,'sfff']],
+    19:[[24,'sff']],20:[[23,'sfff']],21:[[23,'rsff']],
+    22:[[22,'rrrfs']],23:[[21,'rorrr']],24:[[20,'rrorR']],
+    25:[[19,'rrorR']],26:[[19,'rrrR']],27:[[19,'RrR']],
+  }},
+  {elbow:[23,21],hand:[24,14],rows:{
+    14:[[23,'sff']],15:[[23,'sff']],16:[[23,'sff']],17:[[23,'sff']],
+    18:[[22,'sfff']],19:[[22,'sff']],20:[[22,'rsff']],
+    21:[[21,'rrrfs']],22:[[21,'rorR']],23:[[20,'rorr']],
+    24:[[20,'rorR']],25:[[19,'rorR']],26:[[19,'rrrR']],27:[[19,'RrR']],
+  }},
 ];
 sprite('_nora_cabeza',{w:32,h:26},grid(0,5,NORA_HEAD));
 sprite('_nora_cuerpo',{w:32,h:56,sockets:{hombro:[21,27]}},grid(0,24,NORA_BODY));
@@ -84,7 +124,7 @@ sprite('_nora_brazo_libre',{w:32,h:56},runs({
 sprite('_tarjeta',{w:7,h:5,pivot:[3,4]},grid(0,0,'bbbbbb.\nbwwbbbB\nbbybbbB\nbbbbbbB\n.BBBBB.'));
 for(let i=0;i<ARM_POSES.length;i++){
   const pose=ARM_POSES[i];
-  sprite(`_nora_brazo_${i}`,{w:32,h:56,sockets:{mano:pose.hand}},runs(pose.rows));
+  sprite(`_nora_brazo_${i}`,{w:36,h:56,sockets:{mano:pose.hand}},runs(pose.rows));
   sprite(`nora_${i}`,{w:36,h:56,layers:true},
     layer('cuerpo',stamp('_nora_cuerpo',0,0)),
     layer('brazo_libre',stamp('_nora_brazo_libre',0,0)),
@@ -187,8 +227,8 @@ sprite('teo',{w:32,h:56,layers:true},
 ]))));
 
 // Poses discretas, con pausas: no interpolación ni rotaciones de muñecos.
-const LOOP=[0,0,0,0,0,0,1,2,3,4,4,4,4,4,4,4,4,3,2,1,0,0,0,0];
-anim('pago',{w:36,h:56,frames:24,fps:8,layers:true},
+const LOOP=[...Array(6).fill(0),1,2,3,4,5,6,...Array(10).fill(7),6,5,4,3,2,1,...Array(8).fill(0)];
+anim('pago',{w:36,h:56,frames:LOOP.length,fps:12,layers:true},
   layer('cuerpo',stamp('_nora_cuerpo',0,0)),
   layer('brazo_libre',stamp('_nora_brazo_libre',0,0)),
   layer('brazo_pago',c=>c.stamp(`_nora_brazo_${LOOP[c.frame]}`,0,0,{id:'brazo'})),
@@ -200,8 +240,8 @@ anim('pago',{w:36,h:56,frames:24,fps:8,layers:true},
   layer('cabeza',stamp('_nora_cabeza',0,0)));
 scene('amigos',{w:166,h:78,bg:'a'},
   stamp('ines',18,19),stamp('nora_0',66,13),stamp('teo',113,19));
-scene('poses',{w:218,h:78,bg:'a'},
-  stamp('nora_0',8,13),stamp('nora_1',50,13),stamp('nora_2',92,13),stamp('nora_3',134,13),stamp('nora_4',176,13));
+scene('poses',{w:176,h:144,bg:'a'},
+  ...ARM_POSES.map((_,i)=>stamp(`nora_${i}`,8+(i%4)*42,8+Math.floor(i/4)*70)));
 scene('animacion',{w:166,h:78,bg:'a'},
   stamp('ines',18,19),stamp('pago',66,13),stamp('teo',113,19));
 sheet('personajes',['ines','nora_0','teo'],{pad:2});
