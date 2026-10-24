@@ -1,6 +1,6 @@
 # Spanish Simulator
 
-> **[Pepo: cuatro vistas y cara revisada](arte/personajes/pepo-v02/README.md)** · Frontal, tres cuartos, perfil y espalda, con una revisión de nariz, boca y barba tras los comentarios de Ivan R. [Ver ficha visual](arte/personajes/pepo-v02/out/share/vistas.png). Diseño pendiente de valoración; incluye PNG y originales Aseprite.
+> **[Pepo: ocho orientaciones y postura revisada](arte/personajes/pepo-v03/README.md)** · Cabeza centrada, brazo libre más largo y mano izquierda en el bolsillo. [Ver las ocho vistas](arte/personajes/pepo-v03/out/share/vistas.png) · [Estudios desde arriba y abajo](arte/personajes/pepo-v03/out/share/camaras.png). Diseño pendiente de valoración; incluye PNG y originales Aseprite.
 
 > **🧪 [Nueva prueba de estilo: personajes pequeños en 2D](arte/pruebas/pxl-estilo-v02/README.md)** · [Ver imagen](arte/pruebas/pxl-estilo-v02/out/share/amigos.png) · [Ver animación](arte/pruebas/pxl-estilo-v02/out/share/animacion.gif)
 >

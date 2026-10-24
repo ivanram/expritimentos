@@ -1,0 +1,174 @@
+{
+ "frames": {
+  "frontal": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 88
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 88
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 88
+   }
+  },
+  "frente_d": {
+   "frame": {
+    "x": 66,
+    "y": 0,
+    "w": 64,
+    "h": 88
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 88
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 88
+   }
+  },
+  "perfil_d": {
+   "frame": {
+    "x": 132,
+    "y": 0,
+    "w": 64,
+    "h": 88
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 88
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 88
+   }
+  },
+  "dorso_d": {
+   "frame": {
+    "x": 0,
+    "y": 90,
+    "w": 64,
+    "h": 88
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 88
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 88
+   }
+  },
+  "espalda": {
+   "frame": {
+    "x": 66,
+    "y": 90,
+    "w": 64,
+    "h": 88
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 88
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 88
+   }
+  },
+  "dorso_i": {
+   "frame": {
+    "x": 132,
+    "y": 90,
+    "w": 64,
+    "h": 88
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 88
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 88
+   }
+  },
+  "perfil_i": {
+   "frame": {
+    "x": 0,
+    "y": 180,
+    "w": 64,
+    "h": 88
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 88
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 88
+   }
+  },
+  "frente_i": {
+   "frame": {
+    "x": 66,
+    "y": 180,
+    "w": 64,
+    "h": 88
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 88
+   },
+   "sourceSize": {
+    "w": 64,
+    "h": 88
+   }
+  }
+ },
+ "meta": {
+  "app": "pxl",
+  "image": "pepo_vistas.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 196,
+   "h": 268
+  },
+  "scale": "1"
+ }
+}

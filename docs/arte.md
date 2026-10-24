@@ -45,6 +45,8 @@ Se propone una ficha por personaje con silueta y proporciones, paleta, vestuario
 
 **Pepo:** Ivan R pide un español de 40 años, camiseta, vaqueros, pelo negro, ojos marrones y algo de barba. Señala que la primera ficha carece de vistas y que la nariz no se distingue. La [revisión v02](../arte/personajes/pepo-v02/README.md) incorpora frontal, tres cuartos, perfil y espalda, separando nariz, boca y barba. Mantener esas vistas como propuesta de referencia pendiente de valoración; no declarar completa la guía sin expresiones y acciones.
 
+En la revisión siguiente Ivan R señala inclinación y brazos cortos, sugiere una mano en el bolsillo y pide ocho orientaciones y cámaras alta/baja. [Pepo v03](../arte/personajes/pepo-v03/README.md) centra las piezas, alarga el brazo libre, mantiene la mano izquierda en el bolsillo e incorpora ocho direcciones horizontales más dos estudios de elevación. Comprobar continuidad anatómica al reflejar bases: la mano del bolsillo no debe cambiar de lado. Los estudios de cámara son aproximados y requieren contraste con el escenario, no cierran la perspectiva del juego.
+
 ## Referencia SCUMM para aprender
 
 Ivan S (Alcachofo) ha creado un [visor de recursos SCUMM, enlazado a la sala 7 de Day of the Tentacle](https://scumm.rea.salmeinmotion.com/dott/#room=7). La consulta inicial permite ver escenarios con objetos separados y acceder a personajes, animaciones y audio.

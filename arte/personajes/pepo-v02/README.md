@@ -1,5 +1,7 @@
 # Pepo v02 · cuatro vistas y revisión de la cara
 
+**Revisión posterior:** Ivan R señala inclinación y brazos cortos, y pide una mano en el bolsillo y más ángulos. Ver [v03: ocho orientaciones y estudios de cámara](../pepo-v03/README.md).
+
 24 de octubre de 2026. Ivan R señaló que la primera ficha no incluía otras vistas y que la cara resultaba extraña, con una nariz difícil de distinguir. Esta revisión responde a ambas observaciones; el diseño sigue pendiente de valoración.
 
 ![Pepo: frontal, tres cuartos, perfil y espalda](out/share/vistas.png)
