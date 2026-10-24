@@ -1,0 +1,11 @@
+{
+  "1": {"class_type": "CheckpointLoaderSimple", "inputs": {"ckpt_name": "sd_xl_base_1.0.safetensors"}},
+  "2": {"class_type": "LoraLoader", "inputs": {"model": ["1", 0], "clip": ["1", 1], "lora_name": "pixel-art-xl.safetensors", "strength_model": 1.2, "strength_clip": 1.0}},
+  "3": {"class_type": "CLIPTextEncode", "inputs": {"clip": ["2", 1], "text": "pixel art, full body single character sprite of Pepo, a friendly 40 year old Spanish man, short black hair, brown eyes, short dark beard stubble, clearly readable nose and small relaxed smile, plain terracotta red short sleeve t-shirt, straight blue jeans, dark casual sneakers with cream soles. Charming expressive 2D adventure game character, slightly oversized head, adult proportions, medium build, relaxed upright standing pose, level shoulders, balanced stance, left hand in trouser pocket, right arm hanging naturally with hand beside upper thigh. Front three-quarter view. Strong coherent silhouette, flat warm colors, carefully placed pixel clusters, selective dark outlines, very simple shading, nostalgic hand crafted game art. Entire body and both shoes visible with generous margin, isolated on a solid muted lavender background, no objects, no writing."}},
+  "4": {"class_type": "CLIPTextEncode", "inputs": {"clip": ["2", 1], "text": "photograph, photorealistic, 3d render, plastic, glossy, smooth gradients, airbrush, painterly, detailed background, scenery, furniture, multiple characters, duplicate, character sheet, text, letters, watermark, logo, crooked torso, leaning, hunched, tilted shoulders, distorted anatomy, extra arms, missing limbs, very short arms, giant hands, cropped head, cropped feet"}},
+  "5": {"class_type": "EmptyLatentImage", "inputs": {"width": 1024, "height": 1024, "batch_size": 1}},
+  "6": {"class_type": "KSampler", "inputs": {"model": ["2", 0], "positive": ["3", 0], "negative": ["4", 0], "latent_image": ["5", 0], "seed": 24102026, "steps": 20, "cfg": 5.5, "sampler_name": "dpmpp_2m", "scheduler": "karras", "denoise": 1.0}},
+  "7": {"class_type": "VAELoader", "inputs": {"vae_name": "sdxl-vae-fp16-fix.safetensors"}},
+  "8": {"class_type": "VAEDecode", "inputs": {"samples": ["6", 0], "vae": ["7", 0]}},
+  "9": {"class_type": "SaveImage", "inputs": {"images": ["8", 0], "filename_prefix": "pepo-experimento/v01"}}
+}

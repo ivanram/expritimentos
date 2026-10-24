@@ -2,9 +2,11 @@
 
 24 de octubre de 2026. Ivan R rechaza Pepo v03 por postura y proporciones y solicita investigar métodos que el asistente pueda ejecutar sin comprar herramientas ni contratar más IAs. **La revisión v03 queda rechazada, no es una referencia aprobada.**
 
+**Actualización posterior del mismo día:** Ivan R autorizó una [prueba local de ComfyUI](../arte/pruebas/comfy-pepo-v01/README.md). Se ejecutaron dos imágenes gratuitas y se midieron sus tiempos. Los resultados tienen mejor equilibrio corporal, pero incumplen rasgos de Pepo y no son sprites finales. Las afirmaciones de «no probado» en la investigación inicial que sigue describen el estado anterior a esa prueba.
+
 ## Conclusión
 
-La herramienta de dibujo actual funciona como exportador, pero la producción artística no ha funcionado. No hay evidencia de que seguir ampliando cuadrículas independientes vaya a resolver anatomía, cámara o estilo. La siguiente prueba recomendada es una estructura humana coherente en Blender/MPFB, seguida de una comparación pequeña de acabado. ComfyUI local es una segunda vía gratuita para explorar diseño, con compatibilidad y rendimiento aún por probar.
+La herramienta de dibujo actual funciona como exportador, pero la producción artística no ha funcionado. No hay evidencia de que seguir ampliando cuadrículas independientes vaya a resolver anatomía, cámara o estilo. La siguiente prueba recomendada es una estructura humana coherente en Blender/MPFB, seguida de una comparación pequeña de acabado. ComfyUI local ya se ejecutó para explorar diseño; quedan sin demostrar la consistencia entre vistas y su utilidad para sprites finales.
 
 Son recomendaciones de investigación, no un flujo probado ni una decisión del equipo. En este turno se consultaron fuentes primarias, se revisó el código propio y se comprobó el hardware; no se instalaron Blender, MPFB, ComfyUI ni modelos, ni se produjo otro personaje.
 

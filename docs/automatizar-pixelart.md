@@ -4,7 +4,9 @@
 
 ## Estado de los experimentos
 
-**Revisión del 24 de octubre, después de Pepo v03:** Ivan R rechaza su postura y proporciones. El dibujo por cuadrículas independientes no ha demostrado calidad ni consistencia. La [investigación posterior](investigacion-personajes-gratis.md) compara estructura común con Blender/MPFB y generación local con ComfyUI, sin pagos adicionales. Son vías documentadas aún no ensayadas; no se da por resuelto el acabado artístico.
+**Revisión del 24 de octubre, después de Pepo v03:** Ivan R rechaza su postura y proporciones. El dibujo por cuadrículas independientes no ha demostrado calidad ni consistencia. La [investigación posterior](investigacion-personajes-gratis.md) compara estructura común con Blender/MPFB y generación local con ComfyUI, sin pagos adicionales. Blender/MPFB aún no se ha ensayado y el acabado artístico no está resuelto.
+
+**Ensayo posterior de ComfyUI:** [dos PNG generados localmente](../arte/pruebas/comfy-pepo-v01/README.md) confirman ejecución en GTX 1080 Ti y alguna capacidad de corregir ropa mediante instrucciones. No conservaron todos los rasgos de Pepo ni aportaron pixel art nativo editable. Blender/MPFB sigue sin ensayar. Estos datos sustituyen el estado previo de ComfyUI «aún no ensayado».
 
 **Restricción añadida el 24 de octubre de 2026 por Ivan R:** no quiere contratar más IAs. El flujo propuesto debe evitar nuevas suscripciones y consumo de APIs de pago, aprovechando las herramientas disponibles. La prueba gratuita de un servicio no equivale a producción gratuita sostenida. Esta restricción no se atribuye a Ivan S ni cierra todos los aspectos de presupuesto del proyecto.
 

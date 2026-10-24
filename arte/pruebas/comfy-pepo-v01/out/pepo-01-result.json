@@ -1,0 +1,38 @@
+{
+  "workflow": "workflow-api.json",
+  "prompt_id": "af73bb92-b722-407f-93f2-4d2eb433a3b1",
+  "elapsed_seconds": 157.26,
+  "images": [
+    "pepo-01-9-0.png"
+  ],
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "af73bb92-b722-407f-93f2-4d2eb433a3b1",
+          "timestamp": 1792858888248
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [],
+          "prompt_id": "af73bb92-b722-407f-93f2-4d2eb433a3b1",
+          "timestamp": 1792858888250
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "af73bb92-b722-407f-93f2-4d2eb433a3b1",
+          "timestamp": 1792859044260
+        }
+      ]
+    ]
+  },
+  "paid_api_calls": 0,
+  "note": "Tiempo desde encolado; puede incluir carga de modelos. PNG original sin retoques."
+}

@@ -1,6 +1,8 @@
 # Spanish Simulator
 
-> **[Investigación: personajes consistentes sin servicios de pago](docs/investigacion-personajes-gratis.md)** · Ivan R rechaza Pepo v03 por postura y proporciones. Se revisa el método: Blender/MPFB para estructura común y ComfyUI local como alternativa de diseño. Herramientas y compatibilidad documentadas; calidad del nuevo flujo todavía sin demostrar.
+> **[Prueba local y gratuita de ComfyUI con Pepo](arte/pruebas/comfy-pepo-v01/README.md)** · [Intento 1](arte/pruebas/comfy-pepo-v01/out/pepo-01-9-0.png) · [Intento 2](arte/pruebas/comfy-pepo-v01/out/pepo-02-9-0.png). Generó una anatomía más equilibrada, pero falló en detalles de identidad y ropa; aún no valida producción de sprites finales. Incluye imágenes originales, workflows y tiempos.
+
+> **[Investigación: personajes consistentes sin servicios de pago](docs/investigacion-personajes-gratis.md)** · Ivan R rechaza Pepo v03 por postura y proporciones. Se revisa el método: Blender/MPFB para estructura común y ComfyUI local como alternativa de diseño. La prueba local de ComfyUI generó dos conceptos, pero todavía no demostró un flujo de sprites consistentes y animables.
 
 > **[Pepo v03: ensayo rechazado](arte/personajes/pepo-v03/README.md)** · [Ocho vistas](arte/personajes/pepo-v03/out/share/vistas.png) y [estudios de cámara](arte/personajes/pepo-v03/out/share/camaras.png) conservados como historial. No usar como referencia artística aprobada.
 

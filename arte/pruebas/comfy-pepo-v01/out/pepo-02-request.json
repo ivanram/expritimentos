@@ -1,0 +1,111 @@
+{
+  "prompt_id": "fe0372ac-47cb-41b8-bd35-d1b8c375448a",
+  "workflow": {
+    "1": {
+      "class_type": "CheckpointLoaderSimple",
+      "inputs": {
+        "ckpt_name": "sd_xl_base_1.0.safetensors"
+      }
+    },
+    "2": {
+      "class_type": "LoraLoader",
+      "inputs": {
+        "model": [
+          "1",
+          0
+        ],
+        "clip": [
+          "1",
+          1
+        ],
+        "lora_name": "pixel-art-xl.safetensors",
+        "strength_model": 1.2,
+        "strength_clip": 1.0
+      }
+    },
+    "3": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "clip": [
+          "2",
+          1
+        ],
+        "text": "pixel art, one original friendly 40 year old Spanish man, full body standing FRONT VIEW. Short black hair, brown eyes, very short patchy beard stubble, clearly visible small nose. PLAIN terracotta red short-sleeve T-SHIRT as his ONLY top. BLUE DENIM JEANS in a medium-blue saturated color, straight fit. BLACK sneakers with cream soles. One hand inside the front jeans pocket, the other free hand reaches the upper thigh. Upright centered human posture, even shoulders, believable adult arm length. Cute expressive 2D point-and-click adventure character design, stylized but believable anatomy, clean readable silhouette, flat simple colored shapes, restrained highlights, large connected pixel clusters, selective outlines. Isolated full body with shoes on flat muted lavender backdrop, no props, no scenery, no text."
+      }
+    },
+    "4": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "clip": [
+          "2",
+          1
+        ],
+        "text": "jacket, coat, shirt over shirt, open shirt, overshirt, vest, layered clothes, blue shirt, dark blazer, brown pants, brown trousers, khaki pants, orange pants, long beard, bushy beard, full beard, 3d render, smooth gradient, bevel, glossy, airbrush, realistic lighting, photographic, excessive tiny detail, tilted torso, uneven shoulders, short arms, missing hands, extra fingers, floating limbs, duplicate person, cut off feet, text, watermark"
+      }
+    },
+    "5": {
+      "class_type": "EmptyLatentImage",
+      "inputs": {
+        "width": 1024,
+        "height": 1024,
+        "batch_size": 1
+      }
+    },
+    "6": {
+      "class_type": "KSampler",
+      "inputs": {
+        "model": [
+          "2",
+          0
+        ],
+        "positive": [
+          "3",
+          0
+        ],
+        "negative": [
+          "4",
+          0
+        ],
+        "latent_image": [
+          "5",
+          0
+        ],
+        "seed": 24102027,
+        "steps": 20,
+        "cfg": 6.5,
+        "sampler_name": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1.0
+      }
+    },
+    "7": {
+      "class_type": "VAELoader",
+      "inputs": {
+        "vae_name": "sdxl-vae-fp16-fix.safetensors"
+      }
+    },
+    "8": {
+      "class_type": "VAEDecode",
+      "inputs": {
+        "samples": [
+          "6",
+          0
+        ],
+        "vae": [
+          "7",
+          0
+        ]
+      }
+    },
+    "9": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": [
+          "8",
+          0
+        ],
+        "filename_prefix": "pepo-experimento/v01"
+      }
+    }
+  }
+}
