@@ -10,11 +10,12 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--server', default='http://127.0.0.1:8188')
 parser.add_argument('--workflow', default=str(Path(__file__).with_name('workflow-api.json')))
 parser.add_argument('--name', default='pepo-01')
+parser.add_argument('--output-dir', default=str(Path(__file__).with_name('out')))
 args = parser.parse_args()
 here = Path(__file__).resolve().parent
 workflow = json.loads(Path(args.workflow).read_text(encoding='utf-8'))
-output = here / 'out'
-output.mkdir(exist_ok=True)
+output = Path(args.output_dir).resolve()
+output.mkdir(parents=True, exist_ok=True)
 
 def get_json(path):
     with urlopen(args.server + path, timeout=30) as response:

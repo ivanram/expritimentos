@@ -1,0 +1,40 @@
+{
+  "workflow": "02-derecha-fuerte.json",
+  "prompt_id": "7d2565af-7d8d-41ea-8b2f-ed0c27b5b478",
+  "elapsed_seconds": 124.9,
+  "images": [
+    "02-derecha-fuerte-9-0.png"
+  ],
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "7d2565af-7d8d-41ea-8b2f-ed0c27b5b478",
+          "timestamp": 1792865423325
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "7"
+          ],
+          "prompt_id": "7d2565af-7d8d-41ea-8b2f-ed0c27b5b478",
+          "timestamp": 1792865423350
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "7d2565af-7d8d-41ea-8b2f-ed0c27b5b478",
+          "timestamp": 1792865546916
+        }
+      ]
+    ]
+  },
+  "paid_api_calls": 0,
+  "note": "Tiempo desde encolado; puede incluir carga de modelos. PNG original sin retoques."
+}

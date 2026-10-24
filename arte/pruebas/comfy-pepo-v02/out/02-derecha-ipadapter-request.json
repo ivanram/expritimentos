@@ -1,0 +1,161 @@
+{
+  "prompt_id": "d6faff48-3510-494d-b42e-9602373148da",
+  "workflow": {
+    "1": {
+      "class_type": "CheckpointLoaderSimple",
+      "inputs": {
+        "ckpt_name": "sd_xl_base_1.0.safetensors"
+      }
+    },
+    "2": {
+      "class_type": "LoraLoader",
+      "inputs": {
+        "model": [
+          "1",
+          0
+        ],
+        "clip": [
+          "1",
+          1
+        ],
+        "lora_name": "pixel-art-xl.safetensors",
+        "strength_model": 1.2,
+        "strength_clip": 1.0
+      }
+    },
+    "3": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "clip": [
+          "2",
+          1
+        ],
+        "text": "pixel art, full body strict SIDE PROFILE of the SAME adult man in reference, standing and facing screen right, exactly 90 degree side view, only one visible eye, protruding nose and beard profile, same tousled black hair, same short dark beard, same open blue gray short-sleeve overshirt over red t-shirt, same brown pants and cream sneakers, upright natural adult proportions, isolated on plain muted lavender background, one character, no text"
+      }
+    },
+    "4": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "clip": [
+          "2",
+          1
+        ],
+        "text": "frontal face, front view, looking at camera, two eyes visible, chest facing camera, rear view, duplicate, photo, 3d, text"
+      }
+    },
+    "6": {
+      "class_type": "KSampler",
+      "inputs": {
+        "model": [
+          "13",
+          0
+        ],
+        "positive": [
+          "3",
+          0
+        ],
+        "negative": [
+          "4",
+          0
+        ],
+        "latent_image": [
+          "5",
+          0
+        ],
+        "seed": 24102111,
+        "steps": 25,
+        "cfg": 7.0,
+        "sampler_name": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1.0
+      }
+    },
+    "7": {
+      "class_type": "VAELoader",
+      "inputs": {
+        "vae_name": "sdxl-vae-fp16-fix.safetensors"
+      }
+    },
+    "8": {
+      "class_type": "VAEDecode",
+      "inputs": {
+        "samples": [
+          "6",
+          0
+        ],
+        "vae": [
+          "7",
+          0
+        ]
+      }
+    },
+    "9": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": [
+          "8",
+          0
+        ],
+        "filename_prefix": "pepo-experimento/orientaciones/02-derecha-ipadapter"
+      }
+    },
+    "10": {
+      "class_type": "LoadImage",
+      "inputs": {
+        "image": "pepo-comfy-orientaciones.png"
+      }
+    },
+    "11": {
+      "class_type": "VAEEncode",
+      "inputs": {
+        "pixels": [
+          "10",
+          0
+        ],
+        "vae": [
+          "7",
+          0
+        ]
+      }
+    },
+    "5": {
+      "class_type": "EmptyLatentImage",
+      "inputs": {
+        "width": 1024,
+        "height": 1024,
+        "batch_size": 1
+      }
+    },
+    "12": {
+      "class_type": "IPAdapterUnifiedLoader",
+      "inputs": {
+        "model": [
+          "2",
+          0
+        ],
+        "preset": "STANDARD (medium strength)"
+      }
+    },
+    "13": {
+      "class_type": "IPAdapter",
+      "inputs": {
+        "model": [
+          "12",
+          0
+        ],
+        "ipadapter": [
+          "12",
+          1
+        ],
+        "image": [
+          "10",
+          0
+        ],
+        "weight": 0.65,
+        "start_at": 0.0,
+        "end_at": 0.9,
+        "weight_type": "prompt is more important"
+      }
+    }
+  }
+}

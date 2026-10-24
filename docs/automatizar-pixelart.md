@@ -8,6 +8,8 @@
 
 **Ensayo posterior de ComfyUI:** [dos PNG generados localmente](../arte/pruebas/comfy-pepo-v01/README.md) confirman ejecución en GTX 1080 Ti y alguna capacidad de corregir ropa mediante instrucciones. No conservaron todos los rasgos de Pepo ni aportaron pixel art nativo editable. Blender/MPFB sigue sin ensayar. Estos datos sustituyen el estado previo de ComfyUI «aún no ensayado».
 
+**Ensayo de orientaciones:** Ivan R valora positivamente el primer Pepo de ComfyUI. Cinco pruebas locales de giro con imagen a imagen, texto e IP-Adapter mostraron el intercambio entre conservar su apariencia y orientar el cuerpo. Una [lámina de ocho vistas](../arte/pruebas/comfy-pepo-v02/README.md) creada con la generación de imágenes incluida en este chat dio mejores conceptos de giro. Tampoco demuestra píxeles nativos, capas, anclas de animación ni eficacia de producción. No se contrató un servicio adicional de IA.
+
 **Restricción añadida el 24 de octubre de 2026 por Ivan R:** no quiere contratar más IAs. El flujo propuesto debe evitar nuevas suscripciones y consumo de APIs de pago, aprovechando las herramientas disponibles. La prueba gratuita de un servicio no equivale a producción gratuita sostenida. Esta restricción no se atribuye a Ivan S ni cierra todos los aspectos de presupuesto del proyecto.
 
 Los ensayos recientes demuestran generación de conceptos, preparación de imágenes, composición por capas y exportaciones reproducibles con Aseprite MCP. Las tapas proceden de ilustraciones generadas y reducidas; no validan producción de pixel art nativo. Tamaño pequeño, nearest y número de colores no certifican diseño de píxeles ni calidad visual.

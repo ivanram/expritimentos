@@ -1,0 +1,38 @@
+{
+  "workflow": "02-derecha-ipadapter.json",
+  "prompt_id": "d6faff48-3510-494d-b42e-9602373148da",
+  "elapsed_seconds": 223.36,
+  "images": [
+    "02-derecha-ipadapter-9-0.png"
+  ],
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "d6faff48-3510-494d-b42e-9602373148da",
+          "timestamp": 1792865828771
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [],
+          "prompt_id": "d6faff48-3510-494d-b42e-9602373148da",
+          "timestamp": 1792865828868
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "d6faff48-3510-494d-b42e-9602373148da",
+          "timestamp": 1792866049419
+        }
+      ]
+    ]
+  },
+  "paid_api_calls": 0,
+  "note": "Tiempo desde encolado; puede incluir carga de modelos. PNG original sin retoques."
+}

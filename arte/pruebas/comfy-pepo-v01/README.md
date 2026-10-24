@@ -6,6 +6,8 @@
 
 **Intento 1.** Una figura adulta más equilibrada que Pepo v03, pero añadió una sobrecamisa, cambió los vaqueros azules por pantalones marrones y dibujó una barba completa. Parece una ilustración pixelada con bastante volumen. No cumple la ficha de Pepo ni está listo para animación.
 
+**Valoración posterior de Ivan R:** «me gusta bastante el intento 1». Se tomó como referencia para el [ensayo de ocho orientaciones](../comfy-pepo-v02/README.md). Esa preferencia visual no confirma el cambio de vestuario de la ficha inicial ni aprueba un estilo definitivo para todo el juego.
+
 ![Primer Pepo generado con ComfyUI](out/pepo-01-9-0.png)
 
 **Intento 2.** Se reforzaron las instrucciones de camiseta única y vaqueros azules, y se prohibieron chaquetas y pantalones marrones. El modelo respondió a esos cambios y conservó una silueta recta, pero perdió casi toda la barba, parece más joven de 40 años y dejó las dos manos fuera del bolsillo. La imagen sigue teniendo muchos matices y sombreado irregular.

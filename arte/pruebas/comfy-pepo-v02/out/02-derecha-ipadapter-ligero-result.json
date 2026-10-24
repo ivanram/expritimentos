@@ -1,0 +1,40 @@
+{
+  "workflow": "02-derecha-ipadapter-ligero.json",
+  "prompt_id": "5af33624-b4d8-4542-b229-f2de5538b7e8",
+  "elapsed_seconds": 159.81,
+  "images": [
+    "02-derecha-ipadapter-ligero-9-0.png"
+  ],
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "5af33624-b4d8-4542-b229-f2de5538b7e8",
+          "timestamp": 1792866077375
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "7"
+          ],
+          "prompt_id": "5af33624-b4d8-4542-b229-f2de5538b7e8",
+          "timestamp": 1792866077388
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "5af33624-b4d8-4542-b229-f2de5538b7e8",
+          "timestamp": 1792866234623
+        }
+      ]
+    ]
+  },
+  "paid_api_calls": 0,
+  "note": "Tiempo desde encolado; puede incluir carga de modelos. PNG original sin retoques."
+}

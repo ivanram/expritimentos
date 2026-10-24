@@ -4,6 +4,8 @@
 
 **Actualización posterior del mismo día:** Ivan R autorizó una [prueba local de ComfyUI](../arte/pruebas/comfy-pepo-v01/README.md). Se ejecutaron dos imágenes gratuitas y se midieron sus tiempos. Los resultados tienen mejor equilibrio corporal, pero incumplen rasgos de Pepo y no son sprites finales. Las afirmaciones de «no probado» en la investigación inicial que sigue describen el estado anterior a esa prueba.
 
+**Prueba de orientaciones:** Ivan R expresó que le gusta bastante el primer intento. Se ensayaron cinco giros locales con ComfyUI, incluido IP-Adapter; los resultados no conservaron simultáneamente la identidad y el ángulo. La [lámina de ocho vistas](../arte/pruebas/comfy-pepo-v02/README.md) creada con la herramienta de imágenes incluida en el chat sí ofrece un concepto coherente para revisar, pero su paso a sprites nativos y animables sigue sin resolver. No se ha medido el coste o límite de uso de la herramienta incluida.
+
 ## Conclusión
 
 La herramienta de dibujo actual funciona como exportador, pero la producción artística no ha funcionado. No hay evidencia de que seguir ampliando cuadrículas independientes vaya a resolver anatomía, cámara o estilo. La siguiente prueba recomendada es una estructura humana coherente en Blender/MPFB, seguida de una comparación pequeña de acabado. ComfyUI local ya se ejecutó para explorar diseño; quedan sin demostrar la consistencia entre vistas y su utilidad para sprites finales.

@@ -1,0 +1,20 @@
+{
+  "ipadapter_commit": "a0f451a5113cf9becb0847b92884cb10cbdec0ef",
+  "ipadapter_model_revision": "018e402774aeeddd60609b4ecdb7e298259dc729",
+  "models": [
+    {
+      "file": "models/image_encoder/model.safetensors",
+      "folder": "clip_vision",
+      "name": "CLIP-ViT-H-14-laion2B-s32B-b79K.safetensors",
+      "size": 2528373448,
+      "sha256": "6ca9667da1ca9e0b0f75e46bb030f7e011f44f86cbfb8d5a36590fcd7507b030"
+    },
+    {
+      "file": "sdxl_models/ip-adapter_sdxl_vit-h.safetensors",
+      "folder": "ipadapter",
+      "name": "ip-adapter_sdxl_vit-h.safetensors",
+      "size": 698391064,
+      "sha256": "ebf05d918348aec7abb02a5e9ecef77e0aaea6914a5c4ea13f50d45eb1681831"
+    }
+  ]
+}

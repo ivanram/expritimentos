@@ -1,0 +1,161 @@
+{
+  "prompt_id": "5af33624-b4d8-4542-b229-f2de5538b7e8",
+  "workflow": {
+    "1": {
+      "class_type": "CheckpointLoaderSimple",
+      "inputs": {
+        "ckpt_name": "sd_xl_base_1.0.safetensors"
+      }
+    },
+    "2": {
+      "class_type": "LoraLoader",
+      "inputs": {
+        "model": [
+          "1",
+          0
+        ],
+        "clip": [
+          "1",
+          1
+        ],
+        "lora_name": "pixel-art-xl.safetensors",
+        "strength_model": 1.2,
+        "strength_clip": 1.0
+      }
+    },
+    "3": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "clip": [
+          "2",
+          1
+        ],
+        "text": "STRICT 90 DEGREE SIDE PROFILE pixel art sprite of one adult man facing SCREEN RIGHT. Only ONE EYE visible; his nose and beard project toward the RIGHT edge. Chest, legs and feet all in side view. Same original Pepo from supplied reference: thick dark tousled hair, full short black beard, BLUE-GRAY OPEN SHORT-SLEEVE SHIRT worn OVER a RUST-RED T-SHIRT, medium brown trousers, cream sneakers. Upright relaxed posture, adult anatomy, centered FULL BODY filling most canvas, muted lavender flat backdrop, no props, no text."
+      }
+    },
+    "4": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "clip": [
+          "2",
+          1
+        ],
+        "text": "front view, frontal face, two eyes visible, front chest, back view, blue t-shirt, red overshirt, layered red coat, red shoes, tiny person, figure too small, extra limb, warped anatomy, scenery, text, watermark"
+      }
+    },
+    "6": {
+      "class_type": "KSampler",
+      "inputs": {
+        "model": [
+          "13",
+          0
+        ],
+        "positive": [
+          "3",
+          0
+        ],
+        "negative": [
+          "4",
+          0
+        ],
+        "latent_image": [
+          "5",
+          0
+        ],
+        "seed": 24102111,
+        "steps": 25,
+        "cfg": 8.0,
+        "sampler_name": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1.0
+      }
+    },
+    "7": {
+      "class_type": "VAELoader",
+      "inputs": {
+        "vae_name": "sdxl-vae-fp16-fix.safetensors"
+      }
+    },
+    "8": {
+      "class_type": "VAEDecode",
+      "inputs": {
+        "samples": [
+          "6",
+          0
+        ],
+        "vae": [
+          "7",
+          0
+        ]
+      }
+    },
+    "9": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": [
+          "8",
+          0
+        ],
+        "filename_prefix": "pepo-experimento/orientaciones/02-derecha-ipadapter-ligero"
+      }
+    },
+    "10": {
+      "class_type": "LoadImage",
+      "inputs": {
+        "image": "pepo-comfy-orientaciones.png"
+      }
+    },
+    "11": {
+      "class_type": "VAEEncode",
+      "inputs": {
+        "pixels": [
+          "10",
+          0
+        ],
+        "vae": [
+          "7",
+          0
+        ]
+      }
+    },
+    "5": {
+      "class_type": "EmptyLatentImage",
+      "inputs": {
+        "width": 1024,
+        "height": 1024,
+        "batch_size": 1
+      }
+    },
+    "12": {
+      "class_type": "IPAdapterUnifiedLoader",
+      "inputs": {
+        "model": [
+          "2",
+          0
+        ],
+        "preset": "STANDARD (medium strength)"
+      }
+    },
+    "13": {
+      "class_type": "IPAdapter",
+      "inputs": {
+        "model": [
+          "12",
+          0
+        ],
+        "ipadapter": [
+          "12",
+          1
+        ],
+        "image": [
+          "10",
+          0
+        ],
+        "weight": 0.35,
+        "start_at": 0.0,
+        "end_at": 0.7,
+        "weight_type": "prompt is more important"
+      }
+    }
+  }
+}

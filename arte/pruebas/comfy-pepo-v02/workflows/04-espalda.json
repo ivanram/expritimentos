@@ -1,0 +1,119 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "sd_xl_base_1.0.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "LoraLoader",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "clip": [
+        "1",
+        1
+      ],
+      "lora_name": "pixel-art-xl.safetensors",
+      "strength_model": 1.2,
+      "strength_clip": 1.0
+    }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "2",
+        1
+      ],
+      "text": "pixel art style character turnaround, strict rear view, body turned 180 degrees, facing directly away from camera, back of head and both shoulders visible, no face visible. same original friendly adult man in the supplied image, same tousled black hair and full dark beard, same blue-gray open short-sleeve overshirt over a rust red t-shirt, same brown straight trousers, same cream sneakers, same adult proportions and slightly oversized head, same selective dark outlines and warm chunky pixel-like texture, full body standing, relaxed arms, upright balanced pose, entire head and both shoes visible, isolated on same plain muted lavender background, no props, no text."
+    }
+  },
+  "4": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "2",
+        1
+      ],
+      "text": "extra person, duplicate, two heads, extra limbs, missing arms, asymmetric legs, tilted shoulders, crooked back, floating head, disconnected hair, mirrored face, altered clothing, blue jeans, long sleeves, formal suit, bare arms, hat, 3d render, realistic photo, scenery, text, watermark"
+    }
+  },
+  "6": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "positive": [
+        "3",
+        0
+      ],
+      "negative": [
+        "4",
+        0
+      ],
+      "latent_image": [
+        "11",
+        0
+      ],
+      "seed": 24102026,
+      "steps": 20,
+      "cfg": 5.5,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "denoise": 0.82
+    }
+  },
+  "7": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "sdxl-vae-fp16-fix.safetensors"
+    }
+  },
+  "8": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "6",
+        0
+      ],
+      "vae": [
+        "7",
+        0
+      ]
+    }
+  },
+  "9": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "8",
+        0
+      ],
+      "filename_prefix": "pepo-experimento/orientaciones/04-espalda"
+    }
+  },
+  "10": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "pepo-comfy-orientaciones.png"
+    }
+  },
+  "11": {
+    "class_type": "VAEEncode",
+    "inputs": {
+      "pixels": [
+        "10",
+        0
+      ],
+      "vae": [
+        "7",
+        0
+      ]
+    }
+  }
+}

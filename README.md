@@ -1,5 +1,7 @@
 # Spanish Simulator
 
+> **[Pepo: ocho orientaciones](arte/pruebas/comfy-pepo-v02/README.md)** · Ivan R valora positivamente el primer Pepo de ComfyUI. Una lámina conceptual muestra frente, perfiles, espalda y diagonales conservando bastante su aspecto. Se comparó con cinco intentos locales de giro en ComfyUI. La lámina no es aún un juego de sprites nativos ni cierra el estilo del proyecto.
+
 > **[Prueba local y gratuita de ComfyUI con Pepo](arte/pruebas/comfy-pepo-v01/README.md)** · [Intento 1](arte/pruebas/comfy-pepo-v01/out/pepo-01-9-0.png) · [Intento 2](arte/pruebas/comfy-pepo-v01/out/pepo-02-9-0.png). Generó una anatomía más equilibrada, pero falló en detalles de identidad y ropa; aún no valida producción de sprites finales. Incluye imágenes originales, workflows y tiempos.
 
 > **[Investigación: personajes consistentes sin servicios de pago](docs/investigacion-personajes-gratis.md)** · Ivan R rechaza Pepo v03 por postura y proporciones. Se revisa el método: Blender/MPFB para estructura común y ComfyUI local como alternativa de diseño. La prueba local de ComfyUI generó dos conceptos, pero todavía no demostró un flujo de sprites consistentes y animables.

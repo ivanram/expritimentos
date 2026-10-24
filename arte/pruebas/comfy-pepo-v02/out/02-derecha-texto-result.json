@@ -1,0 +1,38 @@
+{
+  "workflow": "02-derecha-texto.json",
+  "prompt_id": "dcfcec8c-91f1-4964-b8ba-9706b9064041",
+  "elapsed_seconds": 129.73,
+  "images": [
+    "02-derecha-texto-9-0.png"
+  ],
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "dcfcec8c-91f1-4964-b8ba-9706b9064041",
+          "timestamp": 1792865558955
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [],
+          "prompt_id": "dcfcec8c-91f1-4964-b8ba-9706b9064041",
+          "timestamp": 1792865558979
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "dcfcec8c-91f1-4964-b8ba-9706b9064041",
+          "timestamp": 1792865685575
+        }
+      ]
+    ]
+  },
+  "paid_api_calls": 0,
+  "note": "Tiempo desde encolado; puede incluir carga de modelos. PNG original sin retoques."
+}
