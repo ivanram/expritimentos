@@ -1,0 +1,53 @@
+{
+  "sprites": {
+    "nora_0": {
+      "canvas": [
+        36,
+        56
+      ],
+      "ink_bounds": [
+        7,
+        5,
+        29,
+        52
+      ],
+      "opaque_colors": 16
+    },
+    "ines": {
+      "canvas": [
+        32,
+        56
+      ],
+      "ink_bounds": [
+        8,
+        9,
+        21,
+        46
+      ],
+      "opaque_colors": 11
+    },
+    "teo": {
+      "canvas": [
+        32,
+        56
+      ],
+      "ink_bounds": [
+        7,
+        1,
+        22,
+        46
+      ],
+      "opaque_colors": 11
+    }
+  },
+  "animation": {
+    "canvas": [
+      36,
+      56
+    ],
+    "frames": 24,
+    "duration_ms": 3000,
+    "aseprite_roundtrip_identical": true
+  },
+  "scope": "Comprobación técnica; no valida semejanza estilística ni aprobación artística."
+}

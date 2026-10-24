@@ -4,6 +4,8 @@
 
 Ivan R aclara que ya dispone de Claude. Se mantiene su restricción de no contratar más IAs. Tenerlo disponible no obliga a cambiar de asistente: interesa comprobar el método con las herramientas y el asistente actuales. No se presupone igualdad de calidad entre modelos ni superioridad artística del asistente por disponer de las mismas herramientas.
 
+**Revisión posterior del mismo día:** Ivan R rechaza la estética de la primera prueba por su apariencia volumétrica/3D. La [prueba de estilo v02](../arte/pruebas/pxl-estilo-v02/README.md) responde a su nueva referencia con personajes pequeños y sombras por manchas. Pendiente de valoración; la comprobación técnica de v01 no equivale a aprobación artística.
+
 ## Qué aporta
 
 Es un lenguaje de dibujo en archivos `.px.js` y un motor local, acompañado de instrucciones para agentes. La IA escribe y modifica el dibujo; el motor produce los recursos. No es otro modelo generativo ni exige Claude como servicio. La [documentación para agentes](https://github.com/augusto-scarvalho/claude-pxl/blob/main/docs/agents.md) contempla Codex y otros asistentes.

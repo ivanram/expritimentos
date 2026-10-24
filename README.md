@@ -1,8 +1,8 @@
 # Spanish Simulator
 
-> **🧪 [Nueva prueba de pixel art nativo con claude-pxl](arte/pruebas/pxl-pago-v01/README.md)** · [Ver animación](arte/pruebas/pxl-pago-v01/out/share/contexto.gif)
+> **🧪 [Nueva prueba de estilo: personajes pequeños en 2D](arte/pruebas/pxl-estilo-v02/README.md)** · [Ver imagen](arte/pruebas/pxl-estilo-v02/out/share/amigos.png) · [Ver animación](arte/pruebas/pxl-estilo-v02/out/share/animacion.gif)
 >
-> Un personaje sentado que levanta una tarjeta, con reposo, subida, espera y bajada. Incluye visor local, fuentes y originales Aseprite por capas. Primera prueba del método; acabado pendiente de valoración.
+> Tres diseños originales a partir de la referencia aportada por Ivan R, con una prueba de pago, fuentes y originales Aseprite. Sustituye como exploración de estilo al ensayo anterior, rechazado por su apariencia volumétrica. La nueva pasada sigue pendiente de valoración.
 
 > **🎮 [Abrir la demo pública: La última ronda](https://spanish-simulator-ultima-ronda.ivanra.chatgpt.site)**
 >

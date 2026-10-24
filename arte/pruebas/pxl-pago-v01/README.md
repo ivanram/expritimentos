@@ -1,5 +1,7 @@
 # Prueba de claude-pxl: ofrecer pagar
 
+**Estética rechazada por Ivan R el 24 de octubre de 2026:** percibe demasiado volumen o apariencia 3D. Esta prueba se conserva como comprobación técnica. La [revisión de estilo v02](../pxl-estilo-v02/README.md) parte de la nueva referencia aportada por él; aún pendiente de valoración.
+
 24 de octubre de 2026. Ensayo original solicitado por Ivan R. Dibujo producido por Codex con claude-pxl, directamente sobre cuadrícula nativa, sin importar una ilustración ni reducirla. La herramienta funciona localmente; no se ha contratado ni llamado a otro proveedor de IA.
 
 ![Prueba animada: personaje sentado ofreciendo pagar](out/share/contexto.gif)

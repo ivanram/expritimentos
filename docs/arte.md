@@ -26,6 +26,8 @@ Incorporar estas observaciones a las revisiones: conectar pelo, cabeza y cuello 
 
 ### Elementos por acordar
 
+**Nueva referencia de personajes · 24 de octubre de 2026:** Ivan R rechaza el estilo de `pxl-pago-v01` por su apariencia volumétrica/3D y aporta una lámina de personajes pequeños. La [prueba de estilo v02](../arte/pruebas/pxl-estilo-v02/README.md) ensaya figuras nativas de 37–47 píxeles, caras mínimas, sombras por manchas y bordes selectivos. Sigue pendiente de valoración; no cierra el punto 08 ni invalida la valoración previa del fondo v02. No reutilizar el ensayo rechazado como referencia artística aprobada.
+
 Antes de producir muchos recursos, acordar:
 
 - Una referencia visual principal y unas pocas referencias complementarias.
