@@ -1,6 +1,10 @@
 # Spanish Simulator
 
-> **[Pepo: ocho orientaciones](arte/pruebas/comfy-pepo-v02/README.md)** · Ivan R valora positivamente el primer Pepo de ComfyUI. Una lámina conceptual muestra frente, perfiles, espalda y diagonales conservando bastante su aspecto. Se comparó con cinco intentos locales de giro en ComfyUI. La lámina no es aún un juego de sprites nativos ni cierra el estilo del proyecto.
+> **[Nueva investigación: personajes consistentes y animables](docs/leads-personajes-consistentes.md)** · Ivan R señala que la mano y otros detalles cambian de sitio entre las ocho vistas de la lámina anterior. No sirve como recurso de juego. Se examinan rig 2D, guía estructural, edición local y generación nativa, con sus límites y una prueba concreta de descarte.
+
+> **[Perfil controlado: nueva prueba local](arte/pruebas/comfy-pepo-v03/README.md)** · ControlNet fijó el giro a perfil, pero cambió prendas y calzado; tardó casi nueve minutos en la GTX 1080 Ti. Se conserva la salida original y el workflow, sin presentarlo como sprite válido.
+
+> **[Pepo: ocho orientaciones, ensayo no aceptado para juego](arte/pruebas/comfy-pepo-v02/README.md)** · Ivan R valora positivamente el primer Pepo de ComfyUI como imagen inicial, pero la lámina de ocho vistas no mantiene detalles suficientes entre ángulos. Se conserva como historial y comparación de métodos, no como original maestro.
 
 > **[Prueba local y gratuita de ComfyUI con Pepo](arte/pruebas/comfy-pepo-v01/README.md)** · [Intento 1](arte/pruebas/comfy-pepo-v01/out/pepo-01-9-0.png) · [Intento 2](arte/pruebas/comfy-pepo-v01/out/pepo-02-9-0.png). Generó una anatomía más equilibrada, pero falló en detalles de identidad y ropa; aún no valida producción de sprites finales. Incluye imágenes originales, workflows y tiempos.
 

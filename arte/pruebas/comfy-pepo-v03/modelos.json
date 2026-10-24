@@ -1,0 +1,8 @@
+{
+  "repo": "xinsir/controlnet-canny-sdxl-1.0",
+  "revision": "1271357eda52d54b857c650cacb5b51144643ccb",
+  "file": "diffusion_pytorch_model.safetensors",
+  "local_name": "xinsir-canny-sdxl.safetensors",
+  "size": 2502139104,
+  "sha256": "bf47cd757ceaf2572c53321329ef819ea38c09a6e3783588387913cd94dff47c"
+}

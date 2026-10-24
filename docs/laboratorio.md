@@ -14,6 +14,7 @@ Comprobaciones realizadas el 23 y 24 de octubre de 2026. Este documento describe
 | claude-pxl, revisión `e054b073` | Añadido el 24 de octubre: motor local de dibujo nativo mediante código, ejecutado con Node 24.19.0. Primera prueba en `arte/pruebas/pxl-pago-v01`. |
 | ComfyUI, revisión `7cebca5` | Añadido el 24 de octubre, en `deps/ComfyUI`, con Python 3.12 y PyTorch 2.7.1 CUDA 12.6. [Dos generaciones locales de Pepo](../arte/pruebas/comfy-pepo-v01/README.md) en GTX 1080 Ti; servidor detenido al terminar. Herramienta y modelos ignorados por Git. |
 | ComfyUI_IPAdapter_plus, revisión `a0f451a` | Instalado localmente el 24 de octubre para la [prueba de orientaciones](../arte/pruebas/comfy-pepo-v02/README.md); modelos y complemento ignorados por Git. El servidor volvió a detenerse tras los ensayos. |
+| ControlNet Canny SDXL, revisión `1271357` | Modelo local añadido el 24 de octubre para [un perfil guiado](../arte/pruebas/comfy-pepo-v03/README.md). Se verificó SHA-256; cargó en la GTX 1080 Ti con `--lowvram`, pero el resultado cambió vestuario y tardó 534,87 s. El modelo permanece en `deps/`, fuera de Git. |
 
 Las carpetas locales de las herramientas están reunidas en un mismo directorio de trabajo y quedan ignoradas por Git. El entorno MCP utiliza Python 3.13. Los lanzadores y la configuración MCP actuales son locales y no forman parte de esta publicación.
 

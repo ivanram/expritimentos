@@ -4,7 +4,7 @@
 
 **Actualización posterior del mismo día:** Ivan R autorizó una [prueba local de ComfyUI](../arte/pruebas/comfy-pepo-v01/README.md). Se ejecutaron dos imágenes gratuitas y se midieron sus tiempos. Los resultados tienen mejor equilibrio corporal, pero incumplen rasgos de Pepo y no son sprites finales. Las afirmaciones de «no probado» en la investigación inicial que sigue describen el estado anterior a esa prueba.
 
-**Prueba de orientaciones:** Ivan R expresó que le gusta bastante el primer intento. Se ensayaron cinco giros locales con ComfyUI, incluido IP-Adapter; los resultados no conservaron simultáneamente la identidad y el ángulo. La [lámina de ocho vistas](../arte/pruebas/comfy-pepo-v02/README.md) creada con la herramienta de imágenes incluida en el chat sí ofrece un concepto coherente para revisar, pero su paso a sprites nativos y animables sigue sin resolver. No se ha medido el coste o límite de uso de la herramienta incluida.
+**Prueba de orientaciones y corrección posterior:** Ivan R expresó que le gusta bastante el primer intento. Se ensayaron cinco giros locales con ComfyUI, incluido IP-Adapter; los resultados no conservaron simultáneamente la identidad y el ángulo. La [lámina de ocho vistas](../arte/pruebas/comfy-pepo-v02/README.md) creada con la herramienta de imágenes incluida en el chat tampoco sirve para juego: Ivan R detectó que la mano y otros detalles cambian de sitio. La [investigación siguiente](leads-personajes-consistentes.md) estudia un rig común, ControlNet y modelos nativos con criterios de descarte. No se ha medido el coste o límite de uso de la herramienta incluida.
 
 ## Conclusión
 

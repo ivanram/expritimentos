@@ -1,0 +1,197 @@
+{
+  "prompt_id": "676434c5-ec91-4bcb-8b4c-51ba725c73f4",
+  "workflow": {
+    "1": {
+      "class_type": "CheckpointLoaderSimple",
+      "inputs": {
+        "ckpt_name": "sd_xl_base_1.0.safetensors"
+      }
+    },
+    "2": {
+      "class_type": "LoraLoader",
+      "inputs": {
+        "model": [
+          "1",
+          0
+        ],
+        "clip": [
+          "1",
+          1
+        ],
+        "lora_name": "pixel-art-xl.safetensors",
+        "strength_model": 1.2,
+        "strength_clip": 1.0
+      }
+    },
+    "3": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "clip": [
+          "2",
+          1
+        ],
+        "text": "STRICT RIGHT-FACING 90-DEGREE SIDE PROFILE, full body pixel art portrait of the SAME adult man as reference image. One eye and one ear only, nose and dark beard point toward SCREEN RIGHT. Black tousled hair. Open BLUE-GRAY short-sleeve overshirt over a clearly visible RUST RED T-SHIRT; BROWN straight trousers; CREAM sneakers. Same body height as original, adult proportions, grounded feet, relaxed pose with near hand at right side and far hand near trouser pocket. Flat muted lavender background, single character only, no text."
+      }
+    },
+    "4": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "clip": [
+          "2",
+          1
+        ],
+        "text": "front view, frontal face, two eyes visible, facing screen left, back view, red coat, red vest, blue t-shirt, blue pants, red shoes, tiny person, extra limb, broken anatomy, background scene, text, watermark"
+      }
+    },
+    "6": {
+      "class_type": "KSampler",
+      "inputs": {
+        "model": [
+          "13",
+          0
+        ],
+        "positive": [
+          "16",
+          0
+        ],
+        "negative": [
+          "16",
+          1
+        ],
+        "latent_image": [
+          "5",
+          0
+        ],
+        "seed": 24102111,
+        "steps": 25,
+        "cfg": 8.0,
+        "sampler_name": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1.0
+      }
+    },
+    "7": {
+      "class_type": "VAELoader",
+      "inputs": {
+        "vae_name": "sdxl-vae-fp16-fix.safetensors"
+      }
+    },
+    "8": {
+      "class_type": "VAEDecode",
+      "inputs": {
+        "samples": [
+          "6",
+          0
+        ],
+        "vae": [
+          "7",
+          0
+        ]
+      }
+    },
+    "9": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": [
+          "8",
+          0
+        ],
+        "filename_prefix": "pepo-experimento/controlnet-perfil-v03"
+      }
+    },
+    "10": {
+      "class_type": "LoadImage",
+      "inputs": {
+        "image": "pepo-comfy-orientaciones.png"
+      }
+    },
+    "11": {
+      "class_type": "VAEEncode",
+      "inputs": {
+        "pixels": [
+          "10",
+          0
+        ],
+        "vae": [
+          "7",
+          0
+        ]
+      }
+    },
+    "5": {
+      "class_type": "EmptyLatentImage",
+      "inputs": {
+        "width": 1024,
+        "height": 1024,
+        "batch_size": 1
+      }
+    },
+    "12": {
+      "class_type": "IPAdapterUnifiedLoader",
+      "inputs": {
+        "model": [
+          "2",
+          0
+        ],
+        "preset": "STANDARD (medium strength)"
+      }
+    },
+    "13": {
+      "class_type": "IPAdapter",
+      "inputs": {
+        "model": [
+          "12",
+          0
+        ],
+        "ipadapter": [
+          "12",
+          1
+        ],
+        "image": [
+          "10",
+          0
+        ],
+        "weight": 0.55,
+        "start_at": 0.0,
+        "end_at": 0.85,
+        "weight_type": "prompt is more important"
+      }
+    },
+    "14": {
+      "class_type": "ControlNetLoader",
+      "inputs": {
+        "control_net_name": "xinsir-canny-sdxl.safetensors"
+      }
+    },
+    "15": {
+      "class_type": "LoadImage",
+      "inputs": {
+        "image": "pepo-side-guide-canny.png"
+      }
+    },
+    "16": {
+      "class_type": "ControlNetApplyAdvanced",
+      "inputs": {
+        "positive": [
+          "3",
+          0
+        ],
+        "negative": [
+          "4",
+          0
+        ],
+        "control_net": [
+          "14",
+          0
+        ],
+        "image": [
+          "15",
+          0
+        ],
+        "strength": 0.85,
+        "start_percent": 0.0,
+        "end_percent": 0.95
+      }
+    }
+  }
+}

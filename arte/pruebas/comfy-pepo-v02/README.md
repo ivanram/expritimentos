@@ -2,13 +2,15 @@
 
 24 de octubre de 2026. Ivan R indicó que **le gusta bastante el primer Pepo generado con ComfyUI** y pidió intentar sus orientaciones. Esta valoración se refiere a esa imagen y sirve de referencia para el ensayo; no aprueba todavía la dirección artística global ni sustituye el acuerdo de Ivan S. Se conservó el vestuario **tal como aparece en ese intento** (sobrecamisa gris azulada, camiseta roja, pantalón marrón y zapatillas claras), aunque difiere de la ficha inicial de Pepo, que pedía camiseta y vaqueros. Queda pendiente decidir qué vestuario usar en el juego.
 
+**Corrección posterior de Ivan R:** la lámina no le sirve para el juego porque la mano y otros detalles cambian de lugar entre vistas. La revisión visual inicial del asistente fue insuficiente. Se conserva como ensayo de concepto, **no como original maestro ni como conjunto aprobado de vistas**. La [nueva investigación](../../../docs/leads-personajes-consistentes.md) cambia el enfoque hacia invariantes anatómicas y un rig común.
+
 ## Lámina obtenida
 
 ![Ocho orientaciones conceptuales de Pepo](out/pepo-ocho-orientaciones-imagegen.png)
 
 Orden, de izquierda a derecha: **frente, tres cuartos derecho, perfil derecho, tres cuartos trasero derecho**; debajo, **espalda, tres cuartos trasero izquierdo, perfil izquierdo y tres cuartos frontal izquierdo**. La imagen original de 1254×1254 se generó con la herramienta de imágenes incluida en este chat, usando como referencia [Pepo ComfyUI intento 1](../comfy-pepo-v01/out/pepo-01-9-0.png) y [este prompt](prompt-imagegen.txt). Se copió al repositorio sin modificarla. No se contrató ninguna IA adicional ni se usó una API de pago por separado; no se midieron límites de uso ni coste interno de la herramienta.
 
-**Revisión visual:** las ocho siluetas describen giros reconocibles, las vistas de perfil muestran un solo ojo y las traseras no muestran la cara. Pelo, barba, prendas y colores se mantienen bastante próximos entre vistas. Hay pequeñas variaciones en tamaño, pies, manos, bolsillos, costuras y detalle de las caras; no se han comprobado ni corregido para animación. El brazo de la mano en el bolsillo cambia su lectura al girar. Es un **concepto de turnaround**, no ocho sprites listos para juego: no hay transparencia ni capas, los píxeles no siguen una cuadrícula de producción comprobada y las poses no comparten anclas verificadas. No usar la lámina como prueba de generación nativa de pixel art.
+**Revisión visual corregida:** las ocho siluetas describen giros reconocibles, las vistas de perfil muestran un solo ojo y las traseras no muestran la cara. Sin embargo, cambian de sitio manos, bolsillos y otros detalles; hay variaciones de escala, pies, costuras y caras. Estas desviaciones invalidan su uso como turnaround maestro. No hay transparencia ni capas, los píxeles no siguen una cuadrícula de producción comprobada y las poses no comparten anclas verificadas. No usar la lámina como prueba de generación nativa de pixel art.
 
 ## Qué hizo ComfyUI local
 
