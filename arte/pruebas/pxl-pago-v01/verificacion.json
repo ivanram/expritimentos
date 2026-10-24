@@ -1,0 +1,110 @@
+{
+  "reposo": {
+    "frames": 24,
+    "size": [
+      96,
+      112
+    ],
+    "layers": [
+      "piernas",
+      "brazo_apoyado",
+      "torso",
+      "cabeza",
+      "brazo_pago",
+      "tarjeta",
+      "agarre",
+      "outline"
+    ],
+    "aseprite_roundtrip_identical": true,
+    "opaque_or_clear": true,
+    "feet_stable": true
+  },
+  "subir": {
+    "frames": 7,
+    "size": [
+      96,
+      112
+    ],
+    "layers": [
+      "piernas",
+      "brazo_apoyado",
+      "torso",
+      "cabeza",
+      "brazo_pago",
+      "tarjeta",
+      "agarre",
+      "outline"
+    ],
+    "aseprite_roundtrip_identical": true,
+    "opaque_or_clear": true,
+    "feet_stable": true
+  },
+  "sostener": {
+    "frames": 24,
+    "size": [
+      96,
+      112
+    ],
+    "layers": [
+      "piernas",
+      "brazo_apoyado",
+      "torso",
+      "cabeza",
+      "brazo_pago",
+      "tarjeta",
+      "agarre",
+      "outline"
+    ],
+    "aseprite_roundtrip_identical": true,
+    "opaque_or_clear": true,
+    "feet_stable": true
+  },
+  "bajar": {
+    "frames": 7,
+    "size": [
+      96,
+      112
+    ],
+    "layers": [
+      "piernas",
+      "brazo_apoyado",
+      "torso",
+      "cabeza",
+      "brazo_pago",
+      "tarjeta",
+      "agarre",
+      "outline"
+    ],
+    "aseprite_roundtrip_identical": true,
+    "opaque_or_clear": true,
+    "feet_stable": true
+  },
+  "pago": {
+    "frames": 36,
+    "size": [
+      96,
+      112
+    ],
+    "layers": [
+      "piernas",
+      "brazo_apoyado",
+      "torso",
+      "cabeza",
+      "brazo_pago",
+      "tarjeta",
+      "agarre",
+      "outline"
+    ],
+    "aseprite_roundtrip_identical": true,
+    "opaque_or_clear": true,
+    "feet_stable": true
+  },
+  "contexto": {
+    "size": [
+      208,
+      144
+    ],
+    "colors": 31
+  },
+  "scope": "Comprobación técnica; no certifica estética ni calidad de animación."
+}

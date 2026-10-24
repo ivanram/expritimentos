@@ -16,18 +16,18 @@ El proceso buscado permite que la IA produzca el recurso y sus revisiones, mient
 | --- | --- | --- |
 | Generador especializado en pixel art | Salida nativa, referencias y variantes por API/MCP. | Calidad, consistencia, cámara, animación y tiempo hasta aceptación. |
 | IA dibujando a resolución nativa por Aseprite MCP/Lua | Producción y corrección mediante herramientas/código; no necesita que el usuario dibuje. | Calidad artística y coste de llamadas/tokens/revisiones. La primera demo mostró límites de diseño. |
-| IA dibujando con claude-pxl y exportando a Aseprite | Lenguaje de dibujo nativo, cámara, piezas y herramientas de inspección locales. | Resultado propio, calidad y eficiencia: se ha revisado documentación/código, pero no se ha ejecutado. |
+| IA dibujando con claude-pxl y exportando a Aseprite | Primera prueba propia de personaje nativo con animación, tarjeta unida a la mano y originales por capas. | Valoración artística y eficiencia comparativa; todavía sin ensayar cámara geométrica o rigs 3D. |
 | Conversión mediante un modelo especializado | Reinterpretar conceptos conservando composición, más allá del reescalado. | Formas y contornos resueltos a baja resolución, conservando volumen y sin redibujo completo. |
 
-## Candidatos investigados, sin probar
+## Herramientas investigadas y estado de las pruebas
 
-**claude-pxl:** [investigación del enlace aportado por Ivan R](claude-pxl.md). Herramienta local MIT, sin otro servicio de IA obligatorio; su documentación contempla Codex. Se propone como siguiente ensayo de dibujo nativo, con Aseprite como destino de edición/exportación. Todavía sin instalar ni ejecutar. Ivan R aclara que ya tiene Claude; no se necesita cambiar de asistente para investigar este método.
+**claude-pxl:** [investigación del enlace aportado por Ivan R](claude-pxl.md). Herramienta local MIT, sin otro servicio de IA obligatorio; su documentación contempla Codex. La [primera prueba ejecutada](../arte/pruebas/pxl-pago-v01/README.md) incluye personaje, siete poses de pago, contexto y originales por capas verificados en Aseprite. El gesto sigue siendo sencillo y falta validar calidad y eficiencia; no prueba todas las funciones del motor. Ivan R aclara que ya tiene Claude; no se necesita cambiar de asistente para utilizar este método.
 
 **PixelLab:** la documentación v2 ofrece tamaño de salida, referencias, conversión de imágenes, personajes persistentes y animación desde una imagen. Tiene MCP y extensión de Aseprite. Consultar los límites del modelo elegido. Son capacidades declaradas por el proveedor, no resultados medidos aquí. [API v2](https://api.pixellab.ai/v2/docs), [MCP](https://www.pixellab.ai/mcp), [formas de uso](https://www.pixellab.ai/docs/ways-to-use-pixellab).
 
 **Retro Diffusion:** su API admite dimensiones, referencias según modelo, alfa y animación; `upscale_output_factor=1` solicita salida nativa. Publica MCP y consultas de coste previas a generación. También ofrece reconstrucción de cuadrícula, que por sí sola no valida dirección artística. [API y ejemplos oficiales](https://github.com/Retro-Diffusion/api-examples), [MCP oficial](https://github.com/Retro-Diffusion/retro-diffusion-mcp).
 
-Ninguno está conectado en esta sesión y no se han ejecutado generaciones con esos proveedores. Consultar documentación no implica contratar ni gastar saldo. Aseprite MCP local sí está disponible. La prueba debe distinguir funciones publicadas del resultado observado.
+PixelLab y Retro Diffusion no están conectados en esta sesión y no se han ejecutado generaciones con esos proveedores. Consultar documentación no implica contratar ni gastar saldo. Aseprite MCP local sí está disponible. La prueba debe distinguir funciones publicadas del resultado observado.
 
 ## Ensayo mínimo propuesto
 

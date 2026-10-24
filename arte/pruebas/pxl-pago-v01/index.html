@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Spanish Simulator · prueba pxl</title>
+<style>
+:root{color-scheme:dark;font-family:system-ui,sans-serif;color:#f4e6cc;background:#202833}
+*{box-sizing:border-box}body{margin:0;padding:28px 20px 40px}main{max-width:1000px;margin:auto}
+header{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-bottom:22px}
+.eyebrow{font-size:12px;letter-spacing:.14em;color:#e5b86c;text-transform:uppercase}h1{font-size:clamp(25px,4vw,36px);margin:5px 0 8px;letter-spacing:-.04em}
+p{color:#c3c6c7;line-height:1.5;margin:0}a{color:#e5b86c}.badge{border:1px solid #596267;border-radius:30px;padding:7px 12px;font-size:12px;white-space:nowrap}
+.stage{border:1px solid #596267;background:#151f28;border-radius:12px;padding:20px;position:relative;text-align:center}
+canvas{display:block;margin:auto;max-width:100%;image-rendering:pixelated;image-rendering:crisp-edges;background:transparent}
+.controls{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px;align-items:center}button,select{font:inherit;color:inherit;border:1px solid #596267;background:#2c3942;border-radius:7px;padding:10px 15px;cursor:pointer}button:hover{border-color:#e5b86c}button:disabled{opacity:.5;cursor:default}.primary{background:#e5b86c;color:#262c32;border-color:#e5b86c;font-weight:650}
+.controls label{font-size:13px;color:#c3c6c7}.status{display:flex;justify-content:space-between;gap:15px;margin:16px 0 10px;font-size:13px;color:#c3c6c7}.status strong{color:#f4e6cc}input[type=range]{width:100%;accent-color:#e5b86c}.notes{margin-top:24px;padding-top:20px;border-top:1px solid #45545c;display:grid;grid-template-columns:1fr 1fr;gap:24px;font-size:14px}.notes strong{display:block;margin-bottom:5px;color:#f4e6cc}.error{color:#ffa69d;margin-top:12px}
+@media(max-width:620px){body{padding:18px 12px}header{align-items:start}.badge{display:none}.stage{padding:8px}.notes{grid-template-columns:1fr;gap:12px}.controls{gap:8px}button{padding:9px 11px}}
+</style>
+<main>
+<header><div><div class="eyebrow">Spanish Simulator / laboratorio gráfico</div><h1>¿Esta la pago yo?</h1><p>Un personaje, siete poses y una tarjeta. Primera prueba con claude-pxl.</p></div><span class="badge">Pixel art nativo · v01</span></header>
+<div class="stage"><canvas id="scene" width="832" height="576" aria-label="Personaje sentado junto a una mesa con tapas, animado al ofrecer pagar"></canvas></div>
+<div class="controls">
+<button class="primary" id="offer">Ofrecer pago</button><button id="lower" disabled>Bajar mano</button><button id="pause">Pausar</button>
+<label>Vista <select id="view"><option value="context">Con mesa</option><option value="sprite">Sprite aislado</option></select></label>
+<label>Escala <select id="scale"><option>2</option><option selected>3</option><option>4</option><option>5</option></select>×</label>
+</div>
+<div class="status"><span>Estado: <strong id="state">Cargando…</strong></span><span id="frame"></span></div>
+<input id="scrub" type="range" min="0" max="6" value="0" aria-label="Revisar las siete poses del gesto de pago">
+<p id="error" class="error" role="alert"></p>
+<div class="notes"><p><strong>Qué se prueba</strong>Dibujo a 1×, piezas separadas, contorno sobre la silueta conjunta y clips de reposo, subida, espera y bajada. Puedes bajar la mano a mitad del gesto.</p><p><strong>Alcance</strong>La viñeta es contexto para revisar apoyos y escala. No fija el estilo del juego. <a href="out/anims/pago.aseprite">Original Aseprite</a> · <a href="out/share/contexto.gif">Ver GIF</a> · <a href="pago.px.js">Fuente del dibujo</a></p></div>
+</main><script src="visor.js"></script>
+</html>

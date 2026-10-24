@@ -11,6 +11,7 @@ Comprobaciones realizadas el 23 de octubre de 2026. Este documento describe el e
 | aseprite-live | Visor local de cambios, fotogramas y animaciones. |
 | MSVC y Skia | Dependencias de la compilación local de Aseprite. |
 | Pillow | Generación y comprobación de imágenes desde Python. |
+| claude-pxl, revisión `e054b073` | Añadido el 24 de octubre: motor local de dibujo nativo mediante código, ejecutado con Node 24.19.0. Primera prueba en `arte/pruebas/pxl-pago-v01`. |
 
 Las carpetas locales de las herramientas están reunidas en un mismo directorio de trabajo y quedan ignoradas por Git. El entorno MCP utiliza Python 3.13. Los lanzadores y la configuración MCP actuales son locales y no forman parte de esta publicación.
 
@@ -38,6 +39,8 @@ Estos experimentos son material de investigación. El equipo todavía no ha apro
 - Se verificó un inventario de 28.127 archivos durante la consolidación. Los 16.257 archivos que quedaron en el origen tras un movimiento parcial se comprobaron mediante SHA-256 contra sus copias.
 
 Los registros detallados y las copias de mantenimiento se conservan localmente y no se publican aquí. La guía operativa de esa máquina se conserva en `mantenimiento/README-laboratorio-local.md`, fuera de Git.
+
+Actualización del 24 de octubre: claude-pxl se ha clonado en `deps/claude-pxl`, sin paquetes adicionales ni registro global de su skill. La [prueba de pago](../arte/pruebas/pxl-pago-v01/README.md) incluye originales, visor y exportaciones reproducibles. Se han verificado cinco originales animados al abrirlos y exportarlos con Aseprite; esto no acredita por sí solo calidad artística o eficiencia.
 
 ## Investigación pendiente
 

@@ -1,5 +1,9 @@
 # Spanish Simulator
 
+> **🧪 [Nueva prueba de pixel art nativo con claude-pxl](arte/pruebas/pxl-pago-v01/README.md)** · [Ver animación](arte/pruebas/pxl-pago-v01/out/share/contexto.gif)
+>
+> Un personaje sentado que levanta una tarjeta, con reposo, subida, espera y bajada. Incluye visor local, fuentes y originales Aseprite por capas. Primera prueba del método; acabado pendiente de valoración.
+
 > **🎮 [Abrir la demo pública: La última ronda](https://spanish-simulator-ultima-ronda.ivanra.chatgpt.site)**
 >
 > Prueba de la taberna con cinco personajes animados por separado. Pulsa **«Escena de prueba»** para ver charla, comida y pago con tarjeta, cartera y billetes. Se abre en el navegador sin instalar nada. Es un ensayo gráfico; el minijuego completo y el camarero están pendientes.
@@ -57,7 +61,7 @@ Como siguiente demostración, ya se han añadido [croquetas, patatas bravas, cal
 
 **Restricción de coste expresada por Ivan R:** el flujo debe evitar contratar más IAs o consumir APIs de pago adicionales. La siguiente vía a ensayar es dibujo nativo automatizado con las herramientas ya disponibles, no depender de una prueba gratuita que luego exija pagar. No se atribuye esta restricción a Ivan S.
 
-**Nueva vía investigada:** Ivan R aporta claude-pxl, un motor local de dibujo mediante código con perspectiva, piezas y exportación a Aseprite. Su documentación contempla Codex y no requiere contratar otra IA. La [revisión del código y el ensayo propuesto](docs/claude-pxl.md) explican cómo podría servir para producir pixel art nativo; todavía no se ha instalado ni probado. Ivan R ya dispone también de Claude.
+**Nueva vía probada:** Ivan R aporta claude-pxl, un motor local de dibujo mediante código con perspectiva, piezas y exportación a Aseprite. Su documentación contempla Codex y no requiere contratar otra IA. La [revisión del código y primera prueba ejecutada](docs/claude-pxl.md) documentan un personaje nativo y su gesto de pago, con exportaciones verificadas en Aseprite. Calidad artística y eficiencia comparativa siguen pendientes; no se han probado todas las funciones del motor. Ivan R ya dispone también de Claude.
 
 ![Fondo de taberna v02, pendiente de valoración](arte/escenarios/taberna-v02/fondo.png)
 

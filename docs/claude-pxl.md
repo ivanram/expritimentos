@@ -1,6 +1,6 @@
 # Investigación de claude-pxl
 
-24 de octubre de 2026. Ivan R aporta [este hilo de Reddit](https://www.reddit.com/r/aigamedev/comments/1xb3k2l/opus_55_pixel_art_with_claude_pxl/). Se ha revisado el [fork augusto-scarvalho/claude-pxl](https://github.com/augusto-scarvalho/claude-pxl), incluida documentación y fragmentos de implementación. Revisión de `main`: `e054b073b634026b9b0446ec7779cefeec9aef21`. No se ha instalado ni ejecutado; no hay todavía resultados propios con esta herramienta.
+24 de octubre de 2026. Ivan R aporta [este hilo de Reddit](https://www.reddit.com/r/aigamedev/comments/1xb3k2l/opus_55_pixel_art_with_claude_pxl/). Se ha revisado y probado el [fork augusto-scarvalho/claude-pxl](https://github.com/augusto-scarvalho/claude-pxl), revisión `e054b073b634026b9b0446ec7779cefeec9aef21`. La [primera prueba propia, con GIF, visor y originales](../arte/pruebas/pxl-pago-v01/README.md), produce un personaje sentado que ofrece pagar y conserva sus capas al exportar a Aseprite. La calidad artística sigue pendiente de valoración.
 
 Ivan R aclara que ya dispone de Claude. Se mantiene su restricción de no contratar más IAs. Tenerlo disponible no obliga a cambiar de asistente: interesa comprobar el método con las herramientas y el asistente actuales. No se presupone igualdad de calidad entre modelos ni superioridad artística del asistente por disponer de las mismas herramientas.
 
@@ -19,11 +19,11 @@ Su [licencia es MIT](https://github.com/augusto-scarvalho/claude-pxl/blob/main/L
 - [`rig.ts`](https://github.com/augusto-scarvalho/claude-pxl/blob/main/src/core/rig.ts): piezas con pivotes, puntos de unión y orden según orientación. Encaja con una mano que lleva tarjeta, cartera o billetes; no demuestra todavía nuestro gesto de pago.
 - [`aseprite.ts`](https://github.com/augusto-scarvalho/claude-pxl/blob/main/src/node/aseprite.ts): exporta capas y fotogramas. Algunas transformaciones o cambios incompatibles de capas provocan aplanado; habría que verificar el editable exportado en cada prueba.
 
-Esta revisión no equivale a una auditoría completa ni a una prueba de ejecución.
+La revisión del código no equivale a una auditoría completa. La prueba posterior ejecuta dibujo 2D, animación, puntos de unión, inspección y exportación; no prueba perspectiva geométrica ni rigs 3D.
 
 ## Aplicación propuesta a Spanish Simulator
 
-Priorizar un ensayo pequeño con pxl como autor del dibujo y Aseprite como editor y destino de exportación, antes de rehacer la taberna completa. Continúa pendiente de prueba y no cierra decisiones 01–22.
+Priorizar ensayos pequeños con pxl como autor del dibujo y Aseprite como editor y destino de exportación, antes de rehacer la taberna completa. Ya existe una primera prueba de personaje y contexto; su valoración no cierra decisiones 01–22.
 
 1. Fijar la cámara compartida de una mesa y un plato; validar volumen, apoyo y lectura antes del acabado. No copiar la estética de los ejemplos del repositorio.
 2. Dibujar un plato original a resolución nativa y una segunda tapa con la misma perspectiva y lenguaje. Revisar las exportaciones a 1× y ampliación entera.
