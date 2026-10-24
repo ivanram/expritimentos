@@ -43,6 +43,8 @@ Todavía no hay una paleta ni una imagen de referencia aprobadas. Los gráficos 
 
 Se propone una ficha por personaje con silueta y proporciones, paleta, vestuario, vistas necesarias, expresiones, poses principales, animaciones y rasgos que deben conservarse. Su nivel de detalle se decidirá con una prueba de producción.
 
+**Pepo:** Ivan R pide un español de 40 años, camiseta, vaqueros, pelo negro, ojos marrones y algo de barba. Señala que la primera ficha carece de vistas y que la nariz no se distingue. La [revisión v02](../arte/personajes/pepo-v02/README.md) incorpora frontal, tres cuartos, perfil y espalda, separando nariz, boca y barba. Mantener esas vistas como propuesta de referencia pendiente de valoración; no declarar completa la guía sin expresiones y acciones.
+
 ## Referencia SCUMM para aprender
 
 Ivan S (Alcachofo) ha creado un [visor de recursos SCUMM, enlazado a la sala 7 de Day of the Tentacle](https://scumm.rea.salmeinmotion.com/dott/#room=7). La consulta inicial permite ver escenarios con objetos separados y acceder a personajes, animaciones y audio.

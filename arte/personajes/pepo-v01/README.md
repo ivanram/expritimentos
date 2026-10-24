@@ -1,5 +1,7 @@
 # Pepo · ficha visual de prueba 01
 
+**Revisión posterior:** Ivan R señaló la falta de vistas y la escasa legibilidad de la nariz. Ver [v02: frontal, tres cuartos, perfil y espalda con cara revisada](../pepo-v02/README.md). Esta versión se conserva como historial.
+
 Ejemplo solicitado por Ivan R el 24 de octubre de 2026. Es una propuesta de personaje reutilizable, pendiente de valoración; no fija el estilo del juego ni constituye aprobación de Ivan S.
 
 ![Primera ficha de Pepo](out/share/ficha.png)

@@ -1,6 +1,6 @@
 # Spanish Simulator
 
-> **[Pepo: primera ficha de personaje](arte/personajes/pepo-v01/README.md)** · Español, 40 años, camiseta, vaqueros, pelo negro, ojos marrones y barba corta. [Ver ficha visual](arte/personajes/pepo-v01/out/share/ficha.png). Propuesta de pixel art con más detalle; pendiente de valoración.
+> **[Pepo: cuatro vistas y cara revisada](arte/personajes/pepo-v02/README.md)** · Frontal, tres cuartos, perfil y espalda, con una revisión de nariz, boca y barba tras los comentarios de Ivan R. [Ver ficha visual](arte/personajes/pepo-v02/out/share/vistas.png). Diseño pendiente de valoración; incluye PNG y originales Aseprite.
 
 > **🧪 [Nueva prueba de estilo: personajes pequeños en 2D](arte/pruebas/pxl-estilo-v02/README.md)** · [Ver imagen](arte/pruebas/pxl-estilo-v02/out/share/amigos.png) · [Ver animación](arte/pruebas/pxl-estilo-v02/out/share/animacion.gif)
 >
