@@ -76,6 +76,8 @@ Todavía no se ha registrado un cierre de los puntos 01–22.
 
 ## Investigación gráfica en conversación
 
+El 24 de octubre de 2026 Ivan R ha indicado que no quiere pagar por más IAs. Se registra como restricción del flujo investigado: sin nuevas suscripciones ni APIs de pago adicionales. Se prioriza una prueba de dibujo nativo automatizado con el Aseprite MCP disponible; los proveedores especializados quedan como investigación, no como dependencias elegidas. No se atribuye esa restricción a Ivan S ni se considera cerrado el presupuesto global del proyecto.
+
 Ivan R ha insistido en que el objetivo es crear pixel art real con IA de forma eficaz; redibujarlo todo a mano no cumpliría el propósito. El asistente reconoce que las tapas generadas/reducidas no demuestran ese flujo. Se documentan [vías y candidatos para una prueba nativa](automatizar-pixelart.md): PixelLab y Retro Diffusion aún sin conectar/probar, y dibujo automatizado mediante el MCP disponible. No se ha elegido proveedor ni presupuesto y el contador permanece en 0/22.
 
 Ivan R pidió demostrar el proceso añadiendo croquetas, bravas, calamares y aceitunas a la mesa. Se ha creado una [composición con cuatro tapas separadas](../arte/objetos/tapas-v01/README.md), sobre el montaje original, con prueba de retirada de un plato. La valoración de esta entrega sigue pendiente; no implica aprobación de la mesa, dirección artística o sistema de animación.

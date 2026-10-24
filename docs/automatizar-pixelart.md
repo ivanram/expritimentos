@@ -4,6 +4,8 @@
 
 ## Estado de los experimentos
 
+**Restricción añadida el 24 de octubre de 2026 por Ivan R:** no quiere contratar más IAs. El flujo propuesto debe evitar nuevas suscripciones y consumo de APIs de pago, aprovechando las herramientas disponibles. La prueba gratuita de un servicio no equivale a producción gratuita sostenida. Esta restricción no se atribuye a Ivan S ni cierra todos los aspectos de presupuesto del proyecto.
+
 Los ensayos recientes demuestran generación de conceptos, preparación de imágenes, composición por capas y exportaciones reproducibles con Aseprite MCP. Las tapas proceden de ilustraciones generadas y reducidas; no validan producción de pixel art nativo. Tamaño pequeño, nearest y número de colores no certifican diseño de píxeles ni calidad visual.
 
 El proceso buscado permite que la IA produzca el recurso y sus revisiones, mientras las personas eligen dirección y evalúan. Si un recurso solo funciona después de repintarlo entero, ese ensayo no valida la automatización. Hay que medir intervención y correcciones, además del resultado.
@@ -32,4 +34,6 @@ Ninguno está conectado en esta sesión y no se han ejecutado generaciones con e
 
 Comparar a 1× y ampliación entera, comprobar integración y edición. Registrar herramienta/modelo, resolución realmente generada, referencias, intentos, tiempo, llamadas/tokens/coste cuando estén disponibles y minutos de intervención humana. No imponer 32 colores ni paredes planas como atajo.
 
-La recomendación del asistente es probar un generador especializado y contrastarlo con un ensayo nativo mediante MCP en un recurso pequeño. No elige proveedor, presupuesto, motor o estilo para el equipo ni cierra puntos 01–22.
+La recomendación previa de probar un generador especializado se revisa a raíz de la restricción de coste: la siguiente vía a ensayar es dibujo nativo automatizado mediante el Aseprite MCP disponible, empezando por un recurso pequeño. Eso implica que la IA produzca y revise el dibujo, no que Ivan R lo redibuje entero. Su calidad y eficacia aún deben demostrarse.
+
+PixelLab ofrece una prueba de generaciones y herramientas limitadas; su integración MCP exige suscripción activa según la [documentación de formas de uso](https://www.pixellab.ai/docs/ways-to-use-pixellab), y el [acceso API publica precios por operación](https://www.pixellab.ai/pixellab-api). Sus capacidades documentadas se conservan como investigación, fuera del flujo de producción propuesto sin pagos adicionales. No se ha contratado, conectado ni consumido ese servicio. No se elige proveedor, motor o estilo ni se cierran los puntos 01–22.

@@ -8,6 +8,8 @@ Se priorizan estética, consistencia, facilidad de animación, rendimiento y fac
 
 El objetivo explícito de Ivan R es automatizar la producción de pixel art real con IA. Redibujar los recursos enteros a mano como solución principal no cumple ese objetivo. Distingue generación nativa o dibujo automatizado mediante MCP de ilustración grande reducida; las tapas v01 solo demuestran composición, no validan producción de pixel art. Consulta `docs/automatizar-pixelart.md` y mide intervención, revisiones y coste antes de recomendar un flujo como eficaz.
 
+Restricción confirmada por Ivan R el 24 de octubre de 2026: no contratar más IAs ni añadir suscripciones o consumo de APIs de pago para este flujo. Priorizar las herramientas disponibles y alternativas sin pagos adicionales de IA. Las pruebas gratuitas limitadas no constituyen una solución gratuita sostenible. PixelLab/Retro Diffusion quedan como investigación, no como dependencias elegidas. No atribuir esta restricción presupuestaria a Ivan S.
+
 El equipo son **Ivan R (kapichu)**, usuario de este chat, e **Ivan S (Alcachofo)**. Usa esos nombres y alias para evitar referencias ambiguas como «el otro Ivan». No atribuyas a uno las propuestas o confirmaciones del otro.
 
 ## Consultar según la tarea

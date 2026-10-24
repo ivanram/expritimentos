@@ -55,6 +55,8 @@ Como siguiente demostración, ya se han añadido [croquetas, patatas bravas, cal
 
 **Limitación del método probado:** estas tapas son ilustraciones generadas y reducidas; no demuestran producción de pixel art nativo. Ivan R ha insistido en que la meta es automatizar gráficos pixel art con IA, sin redibujarlos enteros a mano. La [revisión del proceso y candidatos especializados](docs/automatizar-pixelart.md) concreta el siguiente ensayo. PixelLab y Retro Diffusion se han documentado, pero aún no se han conectado ni probado.
 
+**Restricción de coste expresada por Ivan R:** el flujo debe evitar contratar más IAs o consumir APIs de pago adicionales. La siguiente vía a ensayar es dibujo nativo automatizado con las herramientas ya disponibles, no depender de una prueba gratuita que luego exija pagar. No se atribuye esta restricción a Ivan S.
+
 ![Fondo de taberna v02, pendiente de valoración](arte/escenarios/taberna-v02/fondo.png)
 
 ## Decisiones que necesitamos tomar
