@@ -16,9 +16,12 @@ El proceso buscado permite que la IA produzca el recurso y sus revisiones, mient
 | --- | --- | --- |
 | Generador especializado en pixel art | Salida nativa, referencias y variantes por API/MCP. | Calidad, consistencia, cámara, animación y tiempo hasta aceptación. |
 | IA dibujando a resolución nativa por Aseprite MCP/Lua | Producción y corrección mediante herramientas/código; no necesita que el usuario dibuje. | Calidad artística y coste de llamadas/tokens/revisiones. La primera demo mostró límites de diseño. |
+| IA dibujando con claude-pxl y exportando a Aseprite | Lenguaje de dibujo nativo, cámara, piezas y herramientas de inspección locales. | Resultado propio, calidad y eficiencia: se ha revisado documentación/código, pero no se ha ejecutado. |
 | Conversión mediante un modelo especializado | Reinterpretar conceptos conservando composición, más allá del reescalado. | Formas y contornos resueltos a baja resolución, conservando volumen y sin redibujo completo. |
 
 ## Candidatos investigados, sin probar
+
+**claude-pxl:** [investigación del enlace aportado por Ivan R](claude-pxl.md). Herramienta local MIT, sin otro servicio de IA obligatorio; su documentación contempla Codex. Se propone como siguiente ensayo de dibujo nativo, con Aseprite como destino de edición/exportación. Todavía sin instalar ni ejecutar. Ivan R aclara que ya tiene Claude; no se necesita cambiar de asistente para investigar este método.
 
 **PixelLab:** la documentación v2 ofrece tamaño de salida, referencias, conversión de imágenes, personajes persistentes y animación desde una imagen. Tiene MCP y extensión de Aseprite. Consultar los límites del modelo elegido. Son capacidades declaradas por el proveedor, no resultados medidos aquí. [API v2](https://api.pixellab.ai/v2/docs), [MCP](https://www.pixellab.ai/mcp), [formas de uso](https://www.pixellab.ai/docs/ways-to-use-pixellab).
 
@@ -34,6 +37,6 @@ Ninguno está conectado en esta sesión y no se han ejecutado generaciones con e
 
 Comparar a 1× y ampliación entera, comprobar integración y edición. Registrar herramienta/modelo, resolución realmente generada, referencias, intentos, tiempo, llamadas/tokens/coste cuando estén disponibles y minutos de intervención humana. No imponer 32 colores ni paredes planas como atajo.
 
-La recomendación previa de probar un generador especializado se revisa a raíz de la restricción de coste: la siguiente vía a ensayar es dibujo nativo automatizado mediante el Aseprite MCP disponible, empezando por un recurso pequeño. Eso implica que la IA produzca y revise el dibujo, no que Ivan R lo redibuje entero. Su calidad y eficacia aún deben demostrarse.
+La recomendación previa de probar un generador especializado se revisa a raíz de la restricción de coste: la siguiente vía a ensayar es dibujo nativo automatizado, empezando por un recurso pequeño. Tras investigar el enlace de Ivan R, se propone evaluar claude-pxl para el dibujo y Aseprite/MCP para edición y entrega. Eso implica que la IA produzca y revise el dibujo, no que Ivan R lo redibuje entero. Su calidad y eficacia aún deben demostrarse.
 
 PixelLab ofrece una prueba de generaciones y herramientas limitadas; su integración MCP exige suscripción activa según la [documentación de formas de uso](https://www.pixellab.ai/docs/ways-to-use-pixellab), y el [acceso API publica precios por operación](https://www.pixellab.ai/pixellab-api). Sus capacidades documentadas se conservan como investigación, fuera del flujo de producción propuesto sin pagos adicionales. No se ha contratado, conectado ni consumido ese servicio. No se elige proveedor, motor o estilo ni se cierran los puntos 01–22.

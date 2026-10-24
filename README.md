@@ -57,6 +57,8 @@ Como siguiente demostración, ya se han añadido [croquetas, patatas bravas, cal
 
 **Restricción de coste expresada por Ivan R:** el flujo debe evitar contratar más IAs o consumir APIs de pago adicionales. La siguiente vía a ensayar es dibujo nativo automatizado con las herramientas ya disponibles, no depender de una prueba gratuita que luego exija pagar. No se atribuye esta restricción a Ivan S.
 
+**Nueva vía investigada:** Ivan R aporta claude-pxl, un motor local de dibujo mediante código con perspectiva, piezas y exportación a Aseprite. Su documentación contempla Codex y no requiere contratar otra IA. La [revisión del código y el ensayo propuesto](docs/claude-pxl.md) explican cómo podría servir para producir pixel art nativo; todavía no se ha instalado ni probado. Ivan R ya dispone también de Claude.
+
 ![Fondo de taberna v02, pendiente de valoración](arte/escenarios/taberna-v02/fondo.png)
 
 ## Decisiones que necesitamos tomar
