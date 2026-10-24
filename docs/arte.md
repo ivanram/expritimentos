@@ -49,6 +49,8 @@ En la revisión siguiente Ivan R señala inclinación y brazos cortos, sugiere u
 
 **Ensayo posterior con ComfyUI e imagegen, 24 de octubre:** Ivan R ha dicho que le gusta bastante el [primer Pepo generado localmente](../arte/pruebas/comfy-pepo-v01/README.md). A partir de esa imagen se obtuvo una [lámina conceptual de ocho orientaciones](../arte/pruebas/comfy-pepo-v02/README.md), pero Ivan R detectó que la mano y otros detalles cambian de sitio: **no sirve como recurso de juego**. La imagen inicial lleva sobrecamisa y pantalón marrón; esto no cambia por sí solo la ficha solicitada con camiseta y vaqueros. La [investigación siguiente](leads-personajes-consistentes.md) exige una estructura común y anclas comprobables. No confundir la lámina con pixel art nativo producido automáticamente.
 
+La [ficha de referencia de Pepo para la primera animación](../arte/personajes/pepo/ficha-referencia-v01.md) registra lo visible en ese primer intento y propone, solo para el ensayo, conservar la mano derecha libre para pagar. Separa los rasgos observados de la ropa y las vistas aún pendientes de acordar.
+
 ## Referencia SCUMM para aprender
 
 Ivan S (Alcachofo) ha creado un [visor de recursos SCUMM, enlazado a la sala 7 de Day of the Tentacle](https://scumm.rea.salmeinmotion.com/dott/#room=7). La consulta inicial permite ver escenarios con objetos separados y acceder a personajes, animaciones y audio.

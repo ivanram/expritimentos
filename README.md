@@ -1,5 +1,7 @@
 # Spanish Simulator
 
+> **[Pepo: ficha de referencia para la primera animación](arte/personajes/pepo/ficha-referencia-v01.md)** · El primer intento de ComfyUI se describe con vestuario, proporciones y manos anatómicas. Para la prueba se propone levantar la mano derecha con una tarjeta y mantener la izquierda junto al bolsillo. Son reglas del ensayo, no decisiones artísticas cerradas.
+
 > **[Nueva investigación: personajes consistentes y animables](docs/leads-personajes-consistentes.md)** · Ivan R señala que la mano y otros detalles cambian de sitio entre las ocho vistas de la lámina anterior. No sirve como recurso de juego. Se examinan rig 2D, guía estructural, edición local y generación nativa, con sus límites y una prueba concreta de descarte.
 
 > **[Perfil controlado: nueva prueba local](arte/pruebas/comfy-pepo-v03/README.md)** · ControlNet fijó el giro a perfil, pero cambió prendas y calzado; tardó casi nueve minutos en la GTX 1080 Ti. Se conserva la salida original y el workflow, sin presentarlo como sprite válido.
