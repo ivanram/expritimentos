@@ -1,5 +1,7 @@
 # Pepo v03 · postura, ocho orientaciones y cámaras
 
+**Rechazado por Ivan R:** señala que la postura sigue pareciendo torcida y solicita investigar un método mejor, gratuito y ejecutable por el asistente. Ver [investigación posterior](../../../docs/investigacion-personajes-gratis.md). Las afirmaciones de intención que siguen describen el ensayo, no una corrección visual validada.
+
 Ivan R señaló que v02 parecía inclinado y tenía brazos cortos; propuso una mano en el bolsillo y pidió ocho orientaciones, además de vistas desde arriba y abajo. Esta revisión conserva los rasgos pedidos y sigue pendiente de valoración artística.
 
 ![Ocho orientaciones de Pepo](out/share/vistas.png)

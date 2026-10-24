@@ -1,6 +1,8 @@
 # Spanish Simulator
 
-> **[Pepo: ocho orientaciones y postura revisada](arte/personajes/pepo-v03/README.md)** · Cabeza centrada, brazo libre más largo y mano izquierda en el bolsillo. [Ver las ocho vistas](arte/personajes/pepo-v03/out/share/vistas.png) · [Estudios desde arriba y abajo](arte/personajes/pepo-v03/out/share/camaras.png). Diseño pendiente de valoración; incluye PNG y originales Aseprite.
+> **[Investigación: personajes consistentes sin servicios de pago](docs/investigacion-personajes-gratis.md)** · Ivan R rechaza Pepo v03 por postura y proporciones. Se revisa el método: Blender/MPFB para estructura común y ComfyUI local como alternativa de diseño. Herramientas y compatibilidad documentadas; calidad del nuevo flujo todavía sin demostrar.
+
+> **[Pepo v03: ensayo rechazado](arte/personajes/pepo-v03/README.md)** · [Ocho vistas](arte/personajes/pepo-v03/out/share/vistas.png) y [estudios de cámara](arte/personajes/pepo-v03/out/share/camaras.png) conservados como historial. No usar como referencia artística aprobada.
 
 > **🧪 [Nueva prueba de estilo: personajes pequeños en 2D](arte/pruebas/pxl-estilo-v02/README.md)** · [Ver imagen](arte/pruebas/pxl-estilo-v02/out/share/amigos.png) · [Ver animación](arte/pruebas/pxl-estilo-v02/out/share/animacion.gif)
 >

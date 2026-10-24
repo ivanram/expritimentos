@@ -4,6 +4,8 @@
 
 ## Estado de los experimentos
 
+**Revisión del 24 de octubre, después de Pepo v03:** Ivan R rechaza su postura y proporciones. El dibujo por cuadrículas independientes no ha demostrado calidad ni consistencia. La [investigación posterior](investigacion-personajes-gratis.md) compara estructura común con Blender/MPFB y generación local con ComfyUI, sin pagos adicionales. Son vías documentadas aún no ensayadas; no se da por resuelto el acabado artístico.
+
 **Restricción añadida el 24 de octubre de 2026 por Ivan R:** no quiere contratar más IAs. El flujo propuesto debe evitar nuevas suscripciones y consumo de APIs de pago, aprovechando las herramientas disponibles. La prueba gratuita de un servicio no equivale a producción gratuita sostenida. Esta restricción no se atribuye a Ivan S ni cierra todos los aspectos de presupuesto del proyecto.
 
 Los ensayos recientes demuestran generación de conceptos, preparación de imágenes, composición por capas y exportaciones reproducibles con Aseprite MCP. Las tapas proceden de ilustraciones generadas y reducidas; no validan producción de pixel art nativo. Tamaño pequeño, nearest y número de colores no certifican diseño de píxeles ni calidad visual.
