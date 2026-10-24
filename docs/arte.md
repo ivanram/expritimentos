@@ -51,6 +51,8 @@ En la revisión siguiente Ivan R señala inclinación y brazos cortos, sugiere u
 
 La [ficha de referencia de Pepo para la primera animación](../arte/personajes/pepo/ficha-referencia-v01.md) registra lo visible en ese primer intento y propone, solo para el ensayo, conservar la mano derecha libre para pagar. Separa los rasgos observados de la ropa y las vistas aún pendientes de acordar.
 
+El [primer sprite maestro de prueba](../arte/personajes/pepo/maestro-prueba-v01/README.md) convierte automáticamente ese concepto en una cuadrícula de 48×128, separa cinco capas editables en Aseprite y lo muestra a 1× en la taberna. Se reconoce la figura, pero las piernas tienen ruido y aún no se ha ensayado la articulación del brazo. Es una conversión de imagen grande y no valida generación directa de pixel art nativo ni aprobación artística.
+
 ## Referencia SCUMM para aprender
 
 Ivan S (Alcachofo) ha creado un [visor de recursos SCUMM, enlazado a la sala 7 de Day of the Tentacle](https://scumm.rea.salmeinmotion.com/dott/#room=7). La consulta inicial permite ver escenarios con objetos separados y acceder a personajes, animaciones y audio.

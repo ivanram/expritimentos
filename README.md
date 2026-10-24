@@ -1,5 +1,7 @@
 # Spanish Simulator
 
+> **[Pepo: primer sprite editable de prueba](arte/personajes/pepo/maestro-prueba-v01/README.md)** · Una figura de 48×128 con cinco capas Aseprite, PNG transparente y vista a escala de juego. Se convirtió automáticamente desde el concepto de ComfyUI: permite probar el gesto de pago, pero todavía no valida animación ni generación directa de pixel art nativo.
+
 > **[Pepo: ficha de referencia para la primera animación](arte/personajes/pepo/ficha-referencia-v01.md)** · El primer intento de ComfyUI se describe con vestuario, proporciones y manos anatómicas. Para la prueba se propone levantar la mano derecha con una tarjeta y mantener la izquierda junto al bolsillo. Son reglas del ensayo, no decisiones artísticas cerradas.
 
 > **[Nueva investigación: personajes consistentes y animables](docs/leads-personajes-consistentes.md)** · Ivan R señala que la mano y otros detalles cambian de sitio entre las ocho vistas de la lámina anterior. No sirve como recurso de juego. Se examinan rig 2D, guía estructural, edición local y generación nativa, con sus límites y una prueba concreta de descarte.
